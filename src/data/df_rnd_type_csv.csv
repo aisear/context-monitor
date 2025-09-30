@@ -1,0 +1,106 @@
+iso3,country,type,year,obs_value,total,share
+ARG,Argentina,Applied research,2021-01-01,2321.410719,5838.838613,39.8
+ARG,Argentina,Basic research,2021-01-01,1307.743184,5838.838613,22.4
+ARG,Argentina,Experimental development,2021-01-01,2209.68471,5838.838613,37.8
+AUT,Austria,Applied research,2021-01-01,5804.754256,17804.02663,32.6
+AUT,Austria,Basic research,2021-01-01,3334.734452,17804.02663,18.7
+AUT,Austria,Experimental development,2021-01-01,8335.391668,17804.02663,46.8
+BEL,Belgium,Applied research,2021-01-01,12567.48504,23423.84059,53.7
+BEL,Belgium,Basic research,2021-01-01,2219.083377,23423.84059,9.5
+BEL,Belgium,Experimental development,2021-01-01,8637.272167,23423.84059,36.9
+BGR,Bulgaria,Applied research,2021-01-01,884.9032106,1487.040029,59.5
+BGR,Bulgaria,Basic research,2021-01-01,213.1180725,1487.040029,14.3
+BGR,Bulgaria,Experimental development,2021-01-01,389.0187454,1487.040029,26.2
+CHE,Switzerland,Applied research,2021-01-01,8210.058354,21957.24169,37.4
+CHE,Switzerland,Basic research,2021-01-01,6414.809054,21957.24169,29.2
+CHE,Switzerland,Experimental development,2021-01-01,7332.373394,21957.24169,33.4
+CHL,Chile,Applied research,2021-01-01,648.0146198,1970.455861,32.9
+CHL,Chile,Basic research,2021-01-01,601.2413643,1970.455861,30.5
+CHL,Chile,Experimental development,2021-01-01,433.2279956,1970.455861,22
+CHN,China (People's Republic of),Applied research,2021-01-01,74908.17803,665789.891,11.3
+CHN,China (People's Republic of),Basic research,2021-01-01,43273.18232,665789.891,6.5
+CHN,China (People's Republic of),Experimental development,2021-01-01,547608.5306,665789.891,82.2
+CZE,Czechia,Applied research,2021-01-01,4244.511446,9646.038487,44
+CZE,Czechia,Basic research,2021-01-01,2494.991253,9646.038487,25.9
+CZE,Czechia,Experimental development,2021-01-01,2906.535784,9646.038487,30.1
+ESP,Spain,Applied research,2021-01-01,12784.15838,27742.09292,46.1
+ESP,Spain,Basic research,2021-01-01,6255.636811,27742.09292,22.5
+ESP,Spain,Experimental development,2021-01-01,8702.297731,27742.09292,31.4
+EST,Estonia,Applied research,2021-01-01,321.7099356,1014.885834,31.7
+EST,Estonia,Basic research,2021-01-01,194.1285684,1014.885834,19.1
+EST,Estonia,Experimental development,2021-01-01,499.0473295,1014.885834,49.2
+FRA,France,Applied research,2021-01-01,33054.83505,79112.35661,41.8
+FRA,France,Basic research,2021-01-01,18190.24626,79112.35661,23
+FRA,France,Experimental development,2021-01-01,27867.2753,79112.35661,35.2
+GRC,Greece,Applied research,2021-01-01,1881.804204,4921.440886,38.2
+GRC,Greece,Basic research,2021-01-01,1838.211484,4921.440886,37.4
+GRC,Greece,Experimental development,2021-01-01,1201.425197,4921.440886,24.4
+HRV,Croatia,Applied research,2021-01-01,329.7395699,1729.856102,19.1
+HRV,Croatia,Basic research,2021-01-01,524.7628865,1729.856102,30.3
+HRV,Croatia,Experimental development,2021-01-01,875.3536456,1729.856102,50.6
+HUN,Hungary,Applied research,2021-01-01,1111.549462,6020.82238,18.5
+HUN,Hungary,Basic research,2021-01-01,1382.25755,6020.82238,23
+HUN,Hungary,Experimental development,2021-01-01,3492.504309,6020.82238,58
+IRL,Ireland,Applied research,2021-01-01,1715.537031,6149.503008,27.9
+IRL,Ireland,Basic research,2021-01-01,1236.864872,6149.503008,20.1
+IRL,Ireland,Experimental development,2021-01-01,3197.101105,6149.503008,52
+ISL,Iceland,Applied research,2021-01-01,210.2703694,597.4018867,35.2
+ISL,Iceland,Basic research,2021-01-01,99.42304205,597.4018867,16.6
+ISL,Iceland,Experimental development,2021-01-01,287.7084753,597.4018867,48.2
+ISR,Israel,Applied research,2021-01-01,2266.131256,23768.26336,9.5
+ISR,Israel,Basic research,2021-01-01,2009.273713,23768.26336,8.5
+ISR,Israel,Experimental development,2021-01-01,19492.8261,23768.26336,82
+ITA,Italy,Applied research,2021-01-01,16385.14042,40585.68116,40.4
+ITA,Italy,Basic research,2021-01-01,9542.121161,40585.68116,23.5
+ITA,Italy,Experimental development,2021-01-01,14658.41957,40585.68116,36.1
+JPN,Japan,Applied research,2021-01-01,33788.25865,180098.4031,18.8
+JPN,Japan,Basic research,2021-01-01,22817.50859,180098.4031,12.7
+JPN,Japan,Experimental development,2021-01-01,116109.5608,180098.4031,64.5
+KOR,Korea,Applied research,2021-01-01,25089.90655,119353.5336,21
+KOR,Korea,Basic research,2021-01-01,17645.80699,119353.5336,14.8
+KOR,Korea,Experimental development,2021-01-01,76617.82006,119353.5336,64.2
+LTU,Lithuania,Applied research,2021-01-01,636.1439012,1357.51824,46.9
+LTU,Lithuania,Basic research,2021-01-01,311.2443809,1357.51824,22.9
+LTU,Lithuania,Experimental development,2021-01-01,410.1299579,1357.51824,30.2
+LUX,Luxembourg,Applied research,2021-01-01,358.282689,859.0063606,41.7
+LUX,Luxembourg,Basic research,2021-01-01,358.249853,859.0063606,41.7
+LUX,Luxembourg,Experimental development,2021-01-01,142.4738186,859.0063606,16.6
+LVA,Latvia,Applied research,2021-01-01,220.780886,512.9455152,43
+LVA,Latvia,Basic research,2021-01-01,142.0037483,512.9455152,27.7
+LVA,Latvia,Experimental development,2021-01-01,150.1608809,512.9455152,29.3
+NOR,Norway,Applied research,2021-01-01,3022.776973,8282.0694,36.5
+NOR,Norway,Basic research,2021-01-01,1491.193511,8282.0694,18
+NOR,Norway,Experimental development,2021-01-01,3768.099017,8282.0694,45.5
+NZL,New Zealand,Applied research,2021-01-01,1323.136013,3535.537816,37.4
+NZL,New Zealand,Basic research,2021-01-01,695.5376905,3535.537816,19.7
+NZL,New Zealand,Experimental development,2021-01-01,1384.348711,3535.537816,39.2
+POL,Poland,Applied research,2021-01-01,3050.54912,21061.23797,14.5
+POL,Poland,Basic research,2021-01-01,6755.105849,21061.23797,32.1
+POL,Poland,Experimental development,2021-01-01,11255.58301,21061.23797,53.4
+PRT,Portugal,Applied research,2021-01-01,2539.303527,6517.393839,39
+PRT,Portugal,Basic research,2021-01-01,1188.543921,6517.393839,18.2
+PRT,Portugal,Experimental development,2021-01-01,2789.546391,6517.393839,42.8
+ROU,Romania,Applied research,2021-01-01,1785.031403,3293.747687,54.2
+ROU,Romania,Basic research,2021-01-01,620.9451687,3293.747687,18.9
+ROU,Romania,Experimental development,2021-01-01,887.7711155,3293.747687,27
+SGP,Singapore,Applied research,2021-01-01,3648.470951,12349.44917,29.5
+SGP,Singapore,Basic research,2021-01-01,2560.292297,12349.44917,20.7
+SGP,Singapore,Experimental development,2021-01-01,6140.685918,12349.44917,49.7
+SVK,Slovak Republic,Applied research,2021-01-01,435.4609636,1836.455282,23.7
+SVK,Slovak Republic,Basic research,2021-01-01,713.6338534,1836.455282,38.9
+SVK,Slovak Republic,Experimental development,2021-01-01,687.3604653,1836.455282,37.4
+SVN,Slovenia,Applied research,2021-01-01,720.8887986,2035.383914,35.4
+SVN,Slovenia,Basic research,2021-01-01,464.3141076,2035.383914,22.8
+SVN,Slovenia,Experimental development,2021-01-01,850.1810063,2035.383914,41.8
+SWE,Sweden,Applied research,2021-01-01,5939.288883,21537.49829,27.6
+SWE,Sweden,Basic research,2021-01-01,3020.193614,21537.49829,14
+SWE,Sweden,Experimental development,2021-01-01,12550.249820000001,21537.49829,58.3
+TWN,Chinese Taipei,Applied research,2021-01-01,11065.33455,54888.5808,20.2
+TWN,Chinese Taipei,Basic research,2021-01-01,4089.0918,54888.5808,7.4
+TWN,Chinese Taipei,Experimental development,2021-01-01,39734.15445,54888.5808,72.4
+USA,United States,Applied research,2021-01-01,141021.0015,785607.2852,18
+USA,United States,Basic research,2021-01-01,115228.6754,785607.2852,14.7
+USA,United States,Experimental development,2021-01-01,528307.5537,785607.2852,67.2
+ZAF,South Africa,Applied research,2021-01-01,2379.932254,4944.457952,48.1
+ZAF,South Africa,Basic research,2021-01-01,1443.53993,4944.457952,29.2
+ZAF,South Africa,Experimental development,2021-01-01,1120.985768,4944.457952,22.7

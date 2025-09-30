@@ -1,0 +1,74 @@
+iso3,country,GII,EIS,WCR,WDCR
+CHE,Switzerland,1,1,2,2
+SWE,Sweden,2,3,6,5
+USA,United States,3,15,NA,4
+SGP,Singapore,4,NA,1,1
+GBR,United Kingdom,5,11,28,18
+KOR,Korea,6,7,NA,6
+FIN,Finland,7,4,15,12
+NLD,Netherlands,8,5,9,8
+DEU,Germany,9,14,24,23
+DNK,Denmark,10,2,3,3
+CHN,China,11,21,14,14
+FRA,France,12,19,31,20
+JPN,Japan,13,22,38,31
+CAN,Canada,14,10,19,13
+ISR,Israel,15,NA,22,16
+EST,Estonia,16,18,33,24
+AUT,Austria,17,9,26,25
+HKG,"Hong Kong, China",18,NA,NA,7
+IRL,Ireland,19,12,4,17
+LUX,Luxembourg,20,13,23,29
+NOR,Norway,21,8,10,10
+ISL,Iceland,22,20,17,19
+AUS,Australia,23,17,13,15
+BEL,Belgium,24,6,18,21
+NZL,New Zealand,25,NA,32,33
+ITA,Italy,26,26,42,40
+CYP,Cyprus,27,16,43,48
+ESP,Spain,28,24,40,28
+MLT,Malta,29,27,NA,NA
+CZE,Czechia,30,25,29,32
+PRT,Portugal,31,29,36,35
+ARE,United Arab Emirates,32,NA,7,11
+MYS,Malaysia,33,NA,34,36
+SVN,Slovenia,34,23,46,41
+LTU,Lithuania,35,28,30,22
+HUN,Hungary,36,31,NA,53
+TUR,Türkiye,37,38,NA,55
+BGR,Bulgaria,38,41,NA,56
+IND,India,39,43,39,51
+POL,Poland,40,33,41,39
+THA,Thailand,41,NA,25,37
+LVA,Latvia,42,37,45,38
+HRV,Croatia,43,32,NA,46
+VNM,Viet Nam,44,NA,NA,NA
+GRC,Greece,45,30,47,49
+SVK,Slovak Republic,46,34,NA,52
+SAU,Saudi Arabia,47,NA,16,27
+ROU,Romania,48,46,50,47
+QAT,Qatar,49,NA,11,26
+BRA,Brazil,50,36,NA,57
+SRB,Serbia,NA,35,NA,NA
+CHL,Chile,NA,39,44,42
+MNE,Montenegro,NA,40,NA,NA
+MKD,North Macedonia,NA,42,NA,NA
+ALB,Albania,NA,44,NA,NA
+ZAF,South Africa,NA,45,NA,54
+BIH,Bosnia & Herzegovina,NA,47,NA,NA
+UKR,Ukraine,NA,48,NA,NA
+MEX,Mexico,NA,49,NA,59
+MDA,Moldova,NA,50,NA,NA
+HKG,Hong Kong,NA,NA,5,NA
+TWN,Chinese Taipei,NA,NA,8,9
+BHR,Bahrain,NA,NA,21,30
+IDN,Indonesia,NA,NA,27,43
+KAZ,Kazakhstan,NA,NA,35,34
+KWT,Kuwait,NA,NA,37,45
+JOR,Jordan,NA,NA,48,50
+PRI,Puerto Rico,NA,NA,49,44
+COL,Colombia,NA,NA,NA,58
+PHL,Philippines,NA,NA,NA,61
+ARG,Argentina,NA,NA,NA,62
+NGA,Nigeria,NA,NA,NA,66
+VEN,Venezuela,NA,NA,NA,67

@@ -16,10 +16,6 @@ yarn-error.log
 .Rhistory
 *.R
 
-# Large CSV data files (keep loaders, ignore raw data)
-src/data/*_csv.csv
-src/data/*.txt
-
 # IDE
 .vscode/
 .idea/

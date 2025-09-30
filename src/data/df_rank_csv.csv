@@ -1,0 +1,2036 @@
+iso3,country,index,index_name,rank,year,date
+ARG,Argentina,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+AUS,Australia,WCR,IMD World Competitiveness Ranking,-5,Change,NA
+AUT,Austria,WCR,IMD World Competitiveness Ranking,0,Change,NA
+BHR,Bahrain,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,-6,Change,NA
+BWA,Botswana,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+BRA,Brazil,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+BGR,Bulgaria,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+CAN,Canada,WCR,IMD World Competitiveness Ranking,8,Change,NA
+CHL,Chile,WCR,IMD World Competitiveness Ranking,2,Change,NA
+CHN,China,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+COL,Colombia,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+HRV,Croatia,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+CZE,Czech Republic,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+EST,Estonia,WCR,IMD World Competitiveness Ranking,0,Change,NA
+FIN,Finland,WCR,IMD World Competitiveness Ranking,1,Change,NA
+FRA,France,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+DEU,Germany,WCR,IMD World Competitiveness Ranking,5,Change,NA
+GHA,Ghana,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+GRC,Greece,WCR,IMD World Competitiveness Ranking,-3,Change,NA
+HKG,Hong Kong SAR,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+HUN,Hungary,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,2,Change,NA
+IND,India,WCR,IMD World Competitiveness Ranking,-2,Change,NA
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,-13,Change,NA
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,-3,Change,NA
+ITA,Italy,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+JPN,Japan,WCR,IMD World Competitiveness Ranking,3,Change,NA
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,1,Change,NA
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,1,Change,NA
+KEN,Kenya,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+KWT,Kuwait,WCR,IMD World Competitiveness Ranking,1,Change,NA
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,7,Change,NA
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,9,Change,NA
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,3,Change,NA
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,11,Change,NA
+MEX,Mexico,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+MNG,Mongolia,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+NAM,Namibia,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,1,Change,NA
+NGA,Nigeria,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+NOR,Norway,WCR,IMD World Competitiveness Ranking,-2,Change,NA
+OMN,Oman,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+PER,Peru,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+PHL,Philippines,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+POL,Poland,WCR,IMD World Competitiveness Ranking,-11,Change,NA
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+PRI,Puerto Rico,WCR,IMD World Competitiveness Ranking,4,Change,NA
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,2,Change,NA
+ROU,Romania,WCR,IMD World Competitiveness Ranking,1,Change,NA
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+SVK,Slovak Republic,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,0,Change,NA
+ZAF,South Africa,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+KOR,South Korea,WCR,IMD World Competitiveness Ranking,-7,Change,NA
+ESP,Spain,WCR,IMD World Competitiveness Ranking,1,Change,NA
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,-2,Change,NA
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,1,Change,NA
+TWN,Taiwan (Chinese Taipei),WCR,IMD World Competitiveness Ranking,NA,Change,NA
+THA,Thailand,WCR,IMD World Competitiveness Ranking,-5,Change,NA
+TUR,Türkiye,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+ARE,UAE,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+USA,USA,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,-1,Change,NA
+VEN,Venezuela,WCR,IMD World Competitiveness Ranking,NA,Change,NA
+ALB,Albania,EIS,European Innovation Scoreboard,-2,Change,NA
+ARG,Argentina,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+AUS,Australia,EIS,European Innovation Scoreboard,2,Change,NA
+AUS,Australia,GII,Global Innovation Index,1,Change,NA
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,1,Change,NA
+AUT,Austria,EIS,European Innovation Scoreboard,-1,Change,NA
+AUT,Austria,GII,Global Innovation Index,1,Change,NA
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,-3,Change,NA
+BHR,Bahrain,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+BEL,Belgium,EIS,European Innovation Scoreboard,0,Change,NA
+BEL,Belgium,GII,Global Innovation Index,-1,Change,NA
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,-6,Change,NA
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,2,Change,NA
+BRA,Brazil,EIS,European Innovation Scoreboard,0,Change,NA
+BRA,Brazil,GII,Global Innovation Index,-1,Change,NA
+BRA,Brazil,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+BGR,Bulgaria,EIS,European Innovation Scoreboard,0,Change,NA
+BGR,Bulgaria,GII,Global Innovation Index,0,Change,NA
+BGR,Bulgaria,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+CAN,Canada,EIS,European Innovation Scoreboard,1,Change,NA
+CAN,Canada,GII,Global Innovation Index,1,Change,NA
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,-2,Change,NA
+CHL,Chile,EIS,European Innovation Scoreboard,-1,Change,NA
+CHL,Chile,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,1,Change,NA
+CHN,China (People’s Republic of),GII,Global Innovation Index,1,Change,NA
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,7,Change,NA
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,5,Change,NA
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,-2,Change,NA
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,0,Change,NA
+COL,Colombia,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+HRV,Croatia,EIS,European Innovation Scoreboard,-1,Change,NA
+HRV,Croatia,GII,Global Innovation Index,1,Change,NA
+HRV,Croatia,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+CYP,Cyprus,EIS,European Innovation Scoreboard,2,Change,NA
+CYP,Cyprus,GII,Global Innovation Index,1,Change,NA
+CYP,Cyprus,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+CZE,Czechia,EIS,European Innovation Scoreboard,2,Change,NA
+CZE,Czechia,GII,Global Innovation Index,1,Change,NA
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,-11,Change,NA
+CZE,Czechia,WDCR,IMD World Digital Competitiveness Ranking,-8,Change,NA
+DNK,Denmark,EIS,European Innovation Scoreboard,0,Change,NA
+DNK,Denmark,GII,Global Innovation Index,-1,Change,NA
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,1,Change,NA
+EST,Estonia,EIS,European Innovation Scoreboard,-2,Change,NA
+EST,Estonia,GII,Global Innovation Index,0,Change,NA
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,-6,Change,NA
+FIN,Finland,EIS,European Innovation Scoreboard,0,Change,NA
+FIN,Finland,GII,Global Innovation Index,-1,Change,NA
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,-4,Change,NA
+FRA,France,EIS,European Innovation Scoreboard,-2,Change,NA
+FRA,France,GII,Global Innovation Index,-1,Change,NA
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,7,Change,NA
+DEU,Germany,EIS,European Innovation Scoreboard,-2,Change,NA
+DEU,Germany,GII,Global Innovation Index,-1,Change,NA
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,0,Change,NA
+GRC,Greece,EIS,European Innovation Scoreboard,0,Change,NA
+GRC,Greece,GII,Global Innovation Index,-3,Change,NA
+GRC,Greece,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,2,Change,NA
+HKG,"Hong Kong, China",GII,Global Innovation Index,-1,Change,NA
+HKG,"Hong Kong, China",WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+HUN,Hungary,EIS,European Innovation Scoreboard,1,Change,NA
+HUN,Hungary,GII,Global Innovation Index,-1,Change,NA
+HUN,Hungary,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+ISL,Iceland,EIS,European Innovation Scoreboard,0,Change,NA
+ISL,Iceland,GII,Global Innovation Index,-2,Change,NA
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,-2,Change,NA
+IND,India,EIS,European Innovation Scoreboard,1,Change,NA
+IND,India,GII,Global Innovation Index,1,Change,NA
+IND,India,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+IDN,Indonesia,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+IRL,Ireland,EIS,European Innovation Scoreboard,2,Change,NA
+IRL,Ireland,GII,Global Innovation Index,3,Change,NA
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,4,Change,NA
+ISR,Israel,GII,Global Innovation Index,-1,Change,NA
+ISR,Israel,WCR,IMD World Competitiveness Ranking,1,Change,NA
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,-3,Change,NA
+ITA,Italy,EIS,European Innovation Scoreboard,-1,Change,NA
+ITA,Italy,GII,Global Innovation Index,0,Change,NA
+ITA,Italy,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+JPN,Japan,EIS,European Innovation Scoreboard,-1,Change,NA
+JPN,Japan,GII,Global Innovation Index,0,Change,NA
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,-2,Change,NA
+JOR,Jordan,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+KAZ,Kazakhstan,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+KOR,Korea,EIS,European Innovation Scoreboard,0,Change,NA
+KOR,Korea,GII,Global Innovation Index,4,Change,NA
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,0,Change,NA
+KWT,Kuwait,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+LVA,Latvia,EIS,European Innovation Scoreboard,0,Change,NA
+LVA,Latvia,GII,Global Innovation Index,-5,Change,NA
+LVA,Latvia,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+LTU,Lithuania,EIS,European Innovation Scoreboard,1,Change,NA
+LTU,Lithuania,GII,Global Innovation Index,-1,Change,NA
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,6,Change,NA
+LUX,Luxembourg,EIS,European Innovation Scoreboard,0,Change,NA
+LUX,Luxembourg,GII,Global Innovation Index,1,Change,NA
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,-3,Change,NA
+MYS,Malaysia,GII,Global Innovation Index,3,Change,NA
+MYS,Malaysia,WDCR,IMD World Digital Competitiveness Ranking,-9,Change,NA
+MLT,Malta,EIS,European Innovation Scoreboard,-4,Change,NA
+MLT,Malta,GII,Global Innovation Index,-4,Change,NA
+MEX,Mexico,EIS,European Innovation Scoreboard,-2,Change,NA
+MEX,Mexico,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+MDA,Moldova,EIS,European Innovation Scoreboard,0,Change,NA
+MNE,Montenegro,EIS,European Innovation Scoreboard,-1,Change,NA
+NLD,Netherlands,EIS,European Innovation Scoreboard,0,Change,NA
+NLD,Netherlands,GII,Global Innovation Index,-1,Change,NA
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,-6,Change,NA
+NZL,New Zealand,GII,Global Innovation Index,2,Change,NA
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,-8,Change,NA
+NGA,Nigeria,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+MKD,North Macedonia,EIS,European Innovation Scoreboard,1,Change,NA
+NOR,Norway,EIS,European Innovation Scoreboard,2,Change,NA
+NOR,Norway,GII,Global Innovation Index,-2,Change,NA
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,4,Change,NA
+PHL,Philippines,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+POL,Poland,EIS,European Innovation Scoreboard,1,Change,NA
+POL,Poland,GII,Global Innovation Index,1,Change,NA
+POL,Poland,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+PRT,Portugal,EIS,European Innovation Scoreboard,-1,Change,NA
+PRT,Portugal,GII,Global Innovation Index,-1,Change,NA
+PRT,Portugal,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+PRI,Puerto Rico,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+QAT,Qatar,GII,Global Innovation Index,1,Change,NA
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,3,Change,NA
+ROU,Romania,EIS,European Innovation Scoreboard,0,Change,NA
+ROU,Romania,GII,Global Innovation Index,-1,Change,NA
+ROU,Romania,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+SAU,Saudi Arabia,GII,Global Innovation Index,1,Change,NA
+SAU,Saudi Arabia,WDCR,IMD World Digital Competitiveness Ranking,3,Change,NA
+SRB,Serbia,EIS,European Innovation Scoreboard,0,Change,NA
+SGP,Singapore,GII,Global Innovation Index,1,Change,NA
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,2,Change,NA
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,-1,Change,NA
+SVK,Slovak Republic,GII,Global Innovation Index,-1,Change,NA
+SVK,Slovak Republic,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+SVN,Slovenia,EIS,European Innovation Scoreboard,1,Change,NA
+SVN,Slovenia,GII,Global Innovation Index,-1,Change,NA
+SVN,Slovenia,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+ZAF,South Africa,EIS,European Innovation Scoreboard,0,Change,NA
+ZAF,South Africa,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+NA,South Korea,WCR,IMD World Competitiveness Ranking,-7,Change,NA
+ESP,Spain,EIS,European Innovation Scoreboard,2,Change,NA
+ESP,Spain,GII,Global Innovation Index,1,Change,NA
+ESP,Spain,WDCR,IMD World Digital Competitiveness Ranking,0,Change,NA
+SWE,Sweden,EIS,European Innovation Scoreboard,0,Change,NA
+SWE,Sweden,GII,Global Innovation Index,0,Change,NA
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,2,Change,NA
+CHE,Switzerland,EIS,European Innovation Scoreboard,0,Change,NA
+CHE,Switzerland,GII,Global Innovation Index,0,Change,NA
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,3,Change,NA
+THA,Thailand,GII,Global Innovation Index,2,Change,NA
+THA,Thailand,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+TUR,Türkiye,EIS,European Innovation Scoreboard,2,Change,NA
+TUR,Türkiye,GII,Global Innovation Index,2,Change,NA
+TUR,Türkiye,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+UKR,Ukraine,EIS,European Innovation Scoreboard,0,Change,NA
+ARE,United Arab Emirates,GII,Global Innovation Index,0,Change,NA
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,3,Change,NA
+ARE,United Arab Emirates,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+GBR,United Kingdom,EIS,European Innovation Scoreboard,-2,Change,NA
+GBR,United Kingdom,GII,Global Innovation Index,-1,Change,NA
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,2,Change,NA
+USA,United States,EIS,European Innovation Scoreboard,0,Change,NA
+USA,United States,GII,Global Innovation Index,0,Change,NA
+NA,United States,WCR,IMD World Competitiveness Ranking,-3,Change,NA
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,-3,Change,NA
+VEN,Venezuela,WDCR,IMD World Digital Competitiveness Ranking,NA,Change,NA
+VNM,Viet Nam,GII,Global Innovation Index,2,Change,NA
+ARG,Argentina,EIQ,Economist Innovation Quotient,NA,Change,NA
+ARG,Argentina,NECI,National Entrepreneurship Context Index (NECI),3,Change,NA
+AUS,Australia,EIQ,Economist Innovation Quotient,NA,Change,NA
+AUT,Austria,EIQ,Economist Innovation Quotient,NA,Change,NA
+BGD,Bangladesh,EIQ,Economist Innovation Quotient,NA,Change,NA
+BEL,Belgium,EIQ,Economist Innovation Quotient,NA,Change,NA
+BRA,Brazil,EIQ,Economist Innovation Quotient,NA,Change,NA
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+CAN,Canada,EIQ,Economist Innovation Quotient,NA,Change,NA
+CAN,Canada,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+CHL,Chile,EIQ,Economist Innovation Quotient,NA,Change,NA
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),8,Change,NA
+CHN,China (People’s Republic of),EIQ,Economist Innovation Quotient,NA,Change,NA
+CHN,China (People’s Republic of),NECI,National Entrepreneurship Context Index (NECI),NA,Change,NA
+COL,Colombia,EIQ,Economist Innovation Quotient,NA,Change,NA
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),-9,Change,NA
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),7,Change,NA
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),-7,Change,NA
+DNK,Denmark,EIQ,Economist Innovation Quotient,NA,Change,NA
+ECU,Ecuador,NECI,National Entrepreneurship Context Index (NECI),-3,Change,NA
+EGY,Egypt,EIQ,Economist Innovation Quotient,NA,Change,NA
+EST,Estonia,NECI,National Entrepreneurship Context Index (NECI),NA,Change,NA
+FRA,France,EIQ,Economist Innovation Quotient,NA,Change,NA
+FRA,France,NECI,National Entrepreneurship Context Index (NECI),6,Change,NA
+DEU,Germany,EIQ,Economist Innovation Quotient,NA,Change,NA
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),0,Change,NA
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+GTM,Guatemala,NECI,National Entrepreneurship Context Index (NECI),-2,Change,NA
+HKG,Hong Kong,EIQ,Economist Innovation Quotient,NA,Change,NA
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,-1,Change,NA
+HUN,Hungary,NECI,National Entrepreneurship Context Index (NECI),-1,Change,NA
+IND,India,EIQ,Economist Innovation Quotient,NA,Change,NA
+IND,India,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+IDN,Indonesia,EIQ,Economist Innovation Quotient,NA,Change,NA
+IRN,Iran,NECI,National Entrepreneurship Context Index (NECI),1,Change,NA
+IRL,Ireland,EIQ,Economist Innovation Quotient,NA,Change,NA
+ISR,Israel,EIQ,Economist Innovation Quotient,NA,Change,NA
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),-26,Change,NA
+ITA,Italy,EIQ,Economist Innovation Quotient,NA,Change,NA
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),11,Change,NA
+JPN,Japan,EIQ,Economist Innovation Quotient,NA,Change,NA
+JPN,Japan,NECI,National Entrepreneurship Context Index (NECI),-6,Change,NA
+JOR,Jordan,NECI,National Entrepreneurship Context Index (NECI),-9,Change,NA
+KOR,Korea,EIQ,Economist Innovation Quotient,NA,Change,NA
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),1,Change,NA
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),0,Change,NA
+LTU,Lithuania,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),-3,Change,NA
+MYS,Malaysia,EIQ,Economist Innovation Quotient,NA,Change,NA
+MEX,Mexico,EIQ,Economist Innovation Quotient,NA,Change,NA
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),3,Change,NA
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),5,Change,NA
+NLD,Netherlands,EIQ,Economist Innovation Quotient,NA,Change,NA
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),-2,Change,NA
+NGA,Nigeria,EIQ,Economist Innovation Quotient,NA,Change,NA
+NOR,Norway,EIQ,Economist Innovation Quotient,NA,Change,NA
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),-4,Change,NA
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),27,Change,NA
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),-1,Change,NA
+PHL,Philippines,EIQ,Economist Innovation Quotient,NA,Change,NA
+POL,Poland,EIQ,Economist Innovation Quotient,NA,Change,NA
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),12,Change,NA
+PRI,Puerto Rico,NECI,National Entrepreneurship Context Index (NECI),6,Change,NA
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),5,Change,NA
+ROU,Romania,NECI,National Entrepreneurship Context Index (NECI),5,Change,NA
+SAU,Saudi Arabia,EIQ,Economist Innovation Quotient,NA,Change,NA
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),-1,Change,NA
+SGP,Singapore,EIQ,Economist Innovation Quotient,NA,Change,NA
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),-8,Change,NA
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),8,Change,NA
+ZAF,South Africa,EIQ,Economist Innovation Quotient,NA,Change,NA
+ZAF,South Africa,NECI,National Entrepreneurship Context Index (NECI),-7,Change,NA
+ESP,Spain,EIQ,Economist Innovation Quotient,NA,Change,NA
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),-3,Change,NA
+SWE,Sweden,EIQ,Economist Innovation Quotient,NA,Change,NA
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),0,Change,NA
+CHE,Switzerland,EIQ,Economist Innovation Quotient,NA,Change,NA
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),-1,Change,NA
+THA,Thailand,EIQ,Economist Innovation Quotient,NA,Change,NA
+THA,Thailand,NECI,National Entrepreneurship Context Index (NECI),-16,Change,NA
+TUR,Türkiye,EIQ,Economist Innovation Quotient,NA,Change,NA
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,1,Change,NA
+UKR,Ukraine,NECI,National Entrepreneurship Context Index (NECI),NA,Change,NA
+ARE,United Arab Emirates,EIQ,Economist Innovation Quotient,NA,Change,NA
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),0,Change,NA
+GBR,United Kingdom,EIQ,Economist Innovation Quotient,NA,Change,NA
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),3,Change,NA
+USA,United States,EIQ,Economist Innovation Quotient,NA,Change,NA
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),-1,Change,NA
+URY,Uruguay,NECI,National Entrepreneurship Context Index (NECI),2,Change,NA
+VEN,Venezuela,NECI,National Entrepreneurship Context Index (NECI),3,Change,NA
+ARE,United Arab Emirates,GII,Global Innovation Index,32,2024,2024-01-01
+DNK,Denmark,GII,Global Innovation Index,10,2024,2024-01-01
+AUS,Australia,GII,Global Innovation Index,23,2024,2024-01-01
+LVA,Latvia,GII,Global Innovation Index,42,2024,2024-01-01
+AUT,Austria,GII,Global Innovation Index,17,2024,2024-01-01
+USA,United States,GII,Global Innovation Index,3,2024,2024-01-01
+BEL,Belgium,GII,Global Innovation Index,24,2024,2024-01-01
+BGR,Bulgaria,GII,Global Innovation Index,38,2024,2024-01-01
+JPN,Japan,GII,Global Innovation Index,13,2024,2024-01-01
+BRA,Brazil,GII,Global Innovation Index,50,2024,2024-01-01
+POL,Poland,GII,Global Innovation Index,40,2024,2024-01-01
+CAN,Canada,GII,Global Innovation Index,14,2024,2024-01-01
+FRA,France,GII,Global Innovation Index,12,2024,2024-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2024,2024-01-01
+NLD,Netherlands,GII,Global Innovation Index,8,2024,2024-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,11,2024,2024-01-01
+TUR,Türkiye,GII,Global Innovation Index,37,2024,2024-01-01
+CYP,Cyprus,GII,Global Innovation Index,27,2024,2024-01-01
+CZE,Czechia,GII,Global Innovation Index,30,2024,2024-01-01
+ISR,Israel,GII,Global Innovation Index,15,2024,2024-01-01
+DEU,Germany,GII,Global Innovation Index,9,2024,2024-01-01
+HUN,Hungary,GII,Global Innovation Index,36,2024,2024-01-01
+HRV,Croatia,GII,Global Innovation Index,43,2024,2024-01-01
+ESP,Spain,GII,Global Innovation Index,28,2024,2024-01-01
+EST,Estonia,GII,Global Innovation Index,16,2024,2024-01-01
+SVN,Slovenia,GII,Global Innovation Index,34,2024,2024-01-01
+FIN,Finland,GII,Global Innovation Index,7,2024,2024-01-01
+ROU,Romania,GII,Global Innovation Index,48,2024,2024-01-01
+GBR,United Kingdom,GII,Global Innovation Index,5,2024,2024-01-01
+NZL,New Zealand,GII,Global Innovation Index,25,2024,2024-01-01
+GRC,Greece,GII,Global Innovation Index,45,2024,2024-01-01
+KOR,Korea,GII,Global Innovation Index,6,2024,2024-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,18,2024,2024-01-01
+IND,India,GII,Global Innovation Index,39,2024,2024-01-01
+NOR,Norway,GII,Global Innovation Index,21,2024,2024-01-01
+IRL,Ireland,GII,Global Innovation Index,19,2024,2024-01-01
+ISL,Iceland,GII,Global Innovation Index,22,2024,2024-01-01
+LUX,Luxembourg,GII,Global Innovation Index,20,2024,2024-01-01
+LTU,Lithuania,GII,Global Innovation Index,35,2024,2024-01-01
+ITA,Italy,GII,Global Innovation Index,26,2024,2024-01-01
+MLT,Malta,GII,Global Innovation Index,29,2024,2024-01-01
+MYS,Malaysia,GII,Global Innovation Index,33,2024,2024-01-01
+PRT,Portugal,GII,Global Innovation Index,31,2024,2024-01-01
+QAT,Qatar,GII,Global Innovation Index,49,2024,2024-01-01
+SAU,Saudi Arabia,GII,Global Innovation Index,47,2024,2024-01-01
+SWE,Sweden,GII,Global Innovation Index,2,2024,2024-01-01
+SGP,Singapore,GII,Global Innovation Index,4,2024,2024-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,46,2024,2024-01-01
+THA,Thailand,GII,Global Innovation Index,41,2024,2024-01-01
+VNM,Viet Nam,GII,Global Innovation Index,44,2024,2024-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2023,2023-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2022,2022-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2021,2021-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2020,2020-01-01
+CHE,Switzerland,GII,Global Innovation Index,1,2019,2019-01-01
+SWE,Sweden,GII,Global Innovation Index,2,2023,2023-01-01
+SWE,Sweden,GII,Global Innovation Index,3,2022,2022-01-01
+SWE,Sweden,GII,Global Innovation Index,2,2021,2021-01-01
+SWE,Sweden,GII,Global Innovation Index,2,2020,2020-01-01
+SWE,Sweden,GII,Global Innovation Index,2,2019,2019-01-01
+USA,United States,GII,Global Innovation Index,3,2023,2023-01-01
+USA,United States,GII,Global Innovation Index,2,2022,2022-01-01
+USA,United States,GII,Global Innovation Index,3,2021,2021-01-01
+USA,United States,GII,Global Innovation Index,3,2020,2020-01-01
+USA,United States,GII,Global Innovation Index,3,2019,2019-01-01
+GBR,United Kingdom,GII,Global Innovation Index,4,2023,2023-01-01
+GBR,United Kingdom,GII,Global Innovation Index,4,2022,2022-01-01
+GBR,United Kingdom,GII,Global Innovation Index,4,2021,2021-01-01
+GBR,United Kingdom,GII,Global Innovation Index,4,2020,2020-01-01
+GBR,United Kingdom,GII,Global Innovation Index,5,2019,2019-01-01
+SGP,Singapore,GII,Global Innovation Index,5,2023,2023-01-01
+SGP,Singapore,GII,Global Innovation Index,7,2022,2022-01-01
+SGP,Singapore,GII,Global Innovation Index,8,2021,2021-01-01
+SGP,Singapore,GII,Global Innovation Index,8,2020,2020-01-01
+SGP,Singapore,GII,Global Innovation Index,8,2019,2019-01-01
+FIN,Finland,GII,Global Innovation Index,6,2023,2023-01-01
+FIN,Finland,GII,Global Innovation Index,9,2022,2022-01-01
+FIN,Finland,GII,Global Innovation Index,7,2021,2021-01-01
+FIN,Finland,GII,Global Innovation Index,7,2020,2020-01-01
+FIN,Finland,GII,Global Innovation Index,6,2019,2019-01-01
+NLD,Netherlands,GII,Global Innovation Index,7,2023,2023-01-01
+NLD,Netherlands,GII,Global Innovation Index,5,2022,2022-01-01
+NLD,Netherlands,GII,Global Innovation Index,6,2021,2021-01-01
+NLD,Netherlands,GII,Global Innovation Index,5,2020,2020-01-01
+NLD,Netherlands,GII,Global Innovation Index,4,2019,2019-01-01
+DEU,Germany,GII,Global Innovation Index,8,2023,2023-01-01
+DEU,Germany,GII,Global Innovation Index,8,2022,2022-01-01
+DEU,Germany,GII,Global Innovation Index,10,2021,2021-01-01
+DEU,Germany,GII,Global Innovation Index,9,2020,2020-01-01
+DEU,Germany,GII,Global Innovation Index,9,2019,2019-01-01
+DNK,Denmark,GII,Global Innovation Index,9,2023,2023-01-01
+DNK,Denmark,GII,Global Innovation Index,10,2022,2022-01-01
+DNK,Denmark,GII,Global Innovation Index,9,2021,2021-01-01
+DNK,Denmark,GII,Global Innovation Index,6,2020,2020-01-01
+DNK,Denmark,GII,Global Innovation Index,7,2019,2019-01-01
+KOR,Korea,GII,Global Innovation Index,10,2023,2023-01-01
+KOR,Korea,GII,Global Innovation Index,6,2022,2022-01-01
+KOR,Korea,GII,Global Innovation Index,5,2021,2021-01-01
+KOR,Korea,GII,Global Innovation Index,10,2020,2020-01-01
+KOR,Korea,GII,Global Innovation Index,11,2019,2019-01-01
+FRA,France,GII,Global Innovation Index,11,2023,2023-01-01
+FRA,France,GII,Global Innovation Index,12,2022,2022-01-01
+FRA,France,GII,Global Innovation Index,11,2021,2021-01-01
+FRA,France,GII,Global Innovation Index,12,2020,2020-01-01
+FRA,France,GII,Global Innovation Index,16,2019,2019-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,12,2023,2023-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,11,2022,2022-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,12,2021,2021-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,14,2020,2020-01-01
+CHN,China (People’s Republic of),GII,Global Innovation Index,14,2019,2019-01-01
+JPN,Japan,GII,Global Innovation Index,13,2023,2023-01-01
+JPN,Japan,GII,Global Innovation Index,13,2022,2022-01-01
+JPN,Japan,GII,Global Innovation Index,13,2021,2021-01-01
+JPN,Japan,GII,Global Innovation Index,16,2020,2020-01-01
+JPN,Japan,GII,Global Innovation Index,15,2019,2019-01-01
+ISR,Israel,GII,Global Innovation Index,14,2023,2023-01-01
+ISR,Israel,GII,Global Innovation Index,16,2022,2022-01-01
+ISR,Israel,GII,Global Innovation Index,15,2021,2021-01-01
+ISR,Israel,GII,Global Innovation Index,13,2020,2020-01-01
+ISR,Israel,GII,Global Innovation Index,10,2019,2019-01-01
+CAN,Canada,GII,Global Innovation Index,15,2023,2023-01-01
+CAN,Canada,GII,Global Innovation Index,15,2022,2022-01-01
+CAN,Canada,GII,Global Innovation Index,16,2021,2021-01-01
+CAN,Canada,GII,Global Innovation Index,17,2020,2020-01-01
+CAN,Canada,GII,Global Innovation Index,17,2019,2019-01-01
+EST,Estonia,GII,Global Innovation Index,16,2023,2023-01-01
+EST,Estonia,GII,Global Innovation Index,18,2022,2022-01-01
+EST,Estonia,GII,Global Innovation Index,21,2021,2021-01-01
+EST,Estonia,GII,Global Innovation Index,25,2020,2020-01-01
+EST,Estonia,GII,Global Innovation Index,24,2019,2019-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,17,2023,2023-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,14,2022,2022-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,14,2021,2021-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,11,2020,2020-01-01
+HKG,"Hong Kong, China",GII,Global Innovation Index,13,2019,2019-01-01
+AUT,Austria,GII,Global Innovation Index,18,2023,2023-01-01
+AUT,Austria,GII,Global Innovation Index,17,2022,2022-01-01
+AUT,Austria,GII,Global Innovation Index,18,2021,2021-01-01
+AUT,Austria,GII,Global Innovation Index,19,2020,2020-01-01
+AUT,Austria,GII,Global Innovation Index,21,2019,2019-01-01
+NOR,Norway,GII,Global Innovation Index,19,2023,2023-01-01
+NOR,Norway,GII,Global Innovation Index,22,2022,2022-01-01
+NOR,Norway,GII,Global Innovation Index,20,2021,2021-01-01
+NOR,Norway,GII,Global Innovation Index,20,2020,2020-01-01
+NOR,Norway,GII,Global Innovation Index,19,2019,2019-01-01
+ISL,Iceland,GII,Global Innovation Index,20,2023,2023-01-01
+ISL,Iceland,GII,Global Innovation Index,20,2022,2022-01-01
+ISL,Iceland,GII,Global Innovation Index,17,2021,2021-01-01
+ISL,Iceland,GII,Global Innovation Index,21,2020,2020-01-01
+ISL,Iceland,GII,Global Innovation Index,20,2019,2019-01-01
+LUX,Luxembourg,GII,Global Innovation Index,21,2023,2023-01-01
+LUX,Luxembourg,GII,Global Innovation Index,19,2022,2022-01-01
+LUX,Luxembourg,GII,Global Innovation Index,23,2021,2021-01-01
+LUX,Luxembourg,GII,Global Innovation Index,18,2020,2020-01-01
+LUX,Luxembourg,GII,Global Innovation Index,18,2019,2019-01-01
+IRL,Ireland,GII,Global Innovation Index,22,2023,2023-01-01
+IRL,Ireland,GII,Global Innovation Index,23,2022,2022-01-01
+IRL,Ireland,GII,Global Innovation Index,19,2021,2021-01-01
+IRL,Ireland,GII,Global Innovation Index,15,2020,2020-01-01
+IRL,Ireland,GII,Global Innovation Index,12,2019,2019-01-01
+BEL,Belgium,GII,Global Innovation Index,23,2023,2023-01-01
+BEL,Belgium,GII,Global Innovation Index,26,2022,2022-01-01
+BEL,Belgium,GII,Global Innovation Index,22,2021,2021-01-01
+BEL,Belgium,GII,Global Innovation Index,22,2020,2020-01-01
+BEL,Belgium,GII,Global Innovation Index,23,2019,2019-01-01
+AUS,Australia,GII,Global Innovation Index,24,2023,2023-01-01
+AUS,Australia,GII,Global Innovation Index,25,2022,2022-01-01
+AUS,Australia,GII,Global Innovation Index,25,2021,2021-01-01
+AUS,Australia,GII,Global Innovation Index,23,2020,2020-01-01
+AUS,Australia,GII,Global Innovation Index,22,2019,2019-01-01
+MLT,Malta,GII,Global Innovation Index,25,2023,2023-01-01
+MLT,Malta,GII,Global Innovation Index,21,2022,2022-01-01
+MLT,Malta,GII,Global Innovation Index,27,2021,2021-01-01
+MLT,Malta,GII,Global Innovation Index,27,2020,2020-01-01
+MLT,Malta,GII,Global Innovation Index,27,2019,2019-01-01
+ITA,Italy,GII,Global Innovation Index,26,2023,2023-01-01
+ITA,Italy,GII,Global Innovation Index,28,2022,2022-01-01
+ITA,Italy,GII,Global Innovation Index,29,2021,2021-01-01
+ITA,Italy,GII,Global Innovation Index,28,2020,2020-01-01
+ITA,Italy,GII,Global Innovation Index,30,2019,2019-01-01
+NZL,New Zealand,GII,Global Innovation Index,27,2023,2023-01-01
+NZL,New Zealand,GII,Global Innovation Index,24,2022,2022-01-01
+NZL,New Zealand,GII,Global Innovation Index,26,2021,2021-01-01
+NZL,New Zealand,GII,Global Innovation Index,26,2020,2020-01-01
+NZL,New Zealand,GII,Global Innovation Index,25,2019,2019-01-01
+CYP,Cyprus,GII,Global Innovation Index,28,2023,2023-01-01
+CYP,Cyprus,GII,Global Innovation Index,27,2022,2022-01-01
+CYP,Cyprus,GII,Global Innovation Index,28,2021,2021-01-01
+CYP,Cyprus,GII,Global Innovation Index,29,2020,2020-01-01
+CYP,Cyprus,GII,Global Innovation Index,28,2019,2019-01-01
+ESP,Spain,GII,Global Innovation Index,29,2023,2023-01-01
+ESP,Spain,GII,Global Innovation Index,29,2022,2022-01-01
+ESP,Spain,GII,Global Innovation Index,30,2021,2021-01-01
+ESP,Spain,GII,Global Innovation Index,30,2020,2020-01-01
+ESP,Spain,GII,Global Innovation Index,29,2019,2019-01-01
+PRT,Portugal,GII,Global Innovation Index,30,2023,2023-01-01
+PRT,Portugal,GII,Global Innovation Index,32,2022,2022-01-01
+PRT,Portugal,GII,Global Innovation Index,31,2021,2021-01-01
+PRT,Portugal,GII,Global Innovation Index,31,2020,2020-01-01
+PRT,Portugal,GII,Global Innovation Index,32,2019,2019-01-01
+CZE,Czechia,GII,Global Innovation Index,31,2023,2023-01-01
+CZE,Czechia,GII,Global Innovation Index,30,2022,2022-01-01
+CZE,Czechia,GII,Global Innovation Index,24,2021,2021-01-01
+CZE,Czechia,GII,Global Innovation Index,24,2020,2020-01-01
+CZE,Czechia,GII,Global Innovation Index,26,2019,2019-01-01
+ARE,United Arab Emirates,GII,Global Innovation Index,32,2023,2023-01-01
+ARE,United Arab Emirates,GII,Global Innovation Index,31,2022,2022-01-01
+ARE,United Arab Emirates,GII,Global Innovation Index,33,2021,2021-01-01
+ARE,United Arab Emirates,GII,Global Innovation Index,34,2020,2020-01-01
+ARE,United Arab Emirates,GII,Global Innovation Index,36,2019,2019-01-01
+SVN,Slovenia,GII,Global Innovation Index,33,2023,2023-01-01
+SVN,Slovenia,GII,Global Innovation Index,33,2022,2022-01-01
+SVN,Slovenia,GII,Global Innovation Index,32,2021,2021-01-01
+SVN,Slovenia,GII,Global Innovation Index,32,2020,2020-01-01
+SVN,Slovenia,GII,Global Innovation Index,31,2019,2019-01-01
+LTU,Lithuania,GII,Global Innovation Index,34,2023,2023-01-01
+LTU,Lithuania,GII,Global Innovation Index,39,2022,2022-01-01
+LTU,Lithuania,GII,Global Innovation Index,39,2021,2021-01-01
+LTU,Lithuania,GII,Global Innovation Index,40,2020,2020-01-01
+LTU,Lithuania,GII,Global Innovation Index,38,2019,2019-01-01
+HUN,Hungary,GII,Global Innovation Index,35,2023,2023-01-01
+HUN,Hungary,GII,Global Innovation Index,34,2022,2022-01-01
+HUN,Hungary,GII,Global Innovation Index,34,2021,2021-01-01
+HUN,Hungary,GII,Global Innovation Index,35,2020,2020-01-01
+HUN,Hungary,GII,Global Innovation Index,33,2019,2019-01-01
+MYS,Malaysia,GII,Global Innovation Index,36,2023,2023-01-01
+MYS,Malaysia,GII,Global Innovation Index,36,2022,2022-01-01
+MYS,Malaysia,GII,Global Innovation Index,36,2021,2021-01-01
+MYS,Malaysia,GII,Global Innovation Index,33,2020,2020-01-01
+MYS,Malaysia,GII,Global Innovation Index,35,2019,2019-01-01
+LVA,Latvia,GII,Global Innovation Index,37,2023,2023-01-01
+LVA,Latvia,GII,Global Innovation Index,41,2022,2022-01-01
+LVA,Latvia,GII,Global Innovation Index,38,2021,2021-01-01
+LVA,Latvia,GII,Global Innovation Index,36,2020,2020-01-01
+LVA,Latvia,GII,Global Innovation Index,34,2019,2019-01-01
+BGR,Bulgaria,GII,Global Innovation Index,38,2023,2023-01-01
+BGR,Bulgaria,GII,Global Innovation Index,35,2022,2022-01-01
+BGR,Bulgaria,GII,Global Innovation Index,35,2021,2021-01-01
+BGR,Bulgaria,GII,Global Innovation Index,37,2020,2020-01-01
+BGR,Bulgaria,GII,Global Innovation Index,40,2019,2019-01-01
+TUR,Türkiye,GII,Global Innovation Index,39,2023,2023-01-01
+TUR,Türkiye,GII,Global Innovation Index,37,2022,2022-01-01
+TUR,Türkiye,GII,Global Innovation Index,41,2021,2021-01-01
+TUR,Türkiye,GII,Global Innovation Index,49,2019,2019-01-01
+IND,India,GII,Global Innovation Index,40,2023,2023-01-01
+IND,India,GII,Global Innovation Index,40,2022,2022-01-01
+IND,India,GII,Global Innovation Index,46,2021,2021-01-01
+IND,India,GII,Global Innovation Index,48,2020,2020-01-01
+POL,Poland,GII,Global Innovation Index,41,2023,2023-01-01
+POL,Poland,GII,Global Innovation Index,38,2022,2022-01-01
+POL,Poland,GII,Global Innovation Index,40,2021,2021-01-01
+POL,Poland,GII,Global Innovation Index,38,2020,2020-01-01
+POL,Poland,GII,Global Innovation Index,39,2019,2019-01-01
+GRC,Greece,GII,Global Innovation Index,42,2023,2023-01-01
+GRC,Greece,GII,Global Innovation Index,44,2022,2022-01-01
+GRC,Greece,GII,Global Innovation Index,47,2021,2021-01-01
+GRC,Greece,GII,Global Innovation Index,43,2020,2020-01-01
+GRC,Greece,GII,Global Innovation Index,41,2019,2019-01-01
+THA,Thailand,GII,Global Innovation Index,43,2023,2023-01-01
+THA,Thailand,GII,Global Innovation Index,43,2022,2022-01-01
+THA,Thailand,GII,Global Innovation Index,43,2021,2021-01-01
+THA,Thailand,GII,Global Innovation Index,44,2020,2020-01-01
+THA,Thailand,GII,Global Innovation Index,43,2019,2019-01-01
+HRV,Croatia,GII,Global Innovation Index,44,2023,2023-01-01
+HRV,Croatia,GII,Global Innovation Index,42,2022,2022-01-01
+HRV,Croatia,GII,Global Innovation Index,42,2021,2021-01-01
+HRV,Croatia,GII,Global Innovation Index,41,2020,2020-01-01
+HRV,Croatia,GII,Global Innovation Index,44,2019,2019-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,45,2023,2023-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,46,2022,2022-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,37,2021,2021-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,39,2020,2020-01-01
+SVK,Slovak Republic,GII,Global Innovation Index,37,2019,2019-01-01
+VNM,Viet Nam,GII,Global Innovation Index,46,2023,2023-01-01
+VNM,Viet Nam,GII,Global Innovation Index,48,2022,2022-01-01
+VNM,Viet Nam,GII,Global Innovation Index,44,2021,2021-01-01
+VNM,Viet Nam,GII,Global Innovation Index,42,2020,2020-01-01
+VNM,Viet Nam,GII,Global Innovation Index,42,2019,2019-01-01
+ROU,Romania,GII,Global Innovation Index,47,2023,2023-01-01
+ROU,Romania,GII,Global Innovation Index,49,2022,2022-01-01
+ROU,Romania,GII,Global Innovation Index,48,2021,2021-01-01
+ROU,Romania,GII,Global Innovation Index,46,2020,2020-01-01
+ROU,Romania,GII,Global Innovation Index,50,2019,2019-01-01
+SAU,Saudi Arabia,GII,Global Innovation Index,48,2023,2023-01-01
+BRA,Brazil,GII,Global Innovation Index,49,2023,2023-01-01
+QAT,Qatar,GII,Global Innovation Index,50,2023,2023-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2024,2024-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2023,2023-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2022,2022-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2021,2021-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2020,2020-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2019,2019-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2018,2018-01-01
+CHE,Switzerland,EIS,European Innovation Scoreboard,1,2017,2017-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,2,2024,2024-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,2,2023,2023-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,2,2022,2022-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,2,2021,2021-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,3,2020,2020-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,4,2019,2019-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,3,2018,2018-01-01
+DNK,Denmark,EIS,European Innovation Scoreboard,3,2017,2017-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,3,2024,2024-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,3,2023,2023-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,3,2022,2022-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,3,2021,2021-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,2,2020,2020-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,2,2019,2019-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,2,2018,2018-01-01
+SWE,Sweden,EIS,European Innovation Scoreboard,2,2017,2017-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,4,2024,2024-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,4,2023,2023-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,4,2022,2022-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,6,2021,2021-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,5,2020,2020-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,7,2019,2019-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,7,2018,2018-01-01
+FIN,Finland,EIS,European Innovation Scoreboard,5,2017,2017-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,5,2024,2024-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,5,2023,2023-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,5,2022,2022-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,4,2021,2021-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,4,2020,2020-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,3,2019,2019-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,4,2018,2018-01-01
+NLD,Netherlands,EIS,European Innovation Scoreboard,4,2017,2017-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,6,2024,2024-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,6,2023,2023-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,6,2022,2022-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,7,2021,2021-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,6,2020,2020-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,11,2019,2019-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,11,2018,2018-01-01
+BEL,Belgium,EIS,European Innovation Scoreboard,11,2017,2017-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,7,2024,2024-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,7,2023,2023-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,8,2022,2022-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,5,2021,2021-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,9,2020,2020-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,8,2019,2019-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,10,2018,2018-01-01
+KOR,Korea,EIS,European Innovation Scoreboard,10,2017,2017-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,8,2024,2024-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,10,2023,2023-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,9,2022,2022-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,13,2021,2021-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,14,2020,2020-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,14,2019,2019-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,13,2018,2018-01-01
+NOR,Norway,EIS,European Innovation Scoreboard,14,2017,2017-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,9,2024,2024-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,8,2023,2023-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,11,2022,2022-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,15,2021,2021-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,11,2020,2020-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,10,2019,2019-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,8,2018,2018-01-01
+AUT,Austria,EIS,European Innovation Scoreboard,8,2017,2017-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,10,2024,2024-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,11,2023,2023-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,10,2022,2022-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,11,2021,2021-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,12,2020,2020-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,12,2019,2019-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,14,2018,2018-01-01
+CAN,Canada,EIS,European Innovation Scoreboard,13,2017,2017-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,11,2024,2024-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,9,2023,2023-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,7,2022,2022-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,8,2021,2021-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,7,2020,2020-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,6,2019,2019-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,6,2018,2018-01-01
+GBR,United Kingdom,EIS,European Innovation Scoreboard,7,2017,2017-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,12,2024,2024-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,14,2023,2023-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,14,2022,2022-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,14,2021,2021-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,13,2020,2020-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,9,2019,2019-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,9,2018,2018-01-01
+IRL,Ireland,EIS,European Innovation Scoreboard,9,2017,2017-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,13,2024,2024-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,13,2023,2023-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,13,2022,2022-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,9,2021,2021-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,8,2020,2020-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,5,2019,2019-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,5,2018,2018-01-01
+LUX,Luxembourg,EIS,European Innovation Scoreboard,6,2017,2017-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,14,2024,2024-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,12,2023,2023-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,12,2022,2022-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,10,2021,2021-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,10,2020,2020-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,13,2019,2019-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,12,2018,2018-01-01
+DEU,Germany,EIS,European Innovation Scoreboard,12,2017,2017-01-01
+USA,United States,EIS,European Innovation Scoreboard,15,2024,2024-01-01
+USA,United States,EIS,European Innovation Scoreboard,15,2023,2023-01-01
+USA,United States,EIS,European Innovation Scoreboard,15,2022,2022-01-01
+USA,United States,EIS,European Innovation Scoreboard,12,2021,2021-01-01
+USA,United States,EIS,European Innovation Scoreboard,15,2020,2020-01-01
+USA,United States,EIS,European Innovation Scoreboard,17,2019,2019-01-01
+USA,United States,EIS,European Innovation Scoreboard,17,2018,2018-01-01
+USA,United States,EIS,European Innovation Scoreboard,16,2017,2017-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,16,2024,2024-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,18,2023,2023-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,19,2022,2022-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,21,2021,2021-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,22,2020,2020-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,28,2019,2019-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,27,2018,2018-01-01
+CYP,Cyprus,EIS,European Innovation Scoreboard,27,2017,2017-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,17,2024,2024-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,19,2023,2023-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,17,2022,2022-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,16,2021,2021-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,16,2020,2020-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,16,2019,2019-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,16,2018,2018-01-01
+AUS,Australia,EIS,European Innovation Scoreboard,17,2017,2017-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,18,2024,2024-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,16,2023,2023-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,16,2022,2022-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,18,2021,2021-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,18,2020,2020-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,23,2019,2019-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,23,2018,2018-01-01
+EST,Estonia,EIS,European Innovation Scoreboard,23,2017,2017-01-01
+FRA,France,EIS,European Innovation Scoreboard,19,2024,2024-01-01
+FRA,France,EIS,European Innovation Scoreboard,17,2023,2023-01-01
+FRA,France,EIS,European Innovation Scoreboard,18,2022,2022-01-01
+FRA,France,EIS,European Innovation Scoreboard,17,2021,2021-01-01
+FRA,France,EIS,European Innovation Scoreboard,17,2020,2020-01-01
+FRA,France,EIS,European Innovation Scoreboard,15,2019,2019-01-01
+FRA,France,EIS,European Innovation Scoreboard,15,2018,2018-01-01
+FRA,France,EIS,European Innovation Scoreboard,15,2017,2017-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,20,2024,2024-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,20,2023,2023-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,20,2022,2022-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,20,2021,2021-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,21,2020,2020-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,19,2019,2019-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,19,2018,2018-01-01
+ISL,Iceland,EIS,European Innovation Scoreboard,19,2017,2017-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,21,2024,2024-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,22,2023,2023-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,24,2022,2022-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,25,2021,2021-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,26,2020,2020-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,26,2019,2019-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,28,2018,2018-01-01
+CHN,China (People’s Republic of),EIS,European Innovation Scoreboard,28,2017,2017-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,22,2024,2024-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,21,2023,2023-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,21,2022,2022-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,19,2021,2021-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,19,2020,2020-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,18,2019,2019-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,18,2018,2018-01-01
+JPN,Japan,EIS,European Innovation Scoreboard,18,2017,2017-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,23,2024,2024-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,24,2023,2023-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,25,2022,2022-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,23,2021,2021-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,25,2020,2020-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,22,2019,2019-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,21,2018,2018-01-01
+SVN,Slovenia,EIS,European Innovation Scoreboard,20,2017,2017-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,24,2024,2024-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,26,2023,2023-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,26,2022,2022-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,27,2021,2021-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,24,2020,2020-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,21,2019,2019-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,22,2018,2018-01-01
+ESP,Spain,EIS,European Innovation Scoreboard,22,2017,2017-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,25,2024,2024-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,27,2023,2023-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,27,2022,2022-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,28,2021,2021-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,28,2020,2020-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,27,2019,2019-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,26,2018,2018-01-01
+CZE,Czechia,EIS,European Innovation Scoreboard,26,2017,2017-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,26,2024,2024-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,25,2023,2023-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,23,2022,2022-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,24,2021,2021-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,23,2020,2020-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,25,2019,2019-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,25,2018,2018-01-01
+ITA,Italy,EIS,European Innovation Scoreboard,25,2017,2017-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,27,2024,2024-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,23,2023,2023-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,22,2022,2022-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,22,2021,2021-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,20,2020,2020-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,20,2019,2019-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,20,2018,2018-01-01
+MLT,Malta,EIS,European Innovation Scoreboard,21,2017,2017-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,28,2024,2024-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2023,2023-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2022,2022-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2021,2021-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2020,2020-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2019,2019-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2018,2018-01-01
+LTU,Lithuania,EIS,European Innovation Scoreboard,29,2017,2017-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,29,2024,2024-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,28,2023,2023-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,28,2022,2022-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,26,2021,2021-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,27,2020,2020-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,24,2019,2019-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,24,2018,2018-01-01
+PRT,Portugal,EIS,European Innovation Scoreboard,24,2017,2017-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2024,2024-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2023,2023-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2022,2022-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2021,2021-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2020,2020-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2019,2019-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,31,2018,2018-01-01
+GRC,Greece,EIS,European Innovation Scoreboard,30,2017,2017-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,31,2024,2024-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,32,2023,2023-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,32,2022,2022-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,31,2021,2021-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,31,2020,2020-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,31,2019,2019-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,30,2018,2018-01-01
+HUN,Hungary,EIS,European Innovation Scoreboard,32,2017,2017-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,32,2024,2024-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,31,2023,2023-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,31,2022,2022-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,32,2021,2021-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,33,2020,2020-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,34,2019,2019-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,33,2018,2018-01-01
+HRV,Croatia,EIS,European Innovation Scoreboard,33,2017,2017-01-01
+POL,Poland,EIS,European Innovation Scoreboard,33,2024,2024-01-01
+POL,Poland,EIS,European Innovation Scoreboard,34,2023,2023-01-01
+POL,Poland,EIS,European Innovation Scoreboard,34,2022,2022-01-01
+POL,Poland,EIS,European Innovation Scoreboard,35,2021,2021-01-01
+POL,Poland,EIS,European Innovation Scoreboard,35,2020,2020-01-01
+POL,Poland,EIS,European Innovation Scoreboard,33,2019,2019-01-01
+POL,Poland,EIS,European Innovation Scoreboard,35,2018,2018-01-01
+POL,Poland,EIS,European Innovation Scoreboard,35,2017,2017-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,34,2024,2024-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,33,2023,2023-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,33,2022,2022-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,33,2021,2021-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,32,2020,2020-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,32,2019,2019-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,32,2018,2018-01-01
+SVK,Slovak Republic,EIS,European Innovation Scoreboard,31,2017,2017-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,35,2024,2024-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,35,2023,2023-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,35,2022,2022-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,34,2021,2021-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,34,2020,2020-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,35,2019,2019-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,34,2018,2018-01-01
+SRB,Serbia,EIS,European Innovation Scoreboard,34,2017,2017-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2024,2024-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2023,2023-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2022,2022-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2021,2021-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2020,2020-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2019,2019-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,36,2018,2018-01-01
+BRA,Brazil,EIS,European Innovation Scoreboard,37,2017,2017-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2024,2024-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2023,2023-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2022,2022-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2021,2021-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2020,2020-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2019,2019-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,37,2018,2018-01-01
+LVA,Latvia,EIS,European Innovation Scoreboard,36,2017,2017-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,38,2024,2024-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,40,2023,2023-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,39,2022,2022-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,39,2021,2021-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,38,2020,2020-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,38,2019,2019-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,38,2018,2018-01-01
+TUR,Türkiye,EIS,European Innovation Scoreboard,38,2017,2017-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,39,2024,2024-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,38,2023,2023-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,41,2022,2022-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,41,2021,2021-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,42,2020,2020-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,43,2019,2019-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,44,2018,2018-01-01
+CHL,Chile,EIS,European Innovation Scoreboard,42,2017,2017-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,40,2024,2024-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,39,2023,2023-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,38,2022,2022-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,38,2021,2021-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,40,2020,2020-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,39,2019,2019-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,39,2018,2018-01-01
+MNE,Montenegro,EIS,European Innovation Scoreboard,40,2017,2017-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,41,2024,2024-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,41,2023,2023-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,40,2022,2022-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,40,2021,2021-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,39,2020,2020-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,40,2019,2019-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,40,2018,2018-01-01
+BGR,Bulgaria,EIS,European Innovation Scoreboard,39,2017,2017-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,42,2024,2024-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,43,2023,2023-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,44,2022,2022-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,44,2021,2021-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,44,2020,2020-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,45,2019,2019-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,43,2018,2018-01-01
+MKD,North Macedonia,EIS,European Innovation Scoreboard,43,2017,2017-01-01
+IND,India,EIS,European Innovation Scoreboard,43,2024,2024-01-01
+IND,India,EIS,European Innovation Scoreboard,44,2023,2023-01-01
+IND,India,EIS,European Innovation Scoreboard,42,2022,2022-01-01
+IND,India,EIS,European Innovation Scoreboard,42,2021,2021-01-01
+IND,India,EIS,European Innovation Scoreboard,43,2020,2020-01-01
+IND,India,EIS,European Innovation Scoreboard,42,2019,2019-01-01
+IND,India,EIS,European Innovation Scoreboard,41,2018,2018-01-01
+IND,India,EIS,European Innovation Scoreboard,41,2017,2017-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,44,2024,2024-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,42,2023,2023-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,43,2022,2022-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,43,2021,2021-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,45,2020,2020-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,44,2019,2019-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,42,2018,2018-01-01
+ALB,Albania,EIS,European Innovation Scoreboard,45,2017,2017-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,45,2024,2024-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,45,2023,2023-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,47,2022,2022-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,47,2021,2021-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,41,2020,2020-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,41,2019,2019-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,45,2018,2018-01-01
+ZAF,South Africa,EIS,European Innovation Scoreboard,44,2017,2017-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,46,2024,2024-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,46,2023,2023-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,46,2022,2022-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,45,2021,2021-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,46,2020,2020-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,47,2019,2019-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,46,2018,2018-01-01
+ROU,Romania,EIS,European Innovation Scoreboard,47,2017,2017-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,47,2024,2024-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,49,2023,2023-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,50,2022,2022-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,50,2021,2021-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,50,2020,2020-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,50,2019,2019-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,49,2018,2018-01-01
+BIH,Bosnia & Herzegovina,EIS,European Innovation Scoreboard,49,2017,2017-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2024,2024-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2023,2023-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2022,2022-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2021,2021-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2020,2020-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,49,2019,2019-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,47,2018,2018-01-01
+UKR,Ukraine,EIS,European Innovation Scoreboard,48,2017,2017-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,49,2024,2024-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,47,2023,2023-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,45,2022,2022-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,46,2021,2021-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,47,2020,2020-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,46,2019,2019-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,48,2018,2018-01-01
+MEX,Mexico,EIS,European Innovation Scoreboard,46,2017,2017-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,50,2024,2024-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,50,2023,2023-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,49,2022,2022-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,49,2021,2021-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,49,2020,2020-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,48,2019,2019-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,50,2018,2018-01-01
+MDA,Moldova,EIS,European Innovation Scoreboard,50,2017,2017-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,2,1997,1997-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,8,2002,2002-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,2,2007,2007-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,4,2012,2012-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,3,2017,2017-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,1,2019,2019-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,1,2020,2020-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,5,2021,2021-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,3,2022,2022-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,4,2023,2023-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,1,2024,2024-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,12,1997,1997-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,5,2002,2002-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,6,2007,2007-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,3,2012,2012-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,2,2017,2017-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,4,2019,2019-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,3,2020,2020-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,1,2021,2021-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,2,2022,2022-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,3,2023,2023-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,2,2024,2024-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,13,1997,1997-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,6,2002,2002-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,5,2007,2007-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,13,2012,2012-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,7,2017,2017-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,8,2019,2019-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,2,2020,2020-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,3,2021,2021-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,1,2022,2022-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,1,2023,2023-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,3,2024,2024-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,10,1997,1997-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,9,2002,2002-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,14,2007,2007-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,20,2012,2012-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,6,2017,2017-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,7,2019,2019-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,12,2020,2020-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,13,2021,2021-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,11,2022,2022-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,2,2023,2023-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,4,2024,2024-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,3,1997,1997-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,13,2002,2002-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,3,2007,2007-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,1,2012,2012-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,1,2017,2017-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,2,2019,2019-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,5,2020,2020-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,7,2021,2021-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,5,2022,2022-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,7,2023,2023-01-01
+HKG,Hong Kong,WCR,IMD World Competitiveness Ranking,5,2024,2024-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,19,1997,1997-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,12,2002,2002-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,9,2007,2007-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,5,2012,2012-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,9,2017,2017-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,9,2019,2019-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,6,2020,2020-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,2,2021,2021-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,4,2022,2022-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,8,2023,2023-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,6,2024,2024-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,16,2012,2012-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,10,2017,2017-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,5,2019,2019-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,9,2020,2020-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,9,2021,2021-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,12,2022,2022-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,10,2023,2023-01-01
+ARE,United Arab Emirates,WCR,IMD World Competitiveness Ranking,7,2024,2024-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,18,1997,1997-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,20,2002,2002-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,18,2007,2007-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,7,2012,2012-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,14,2017,2017-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,16,2019,2019-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,11,2020,2020-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,8,2021,2021-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,7,2022,2022-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,6,2023,2023-01-01
+TWN,Chinese Taipei,WCR,IMD World Competitiveness Ranking,8,2024,2024-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,4,1997,1997-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,4,2002,2002-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,8,2007,2007-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,11,2012,2012-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,5,2017,2017-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,6,2019,2019-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,4,2020,2020-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,4,2021,2021-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,6,2022,2022-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,5,2023,2023-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,9,2024,2024-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,5,1997,1997-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,14,2002,2002-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,13,2007,2007-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,8,2012,2012-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,11,2017,2017-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,11,2019,2019-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,7,2020,2020-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,6,2021,2021-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,9,2022,2022-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,14,2023,2023-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,10,2024,2024-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,10,2012,2012-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,17,2017,2017-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,10,2019,2019-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,14,2020,2020-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,17,2021,2021-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,18,2022,2022-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,12,2023,2023-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,11,2024,2024-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,1,1997,1997-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,1,2002,2002-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,1,2007,2007-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,2,2012,2012-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,4,2017,2017-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,3,2019,2019-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,10,2020,2020-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,10,2021,2021-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,10,2022,2022-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,9,2023,2023-01-01
+NA,United States,WCR,IMD World Competitiveness Ranking,12,2024,2024-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,15,1997,1997-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,10,2002,2002-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,12,2007,2007-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,15,2012,2012-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,21,2017,2017-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,18,2019,2019-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,18,2020,2020-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,22,2021,2021-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,19,2022,2022-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,19,2023,2023-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,13,2024,2024-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,27,1997,1997-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,28,2002,2002-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,15,2007,2007-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,23,2012,2012-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,18,2017,2017-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,14,2019,2019-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,20,2020,2020-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,16,2021,2021-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,17,2022,2022-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,21,2023,2023-01-01
+CHN,China (People’s Republic of),WCR,IMD World Competitiveness Ranking,14,2024,2024-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,7,1997,1997-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,3,2002,2002-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,17,2007,2007-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,17,2012,2012-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,15,2017,2017-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,15,2019,2019-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,13,2020,2020-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,11,2021,2021-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,8,2022,2022-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,11,2023,2023-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,15,2024,2024-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,36,2017,2017-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,26,2019,2019-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,24,2020,2020-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,32,2021,2021-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,24,2022,2022-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,17,2023,2023-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,16,2024,2024-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,21,1997,1997-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,11,2002,2002-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,7,2007,2007-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,26,2012,2012-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,20,2017,2017-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,20,2019,2019-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,21,2020,2020-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,21,2021,2021-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,16,2022,2022-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,16,2023,2023-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,17,2024,2024-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,23,1997,1997-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,19,2002,2002-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,25,2007,2007-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,25,2012,2012-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,23,2017,2017-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,27,2019,2019-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,25,2020,2020-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,24,2021,2021-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,21,2022,2022-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,13,2023,2023-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,18,2024,2024-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,6,1997,1997-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,7,2002,2002-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,10,2007,2007-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,6,2012,2012-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,12,2017,2017-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,13,2019,2019-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,8,2020,2020-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,14,2021,2021-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,14,2022,2022-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,15,2023,2023-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,19,2024,2024-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,30,1997,1997-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,29,2002,2002-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,29,2007,2007-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,22,2012,2012-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,29,2017,2017-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,28,2019,2019-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,23,2020,2020-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,23,2021,2021-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,27,2022,2022-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,28,2023,2023-01-01
+NA,South Korea,WCR,IMD World Competitiveness Ranking,20,2024,2024-01-01
+BHR,Bahrain,WCR,IMD World Competitiveness Ranking,30,2022,2022-01-01
+BHR,Bahrain,WCR,IMD World Competitiveness Ranking,25,2023,2023-01-01
+BHR,Bahrain,WCR,IMD World Competitiveness Ranking,21,2024,2024-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,25,1997,1997-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,26,2002,2002-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,21,2007,2007-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,19,2012,2012-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,22,2017,2017-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,24,2019,2019-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,26,2020,2020-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,27,2021,2021-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,25,2022,2022-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,23,2023,2023-01-01
+ISR,Israel,WCR,IMD World Competitiveness Ranking,22,2024,2024-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,8,1997,1997-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,2,2002,2002-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,4,2007,2007-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,12,2012,2012-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,8,2017,2017-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,12,2019,2019-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,15,2020,2020-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,12,2021,2021-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,13,2022,2022-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,20,2023,2023-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,23,2024,2024-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,16,1997,1997-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,17,2002,2002-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,16,2007,2007-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,9,2012,2012-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,13,2017,2017-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,17,2019,2019-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,17,2020,2020-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,15,2021,2021-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,15,2022,2022-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,22,2023,2023-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,24,2024,2024-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,31,1997,1997-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,31,2002,2002-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,33,2007,2007-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,30,2012,2012-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,27,2017,2017-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,25,2019,2019-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,29,2020,2020-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,28,2021,2021-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,33,2022,2022-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,30,2023,2023-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,25,2024,2024-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,20,1997,1997-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,15,2002,2002-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,11,2007,2007-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,21,2012,2012-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,25,2017,2017-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,19,2019,2019-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,16,2020,2020-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,19,2021,2021-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,20,2022,2022-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,24,2023,2023-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,26,2024,2024-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,38,1997,1997-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,47,2002,2002-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,54,2007,2007-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,42,2012,2012-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,42,2017,2017-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,32,2019,2019-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,40,2020,2020-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,37,2021,2021-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,44,2022,2022-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,34,2023,2023-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,27,2024,2024-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,9,1997,1997-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,16,2002,2002-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,20,2007,2007-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,18,2012,2012-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,19,2017,2017-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,23,2019,2019-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,19,2020,2020-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,18,2021,2021-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,23,2022,2022-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,29,2023,2023-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,28,2024,2024-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,33,1997,1997-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,32,2002,2002-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,32,2007,2007-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,33,2012,2012-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,28,2017,2017-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,33,2019,2019-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,33,2020,2020-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,34,2021,2021-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,26,2022,2022-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,18,2023,2023-01-01
+CZE,Czechia,WCR,IMD World Competitiveness Ranking,29,2024,2024-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,31,2007,2007-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,36,2012,2012-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,33,2017,2017-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,29,2019,2019-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,31,2020,2020-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,30,2021,2021-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,29,2022,2022-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,32,2023,2023-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,30,2024,2024-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,22,1997,1997-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,25,2002,2002-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,28,2007,2007-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,29,2012,2012-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,31,2017,2017-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,31,2019,2019-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,32,2020,2020-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,29,2021,2021-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,28,2022,2022-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,33,2023,2023-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,31,2024,2024-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,11,1997,1997-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,18,2002,2002-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,19,2007,2007-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,24,2012,2012-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,16,2017,2017-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,21,2019,2019-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,22,2020,2020-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,20,2021,2021-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,31,2022,2022-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,31,2023,2023-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,32,2024,2024-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,21,2002,2002-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,22,2007,2007-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,31,2012,2012-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,30,2017,2017-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,35,2019,2019-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,28,2020,2020-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,26,2021,2021-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,22,2022,2022-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,26,2023,2023-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,33,2024,2024-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,14,1997,1997-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,24,2002,2002-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,23,2007,2007-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,14,2012,2012-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,24,2017,2017-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,22,2019,2019-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,27,2020,2020-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,25,2021,2021-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,32,2022,2022-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,27,2023,2023-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,34,2024,2024-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,32,2012,2012-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,32,2017,2017-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,34,2019,2019-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,42,2020,2020-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,35,2021,2021-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,43,2022,2022-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,37,2023,2023-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,35,2024,2024-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,32,1997,1997-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,33,2002,2002-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,39,2007,2007-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,41,2012,2012-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,39,2017,2017-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,39,2019,2019-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,37,2020,2020-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,36,2021,2021-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,42,2022,2022-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,39,2023,2023-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,36,2024,2024-01-01
+KWT,Kuwait,WCR,IMD World Competitiveness Ranking,38,2023,2023-01-01
+KWT,Kuwait,WCR,IMD World Competitiveness Ranking,37,2024,2024-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,17,1997,1997-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,27,2002,2002-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,24,2007,2007-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,27,2012,2012-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,26,2017,2017-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,30,2019,2019-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,34,2020,2020-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,31,2021,2021-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,34,2022,2022-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,35,2023,2023-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,38,2024,2024-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,41,1997,1997-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,41,2002,2002-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,27,2007,2007-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,35,2012,2012-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,45,2017,2017-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,43,2019,2019-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,43,2020,2020-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,43,2021,2021-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,37,2022,2022-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,40,2023,2023-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,39,2024,2024-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,26,1997,1997-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,23,2002,2002-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,30,2007,2007-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,39,2012,2012-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,34,2017,2017-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,36,2019,2019-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,36,2020,2020-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,39,2021,2021-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,36,2022,2022-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,36,2023,2023-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,40,2024,2024-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,43,1997,1997-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,45,2002,2002-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,52,2007,2007-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,34,2012,2012-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,38,2017,2017-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,38,2019,2019-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,39,2020,2020-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,47,2021,2021-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,50,2022,2022-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,43,2023,2023-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,41,2024,2024-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,39,1997,1997-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,34,2002,2002-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,42,2007,2007-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,40,2012,2012-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,44,2017,2017-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,44,2019,2019-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,44,2020,2020-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,41,2021,2021-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,41,2022,2022-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,41,2023,2023-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,42,2024,2024-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,37,2017,2017-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,41,2019,2019-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,30,2020,2020-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,33,2021,2021-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,40,2022,2022-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,45,2023,2023-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,43,2024,2024-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,24,1997,1997-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,22,2002,2002-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,26,2007,2007-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,28,2012,2012-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,35,2017,2017-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,42,2019,2019-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,38,2020,2020-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,44,2021,2021-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,45,2022,2022-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,44,2023,2023-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,44,2024,2024-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,40,2017,2017-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,40,2019,2019-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,41,2020,2020-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,38,2021,2021-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,35,2022,2022-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,51,2023,2023-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,45,2024,2024-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,35,2002,2002-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,40,2007,2007-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,51,2012,2012-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,43,2017,2017-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,37,2019,2019-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,35,2020,2020-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,40,2021,2021-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,38,2022,2022-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,42,2023,2023-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,46,2024,2024-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,36,1997,1997-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,36,2002,2002-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,36,2007,2007-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,58,2012,2012-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,57,2017,2017-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,58,2019,2019-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,49,2020,2020-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,46,2021,2021-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,47,2022,2022-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,49,2023,2023-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,47,2024,2024-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,37,2007,2007-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,49,2012,2012-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,56,2017,2017-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,57,2019,2019-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,58,2020,2020-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,49,2021,2021-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,56,2022,2022-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,54,2023,2023-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,48,2024,2024-01-01
+PRI,Puerto Rico,WCR,IMD World Competitiveness Ranking,49,2024,2024-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,44,2007,2007-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,53,2012,2012-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,50,2017,2017-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,49,2019,2019-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,51,2020,2020-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,48,2021,2021-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,51,2022,2022-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,48,2023,2023-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,50,2024,2024-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,1,2024,2024-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,2,2024,2024-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,3,2024,2024-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,4,2024,2024-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,5,2024,2024-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,6,2024,2024-01-01
+HKG,"Hong Kong, China",WDCR,IMD World Digital Competitiveness Ranking,7,2024,2024-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,8,2024,2024-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,9,2024,2024-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,10,2024,2024-01-01
+ARE,United Arab Emirates,WDCR,IMD World Digital Competitiveness Ranking,11,2024,2024-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,12,2024,2024-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,13,2024,2024-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,14,2024,2024-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,15,2024,2024-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,16,2024,2024-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,17,2024,2024-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,18,2024,2024-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,19,2024,2024-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,20,2024,2024-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,21,2024,2024-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,22,2024,2024-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,23,2024,2024-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,24,2024,2024-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,25,2024,2024-01-01
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,26,2024,2024-01-01
+SAU,Saudi Arabia,WDCR,IMD World Digital Competitiveness Ranking,27,2024,2024-01-01
+ESP,Spain,WDCR,IMD World Digital Competitiveness Ranking,28,2024,2024-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,29,2024,2024-01-01
+BHR,Bahrain,WDCR,IMD World Digital Competitiveness Ranking,30,2024,2024-01-01
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,31,2024,2024-01-01
+CZE,Czechia,WDCR,IMD World Digital Competitiveness Ranking,32,2024,2024-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,33,2024,2024-01-01
+KAZ,Kazakhstan,WDCR,IMD World Digital Competitiveness Ranking,34,2024,2024-01-01
+PRT,Portugal,WDCR,IMD World Digital Competitiveness Ranking,35,2024,2024-01-01
+MYS,Malaysia,WDCR,IMD World Digital Competitiveness Ranking,36,2024,2024-01-01
+THA,Thailand,WDCR,IMD World Digital Competitiveness Ranking,37,2024,2024-01-01
+LVA,Latvia,WDCR,IMD World Digital Competitiveness Ranking,38,2024,2024-01-01
+POL,Poland,WDCR,IMD World Digital Competitiveness Ranking,39,2024,2024-01-01
+ITA,Italy,WDCR,IMD World Digital Competitiveness Ranking,40,2024,2024-01-01
+SVN,Slovenia,WDCR,IMD World Digital Competitiveness Ranking,41,2024,2024-01-01
+CHL,Chile,WDCR,IMD World Digital Competitiveness Ranking,42,2024,2024-01-01
+IDN,Indonesia,WDCR,IMD World Digital Competitiveness Ranking,43,2024,2024-01-01
+PRI,Puerto Rico,WDCR,IMD World Digital Competitiveness Ranking,44,2024,2024-01-01
+KWT,Kuwait,WDCR,IMD World Digital Competitiveness Ranking,45,2024,2024-01-01
+HRV,Croatia,WDCR,IMD World Digital Competitiveness Ranking,46,2024,2024-01-01
+ROU,Romania,WDCR,IMD World Digital Competitiveness Ranking,47,2024,2024-01-01
+CYP,Cyprus,WDCR,IMD World Digital Competitiveness Ranking,48,2024,2024-01-01
+GRC,Greece,WDCR,IMD World Digital Competitiveness Ranking,49,2024,2024-01-01
+JOR,Jordan,WDCR,IMD World Digital Competitiveness Ranking,50,2024,2024-01-01
+IND,India,WDCR,IMD World Digital Competitiveness Ranking,51,2024,2024-01-01
+SVK,Slovak Republic,WDCR,IMD World Digital Competitiveness Ranking,52,2024,2024-01-01
+HUN,Hungary,WDCR,IMD World Digital Competitiveness Ranking,53,2024,2024-01-01
+ZAF,South Africa,WDCR,IMD World Digital Competitiveness Ranking,54,2024,2024-01-01
+TUR,Türkiye,WDCR,IMD World Digital Competitiveness Ranking,55,2024,2024-01-01
+BGR,Bulgaria,WDCR,IMD World Digital Competitiveness Ranking,56,2024,2024-01-01
+BRA,Brazil,WDCR,IMD World Digital Competitiveness Ranking,57,2024,2024-01-01
+COL,Colombia,WDCR,IMD World Digital Competitiveness Ranking,58,2024,2024-01-01
+MEX,Mexico,WDCR,IMD World Digital Competitiveness Ranking,59,2024,2024-01-01
+PHL,Philippines,WDCR,IMD World Digital Competitiveness Ranking,61,2024,2024-01-01
+ARG,Argentina,WDCR,IMD World Digital Competitiveness Ranking,62,2024,2024-01-01
+NGA,Nigeria,WDCR,IMD World Digital Competitiveness Ranking,66,2024,2024-01-01
+VEN,Venezuela,WDCR,IMD World Digital Competitiveness Ranking,67,2024,2024-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,1,2023,2023-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,2,2022,2022-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,1,2021,2021-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,1,2020,2020-01-01
+USA,United States,WDCR,IMD World Digital Competitiveness Ranking,1,2019,2019-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,2,2023,2023-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,6,2022,2022-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,7,2021,2021-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,7,2020,2020-01-01
+NLD,Netherlands,WDCR,IMD World Digital Competitiveness Ranking,6,2019,2019-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,3,2023,2023-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,4,2022,2022-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,5,2021,2021-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,2,2020,2020-01-01
+SGP,Singapore,WDCR,IMD World Digital Competitiveness Ranking,2,2019,2019-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,4,2023,2023-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,1,2022,2022-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,4,2021,2021-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,3,2020,2020-01-01
+DNK,Denmark,WDCR,IMD World Digital Competitiveness Ranking,4,2019,2019-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,5,2023,2023-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,5,2022,2022-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,6,2021,2021-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,6,2020,2020-01-01
+CHE,Switzerland,WDCR,IMD World Digital Competitiveness Ranking,5,2019,2019-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,6,2023,2023-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,8,2022,2022-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,12,2021,2021-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,8,2020,2020-01-01
+KOR,Korea,WDCR,IMD World Digital Competitiveness Ranking,10,2019,2019-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,7,2023,2023-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,3,2022,2022-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,3,2021,2021-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,4,2020,2020-01-01
+SWE,Sweden,WDCR,IMD World Digital Competitiveness Ranking,3,2019,2019-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,8,2023,2023-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,7,2022,2022-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,11,2021,2021-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,10,2020,2020-01-01
+FIN,Finland,WDCR,IMD World Digital Competitiveness Ranking,7,2019,2019-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,9,2023,2023-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,11,2022,2022-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,8,2021,2021-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,11,2020,2020-01-01
+TWN,Chinese Taipei,WDCR,IMD World Digital Competitiveness Ranking,13,2019,2019-01-01
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,10,2023,2023-01-01
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,9,2022,2022-01-01
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,2,2021,2021-01-01
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,5,2020,2020-01-01
+HKG,Hong Kong SAR,WDCR,IMD World Digital Competitiveness Ranking,8,2019,2019-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,11,2023,2023-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,10,2022,2022-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,13,2021,2021-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,12,2020,2020-01-01
+CAN,Canada,WDCR,IMD World Digital Competitiveness Ranking,11,2019,2019-01-01
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,12,2023,2023-01-01
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,13,2022,2022-01-01
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,10,2021,2021-01-01
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,14,2020,2020-01-01
+ARE,UAE,WDCR,IMD World Digital Competitiveness Ranking,12,2019,2019-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,13,2023,2023-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,15,2022,2022-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,17,2021,2021-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,19,2020,2020-01-01
+ISR,Israel,WDCR,IMD World Digital Competitiveness Ranking,16,2019,2019-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,14,2023,2023-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,12,2022,2022-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,9,2021,2021-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,9,2020,2020-01-01
+NOR,Norway,WDCR,IMD World Digital Competitiveness Ranking,9,2019,2019-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,15,2023,2023-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,23,2022,2022-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,26,2021,2021-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,25,2020,2020-01-01
+BEL,Belgium,WDCR,IMD World Digital Competitiveness Ranking,25,2019,2019-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,16,2023,2023-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,14,2022,2022-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,20,2021,2021-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,15,2020,2020-01-01
+AUS,Australia,WDCR,IMD World Digital Competitiveness Ranking,14,2019,2019-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,17,2023,2023-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,21,2022,2022-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,21,2021,2021-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,23,2020,2020-01-01
+ISL,Iceland,WDCR,IMD World Digital Competitiveness Ranking,27,2019,2019-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,18,2023,2023-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,20,2022,2022-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,25,2021,2021-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,21,2020,2020-01-01
+EST,Estonia,WDCR,IMD World Digital Competitiveness Ranking,29,2019,2019-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,19,2023,2023-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,17,2022,2022-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,15,2021,2021-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,16,2020,2020-01-01
+CHN,China (People’s Republic of),WDCR,IMD World Digital Competitiveness Ranking,22,2019,2019-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,20,2023,2023-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,16,2022,2022-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,14,2021,2021-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,13,2020,2020-01-01
+GBR,United Kingdom,WDCR,IMD World Digital Competitiveness Ranking,15,2019,2019-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,21,2023,2023-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,24,2022,2022-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,19,2021,2021-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,20,2020,2020-01-01
+IRL,Ireland,WDCR,IMD World Digital Competitiveness Ranking,19,2019,2019-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,22,2023,2023-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,18,2022,2022-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,16,2021,2021-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,17,2020,2020-01-01
+AUT,Austria,WDCR,IMD World Digital Competitiveness Ranking,20,2019,2019-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,23,2023,2023-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,19,2022,2022-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,18,2021,2021-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,18,2020,2020-01-01
+DEU,Germany,WDCR,IMD World Digital Competitiveness Ranking,17,2019,2019-01-01
+CZE,Czechia,WDCR,IMD World Digital Competitiveness Ranking,24,2023,2023-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,25,2023,2023-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,27,2022,2022-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,23,2021,2021-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,22,2020,2020-01-01
+NZL,New Zealand,WDCR,IMD World Digital Competitiveness Ranking,18,2019,2019-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,26,2023,2023-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,30,2022,2022-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,22,2021,2021-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,28,2020,2020-01-01
+LUX,Luxembourg,WDCR,IMD World Digital Competitiveness Ranking,21,2019,2019-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,27,2023,2023-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,22,2022,2022-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,24,2021,2021-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,24,2020,2020-01-01
+FRA,France,WDCR,IMD World Digital Competitiveness Ranking,24,2019,2019-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,28,2023,2023-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,25,2022,2022-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,30,2021,2021-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,29,2020,2020-01-01
+LTU,Lithuania,WDCR,IMD World Digital Competitiveness Ranking,30,2019,2019-01-01
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,29,2023,2023-01-01
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,26,2022,2022-01-01
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,29,2021,2021-01-01
+QAT,Qatar,WDCR,IMD World Digital Competitiveness Ranking,30,2020,2020-01-01
+SAU,Saudi Arabia,WDCR,IMD World Digital Competitiveness Ranking,30,2023,2023-01-01
+ESP,Spain,WDCR,IMD World Digital Competitiveness Ranking,28,2022,2022-01-01
+ESP,Spain,WDCR,IMD World Digital Competitiveness Ranking,28,2019,2019-01-01
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,29,2022,2022-01-01
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,28,2021,2021-01-01
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,27,2020,2020-01-01
+JPN,Japan,WDCR,IMD World Digital Competitiveness Ranking,23,2019,2019-01-01
+MYS,Malaysia,WDCR,IMD World Digital Competitiveness Ranking,27,2021,2021-01-01
+MYS,Malaysia,WDCR,IMD World Digital Competitiveness Ranking,26,2020,2020-01-01
+MYS,Malaysia,WDCR,IMD World Digital Competitiveness Ranking,26,2019,2019-01-01
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),1,2023,2023-01-01
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),1,2022,2022-01-01
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),1,2021,2021-01-01
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),5,2020,2020-01-01
+ARE,United Arab Emirates,NECI,National Entrepreneurship Context Index (NECI),5,2019,2019-01-01
+IND,India,NECI,National Entrepreneurship Context Index (NECI),2,2023,2023-01-01
+IND,India,NECI,National Entrepreneurship Context Index (NECI),4,2022,2022-01-01
+IND,India,NECI,National Entrepreneurship Context Index (NECI),16,2021,2021-01-01
+IND,India,NECI,National Entrepreneurship Context Index (NECI),4,2020,2020-01-01
+IND,India,NECI,National Entrepreneurship Context Index (NECI),6,2019,2019-01-01
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),3,2023,2023-01-01
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),2,2022,2022-01-01
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),4,2021,2021-01-01
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),7,2020,2020-01-01
+SAU,Saudi Arabia,NECI,National Entrepreneurship Context Index (NECI),17,2019,2019-01-01
+LTU,Lithuania,NECI,National Entrepreneurship Context Index (NECI),4,2023,2023-01-01
+LTU,Lithuania,NECI,National Entrepreneurship Context Index (NECI),6,2022,2022-01-01
+LTU,Lithuania,NECI,National Entrepreneurship Context Index (NECI),5,2021,2021-01-01
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),5,2023,2023-01-01
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),10,2022,2022-01-01
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),8,2021,2021-01-01
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),8,2020,2020-01-01
+QAT,Qatar,NECI,National Entrepreneurship Context Index (NECI),3,2019,2019-01-01
+EST,Estonia,NECI,National Entrepreneurship Context Index (NECI),6,2023,2023-01-01
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),7,2023,2023-01-01
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),5,2022,2022-01-01
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),2,2021,2021-01-01
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),2,2020,2020-01-01
+NLD,Netherlands,NECI,National Entrepreneurship Context Index (NECI),2,2019,2019-01-01
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),8,2023,2023-01-01
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),9,2022,2022-01-01
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),6,2021,2021-01-01
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),9,2020,2020-01-01
+KOR,Korea,NECI,National Entrepreneurship Context Index (NECI),15,2019,2019-01-01
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),9,2023,2023-01-01
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),8,2022,2022-01-01
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),9,2021,2021-01-01
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),10,2020,2020-01-01
+CHE,Switzerland,NECI,National Entrepreneurship Context Index (NECI),1,2019,2019-01-01
+CHN,China (People’s Republic of),NECI,National Entrepreneurship Context Index (NECI),10,2023,2023-01-01
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),11,2023,2023-01-01
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),38,2022,2022-01-01
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),38,2021,2021-01-01
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),13,2020,2020-01-01
+OMN,Oman,NECI,National Entrepreneurship Context Index (NECI),29,2019,2019-01-01
+FRA,France,NECI,National Entrepreneurship Context Index (NECI),12,2023,2023-01-01
+FRA,France,NECI,National Entrepreneurship Context Index (NECI),18,2022,2022-01-01
+FRA,France,NECI,National Entrepreneurship Context Index (NECI),13,2021,2021-01-01
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),13,2023,2023-01-01
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),13,2022,2022-01-01
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),17,2021,2021-01-01
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),21,2020,2020-01-01
+LVA,Latvia,NECI,National Entrepreneurship Context Index (NECI),20,2019,2019-01-01
+CAN,Canada,NECI,National Entrepreneurship Context Index (NECI),14,2023,2023-01-01
+CAN,Canada,NECI,National Entrepreneurship Context Index (NECI),16,2022,2022-01-01
+CAN,Canada,NECI,National Entrepreneurship Context Index (NECI),15,2021,2021-01-01
+CAN,Canada,NECI,National Entrepreneurship Context Index (NECI),14,2019,2019-01-01
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),15,2023,2023-01-01
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),23,2022,2022-01-01
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),32,2021,2021-01-01
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),22,2020,2020-01-01
+SVN,Slovenia,NECI,National Entrepreneurship Context Index (NECI),30,2019,2019-01-01
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),16,2023,2023-01-01
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),15,2022,2022-01-01
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),11,2021,2021-01-01
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),12,2020,2020-01-01
+USA,United States,NECI,National Entrepreneurship Context Index (NECI),10,2019,2019-01-01
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),17,2023,2023-01-01
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),17,2022,2022-01-01
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),14,2021,2021-01-01
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),16,2020,2020-01-01
+DEU,Germany,NECI,National Entrepreneurship Context Index (NECI),16,2019,2019-01-01
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),18,2023,2023-01-01
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),14,2022,2022-01-01
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),7,2021,2021-01-01
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),6,2020,2020-01-01
+NOR,Norway,NECI,National Entrepreneurship Context Index (NECI),9,2019,2019-01-01
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),19,2023,2023-01-01
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),19,2022,2022-01-01
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),12,2021,2021-01-01
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),23,2020,2020-01-01
+SWE,Sweden,NECI,National Entrepreneurship Context Index (NECI),19,2019,2019-01-01
+JOR,Jordan,NECI,National Entrepreneurship Context Index (NECI),20,2023,2023-01-01
+JOR,Jordan,NECI,National Entrepreneurship Context Index (NECI),11,2019,2019-01-01
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),21,2023,2023-01-01
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),29,2022,2022-01-01
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),26,2021,2021-01-01
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),25,2020,2020-01-01
+CHL,Chile,NECI,National Entrepreneurship Context Index (NECI),28,2019,2019-01-01
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),22,2023,2023-01-01
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),25,2022,2022-01-01
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),19,2021,2021-01-01
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),14,2020,2020-01-01
+GBR,United Kingdom,NECI,National Entrepreneurship Context Index (NECI),21,2019,2019-01-01
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),23,2023,2023-01-01
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),20,2022,2022-01-01
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),20,2021,2021-01-01
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),15,2020,2020-01-01
+LUX,Luxembourg,NECI,National Entrepreneurship Context Index (NECI),13,2019,2019-01-01
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),24,2023,2023-01-01
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),26,2022,2022-01-01
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),29,2021,2021-01-01
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),27,2020,2020-01-01
+GRC,Greece,NECI,National Entrepreneurship Context Index (NECI),40,2019,2019-01-01
+HUN,Hungary,NECI,National Entrepreneurship Context Index (NECI),25,2023,2023-01-01
+HUN,Hungary,NECI,National Entrepreneurship Context Index (NECI),24,2022,2022-01-01
+HUN,Hungary,NECI,National Entrepreneurship Context Index (NECI),27,2021,2021-01-01
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),26,2023,2023-01-01
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),37,2022,2022-01-01
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),24,2021,2021-01-01
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),33,2020,2020-01-01
+ITA,Italy,NECI,National Entrepreneurship Context Index (NECI),33,2019,2019-01-01
+JPN,Japan,NECI,National Entrepreneurship Context Index (NECI),27,2023,2023-01-01
+JPN,Japan,NECI,National Entrepreneurship Context Index (NECI),21,2022,2022-01-01
+JPN,Japan,NECI,National Entrepreneurship Context Index (NECI),22,2021,2021-01-01
+JPN,Japan,NECI,National Entrepreneurship Context Index (NECI),25,2019,2019-01-01
+URY,Uruguay,NECI,National Entrepreneurship Context Index (NECI),28,2023,2023-01-01
+URY,Uruguay,NECI,National Entrepreneurship Context Index (NECI),30,2022,2022-01-01
+URY,Uruguay,NECI,National Entrepreneurship Context Index (NECI),31,2021,2021-01-01
+URY,Uruguay,NECI,National Entrepreneurship Context Index (NECI),17,2020,2020-01-01
+UKR,Ukraine,NECI,National Entrepreneurship Context Index (NECI),29,2023,2023-01-01
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),30,2023,2023-01-01
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),35,2022,2022-01-01
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),41,2021,2021-01-01
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),39,2020,2020-01-01
+MAR,Morocco,NECI,National Entrepreneurship Context Index (NECI),45,2019,2019-01-01
+ROU,Romania,NECI,National Entrepreneurship Context Index (NECI),31,2023,2023-01-01
+ROU,Romania,NECI,National Entrepreneurship Context Index (NECI),36,2022,2022-01-01
+ROU,Romania,NECI,National Entrepreneurship Context Index (NECI),40,2021,2021-01-01
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),32,2023,2023-01-01
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),39,2022,2022-01-01
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),43,2021,2021-01-01
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),41,2020,2020-01-01
+HRV,Croatia,NECI,National Entrepreneurship Context Index (NECI),50,2019,2019-01-01
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),33,2023,2023-01-01
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),45,2022,2022-01-01
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),36,2021,2021-01-01
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),30,2020,2020-01-01
+POL,Poland,NECI,National Entrepreneurship Context Index (NECI),36,2019,2019-01-01
+THA,Thailand,NECI,National Entrepreneurship Context Index (NECI),34,2023,2023-01-01
+THA,Thailand,NECI,National Entrepreneurship Context Index (NECI),18,2019,2019-01-01
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),35,2023,2023-01-01
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),34,2022,2022-01-01
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),42,2021,2021-01-01
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),32,2020,2020-01-01
+PAN,Panama,NECI,National Entrepreneurship Context Index (NECI),44,2019,2019-01-01
+PRI,Puerto Rico,NECI,National Entrepreneurship Context Index (NECI),36,2023,2023-01-01
+PRI,Puerto Rico,NECI,National Entrepreneurship Context Index (NECI),42,2022,2022-01-01
+PRI,Puerto Rico,NECI,National Entrepreneurship Context Index (NECI),42,2020,2020-01-01
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),37,2023,2023-01-01
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),28,2022,2022-01-01
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),23,2021,2021-01-01
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),20,2020,2020-01-01
+COL,Colombia,NECI,National Entrepreneurship Context Index (NECI),35,2019,2019-01-01
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),38,2023,2023-01-01
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),12,2022,2022-01-01
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),18,2021,2021-01-01
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),11,2020,2020-01-01
+ISR,Israel,NECI,National Entrepreneurship Context Index (NECI),22,2019,2019-01-01
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),39,2023,2023-01-01
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),31,2022,2022-01-01
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),33,2021,2021-01-01
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),35,2020,2020-01-01
+SVK,Slovak Republic,NECI,National Entrepreneurship Context Index (NECI),42,2019,2019-01-01
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),40,2023,2023-01-01
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),33,2022,2022-01-01
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),37,2021,2021-01-01
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),24,2020,2020-01-01
+CYP,Cyprus,NECI,National Entrepreneurship Context Index (NECI),31,2019,2019-01-01
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),41,2023,2023-01-01
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),44,2022,2022-01-01
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),30,2021,2021-01-01
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),34,2020,2020-01-01
+MEX,Mexico,NECI,National Entrepreneurship Context Index (NECI),23,2019,2019-01-01
+ECU,Ecuador,NECI,National Entrepreneurship Context Index (NECI),42,2023,2023-01-01
+ECU,Ecuador,NECI,National Entrepreneurship Context Index (NECI),39,2019,2019-01-01
+ARG,Argentina,NECI,National Entrepreneurship Context Index (NECI),43,2023,2023-01-01
+ARG,Argentina,NECI,National Entrepreneurship Context Index (NECI),46,2022,2022-01-01
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),44,2023,2023-01-01
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),41,2022,2022-01-01
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),10,2021,2021-01-01
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),19,2020,2020-01-01
+ESP,Spain,NECI,National Entrepreneurship Context Index (NECI),12,2019,2019-01-01
+GTM,Guatemala,NECI,National Entrepreneurship Context Index (NECI),45,2023,2023-01-01
+GTM,Guatemala,NECI,National Entrepreneurship Context Index (NECI),43,2022,2022-01-01
+GTM,Guatemala,NECI,National Entrepreneurship Context Index (NECI),44,2021,2021-01-01
+GTM,Guatemala,NECI,National Entrepreneurship Context Index (NECI),37,2020,2020-01-01
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),46,2023,2023-01-01
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),48,2022,2022-01-01
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),47,2021,2021-01-01
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),31,2020,2020-01-01
+BRA,Brazil,NECI,National Entrepreneurship Context Index (NECI),43,2019,2019-01-01
+ZAF,South Africa,NECI,National Entrepreneurship Context Index (NECI),47,2023,2023-01-01
+ZAF,South Africa,NECI,National Entrepreneurship Context Index (NECI),40,2022,2022-01-01
+ZAF,South Africa,NECI,National Entrepreneurship Context Index (NECI),45,2021,2021-01-01
+ZAF,South Africa,NECI,National Entrepreneurship Context Index (NECI),49,2019,2019-01-01
+VEN,Venezuela,NECI,National Entrepreneurship Context Index (NECI),48,2023,2023-01-01
+VEN,Venezuela,NECI,National Entrepreneurship Context Index (NECI),51,2022,2022-01-01
+IRN,Iran,NECI,National Entrepreneurship Context Index (NECI),49,2023,2023-01-01
+IRN,Iran,NECI,National Entrepreneurship Context Index (NECI),50,2022,2022-01-01
+IRN,Iran,NECI,National Entrepreneurship Context Index (NECI),49,2021,2021-01-01
+IRN,Iran,NECI,National Entrepreneurship Context Index (NECI),36,2020,2020-01-01
+SGP,Singapore,EIQ,Economist Innovation Quotient,1,2023,2023-01-01
+GBR,United Kingdom,EIQ,Economist Innovation Quotient,2,2023,2023-01-01
+SWE,Sweden,EIQ,Economist Innovation Quotient,3,2023,2023-01-01
+USA,United States,EIQ,Economist Innovation Quotient,4,2023,2023-01-01
+KOR,Korea,EIQ,Economist Innovation Quotient,5,2023,2023-01-01
+NOR,Norway,EIQ,Economist Innovation Quotient,6,2023,2023-01-01
+DNK,Denmark,EIQ,Economist Innovation Quotient,7,2023,2023-01-01
+CHE,Switzerland,EIQ,Economist Innovation Quotient,8,2023,2023-01-01
+CAN,Canada,EIQ,Economist Innovation Quotient,9,2023,2023-01-01
+AUS,Australia,EIQ,Economist Innovation Quotient,10,2023,2023-01-01
+NLD,Netherlands,EIQ,Economist Innovation Quotient,11,2023,2023-01-01
+HKG,Hong Kong,EIQ,Economist Innovation Quotient,12,2023,2023-01-01
+DEU,Germany,EIQ,Economist Innovation Quotient,13,2023,2023-01-01
+FRA,France,EIQ,Economist Innovation Quotient,14,2023,2023-01-01
+JPN,Japan,EIQ,Economist Innovation Quotient,15,2023,2023-01-01
+IRL,Ireland,EIQ,Economist Innovation Quotient,16,2023,2023-01-01
+ISR,Israel,EIQ,Economist Innovation Quotient,17,2023,2023-01-01
+ESP,Spain,EIQ,Economist Innovation Quotient,18,2023,2023-01-01
+BEL,Belgium,EIQ,Economist Innovation Quotient,19,2023,2023-01-01
+ITA,Italy,EIQ,Economist Innovation Quotient,20,2023,2023-01-01
+AUT,Austria,EIQ,Economist Innovation Quotient,21,2023,2023-01-01
+MYS,Malaysia,EIQ,Economist Innovation Quotient,22,2023,2023-01-01
+CHN,China (People’s Republic of),EIQ,Economist Innovation Quotient,23,2023,2023-01-01
+POL,Poland,EIQ,Economist Innovation Quotient,24,2023,2023-01-01
+PHL,Philippines,EIQ,Economist Innovation Quotient,25,2023,2023-01-01
+ZAF,South Africa,EIQ,Economist Innovation Quotient,26,2023,2023-01-01
+IND,India,EIQ,Economist Innovation Quotient,27,2023,2023-01-01
+THA,Thailand,EIQ,Economist Innovation Quotient,28,2023,2023-01-01
+BRA,Brazil,EIQ,Economist Innovation Quotient,29,2023,2023-01-01
+CHL,Chile,EIQ,Economist Innovation Quotient,30,2023,2023-01-01
+IDN,Indonesia,EIQ,Economist Innovation Quotient,31,2023,2023-01-01
+ARE,United Arab Emirates,EIQ,Economist Innovation Quotient,32,2023,2023-01-01
+COL,Colombia,EIQ,Economist Innovation Quotient,33,2023,2023-01-01
+MEX,Mexico,EIQ,Economist Innovation Quotient,34,2023,2023-01-01
+TUR,Türkiye,EIQ,Economist Innovation Quotient,35,2023,2023-01-01
+SAU,Saudi Arabia,EIQ,Economist Innovation Quotient,36,2023,2023-01-01
+ARG,Argentina,EIQ,Economist Innovation Quotient,37,2023,2023-01-01
+BGD,Bangladesh,EIQ,Economist Innovation Quotient,38,2023,2023-01-01
+NGA,Nigeria,EIQ,Economist Innovation Quotient,39,2023,2023-01-01
+EGY,Egypt,EIQ,Economist Innovation Quotient,40,2023,2023-01-01
+CHE,Switzerland,WCR,IMD World Competitiveness Ranking,1,2025,2025-01-01
+SGP,Singapore,WCR,IMD World Competitiveness Ranking,2,2025,2025-01-01
+HKG,Hong Kong SAR,WCR,IMD World Competitiveness Ranking,3,2025,2025-01-01
+DNK,Denmark,WCR,IMD World Competitiveness Ranking,4,2025,2025-01-01
+ARE,UAE,WCR,IMD World Competitiveness Ranking,5,2025,2025-01-01
+TWN,Taiwan (Chinese Taipei),WCR,IMD World Competitiveness Ranking,6,2025,2025-01-01
+IRL,Ireland,WCR,IMD World Competitiveness Ranking,7,2025,2025-01-01
+SWE,Sweden,WCR,IMD World Competitiveness Ranking,8,2025,2025-01-01
+QAT,Qatar,WCR,IMD World Competitiveness Ranking,9,2025,2025-01-01
+NLD,Netherlands,WCR,IMD World Competitiveness Ranking,10,2025,2025-01-01
+CAN,Canada,WCR,IMD World Competitiveness Ranking,11,2025,2025-01-01
+NOR,Norway,WCR,IMD World Competitiveness Ranking,12,2025,2025-01-01
+USA,USA,WCR,IMD World Competitiveness Ranking,13,2025,2025-01-01
+FIN,Finland,WCR,IMD World Competitiveness Ranking,14,2025,2025-01-01
+ISL,Iceland,WCR,IMD World Competitiveness Ranking,15,2025,2025-01-01
+CHN,China,WCR,IMD World Competitiveness Ranking,16,2025,2025-01-01
+SAU,Saudi Arabia,WCR,IMD World Competitiveness Ranking,17,2025,2025-01-01
+AUS,Australia,WCR,IMD World Competitiveness Ranking,18,2025,2025-01-01
+DEU,Germany,WCR,IMD World Competitiveness Ranking,19,2025,2025-01-01
+LUX,Luxembourg,WCR,IMD World Competitiveness Ranking,20,2025,2025-01-01
+LTU,Lithuania,WCR,IMD World Competitiveness Ranking,21,2025,2025-01-01
+BHR,Bahrain,WCR,IMD World Competitiveness Ranking,22,2025,2025-01-01
+MYS,Malaysia,WCR,IMD World Competitiveness Ranking,23,2025,2025-01-01
+BEL,Belgium,WCR,IMD World Competitiveness Ranking,24,2025,2025-01-01
+CZE,Czech Republic,WCR,IMD World Competitiveness Ranking,25,2025,2025-01-01
+AUT,Austria,WCR,IMD World Competitiveness Ranking,26,2025,2025-01-01
+KOR,South Korea,WCR,IMD World Competitiveness Ranking,27,2025,2025-01-01
+OMN,Oman,WCR,IMD World Competitiveness Ranking,28,2025,2025-01-01
+GBR,United Kingdom,WCR,IMD World Competitiveness Ranking,29,2025,2025-01-01
+THA,Thailand,WCR,IMD World Competitiveness Ranking,30,2025,2025-01-01
+NZL,New Zealand,WCR,IMD World Competitiveness Ranking,31,2025,2025-01-01
+FRA,France,WCR,IMD World Competitiveness Ranking,32,2025,2025-01-01
+EST,Estonia,WCR,IMD World Competitiveness Ranking,33,2025,2025-01-01
+KAZ,Kazakhstan,WCR,IMD World Competitiveness Ranking,34,2025,2025-01-01
+JPN,Japan,WCR,IMD World Competitiveness Ranking,35,2025,2025-01-01
+KWT,Kuwait,WCR,IMD World Competitiveness Ranking,36,2025,2025-01-01
+PRT,Portugal,WCR,IMD World Competitiveness Ranking,37,2025,2025-01-01
+LVA,Latvia,WCR,IMD World Competitiveness Ranking,38,2025,2025-01-01
+ESP,Spain,WCR,IMD World Competitiveness Ranking,39,2025,2025-01-01
+IDN,Indonesia,WCR,IMD World Competitiveness Ranking,40,2025,2025-01-01
+IND,India,WCR,IMD World Competitiveness Ranking,41,2025,2025-01-01
+CHL,Chile,WCR,IMD World Competitiveness Ranking,42,2025,2025-01-01
+ITA,Italy,WCR,IMD World Competitiveness Ranking,43,2025,2025-01-01
+CYP,Cyprus,WCR,IMD World Competitiveness Ranking,44,2025,2025-01-01
+PRI,Puerto Rico,WCR,IMD World Competitiveness Ranking,45,2025,2025-01-01
+SVN,Slovenia,WCR,IMD World Competitiveness Ranking,46,2025,2025-01-01
+JOR,Jordan,WCR,IMD World Competitiveness Ranking,47,2025,2025-01-01
+HUN,Hungary,WCR,IMD World Competitiveness Ranking,48,2025,2025-01-01
+ROU,Romania,WCR,IMD World Competitiveness Ranking,49,2025,2025-01-01
+GRC,Greece,WCR,IMD World Competitiveness Ranking,50,2025,2025-01-01
+PHL,Philippines,WCR,IMD World Competitiveness Ranking,51,2025,2025-01-01
+POL,Poland,WCR,IMD World Competitiveness Ranking,52,2025,2025-01-01
+HRV,Croatia,WCR,IMD World Competitiveness Ranking,53,2025,2025-01-01
+COL,Colombia,WCR,IMD World Competitiveness Ranking,54,2025,2025-01-01
+MEX,Mexico,WCR,IMD World Competitiveness Ranking,55,2025,2025-01-01
+KEN,Kenya,WCR,IMD World Competitiveness Ranking,56,2025,2025-01-01
+BGR,Bulgaria,WCR,IMD World Competitiveness Ranking,57,2025,2025-01-01
+BRA,Brazil,WCR,IMD World Competitiveness Ranking,58,2025,2025-01-01
+BWA,Botswana,WCR,IMD World Competitiveness Ranking,59,2025,2025-01-01
+PER,Peru,WCR,IMD World Competitiveness Ranking,60,2025,2025-01-01
+GHA,Ghana,WCR,IMD World Competitiveness Ranking,61,2025,2025-01-01
+ARG,Argentina,WCR,IMD World Competitiveness Ranking,62,2025,2025-01-01
+SVK,Slovak Republic,WCR,IMD World Competitiveness Ranking,63,2025,2025-01-01
+ZAF,South Africa,WCR,IMD World Competitiveness Ranking,64,2025,2025-01-01
+MNG,Mongolia,WCR,IMD World Competitiveness Ranking,65,2025,2025-01-01
+TUR,Türkiye,WCR,IMD World Competitiveness Ranking,66,2025,2025-01-01
+NGA,Nigeria,WCR,IMD World Competitiveness Ranking,67,2025,2025-01-01
+NAM,Namibia,WCR,IMD World Competitiveness Ranking,68,2025,2025-01-01
+VEN,Venezuela,WCR,IMD World Competitiveness Ranking,69,2025,2025-01-01
