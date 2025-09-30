@@ -1,0 +1,53 @@
+iso3,country,group,indicator,performance group,SII_2017,SII_2024
+ALB,Albania,non-eu,Summary Innovation Index,Emerging,36.2,46
+AUT,Austria,eu,Summary Innovation Index,Strong,123.3,127.9
+AUS,Australia,non-europe,Summary Innovation Index,Strong,110.2,116.8
+BIH,Bosnia & Herzegovina,non-eu,Summary Innovation Index,Emerging,30,36.4
+BEL,Belgium,eu,Summary Innovation Index,Strong,120.9,136
+BGR,Bulgaria,eu,Summary Innovation Index,Emerging,47.9,50.6
+BRA,Brazil,non-europe,Summary Innovation Index,Emerging,55.1,64.1
+CAN,Canada,non-europe,Summary Innovation Index,Strong,118.4,126.4
+CHE,Switzerland,non-eu,Summary Innovation Index,Leader,150.9,152.2
+CHL,Chile,non-europe,Summary Innovation Index,Emerging,39.5,52.8
+CHN,China,non-europe,Summary Innovation Index,Moderate,76,104.2
+CYP,Cyprus,eu,Summary Innovation Index,Strong,78,116.9
+CZE,Czechia,eu,Summary Innovation Index,Moderate,83.1,98.7
+DEU,Germany,eu,Summary Innovation Index,Strong,119,122.8
+DNK,Denmark,eu,Summary Innovation Index,Leader,135.1,149.3
+EST,Estonia,eu,Summary Innovation Index,Strong,88.5,115.3
+GRC,Greece,eu,Summary Innovation Index,Moderate,69.3,85.3
+ESP,Spain,eu,Summary Innovation Index,Moderate,89.5,98.9
+EU27,EU27,eu,Summary Innovation Index,EU,100,110
+EU27,EU27,non-europe,Summary Innovation Index,EU,100,110
+FIN,Finland,eu,Summary Innovation Index,Leader,128.8,140.6
+FRA,France,eu,Summary Innovation Index,Strong,112.7,114.4
+HRV,Croatia,eu,Summary Innovation Index,Emerging,62.2,76.6
+HUN,Hungary,eu,Summary Innovation Index,Moderate,68.9,77.6
+IRL,Ireland,eu,Summary Innovation Index,Strong,122.2,124.5
+IND,India,non-europe,Summary Innovation Index,Emerging,42,46.6
+ISL,Iceland,non-eu,Summary Innovation Index,Strong,103.8,110.6
+ITA,Italy,eu,Summary Innovation Index,Moderate,83.6,98.6
+JPN,Japan,non-europe,Summary Innovation Index,Moderate,106.9,102.5
+KOR,South Korea,non-europe,Summary Innovation Index,Strong,121.1,131.1
+LTU,Lithuania,eu,Summary Innovation Index,Moderate,75.7,92
+LUX,Luxembourg,eu,Summary Innovation Index,Strong,128.8,123.3
+LVA,Latvia,eu,Summary Innovation Index,Emerging,56.3,59
+MDA,Moldova,non-eu,Summary Innovation Index,Emerging,25.2,25.5
+MNE,Montenegro,non-eu,Summary Innovation Index,Emerging,46.6,52.3
+MKD,North Macedonia,non-eu,Summary Innovation Index,Emerging,37.8,49.6
+MLT,Malta,eu,Summary Innovation Index,Moderate,89.8,96.8
+MEX,Mexico,non-europe,Summary Innovation Index,Emerging,36,35.7
+NLD,Netherlands,eu,Summary Innovation Index,Leader,130.5,138.3
+NOR,Norway,non-eu,Summary Innovation Index,Strong,116.7,128.7
+POL,Poland,eu,Summary Innovation Index,Emerging,59.5,72.5
+PRT,Portugal,eu,Summary Innovation Index,Moderate,87.5,91.8
+ROU,Romania,eu,Summary Innovation Index,Emerging,35.9,37.4
+SRB,Serbia,non-eu,Summary Innovation Index,Emerging,61.7,69.1
+SWE,Sweden,eu,Summary Innovation Index,Leader,136.9,146.2
+SVN,Slovenia,eu,Summary Innovation Index,Moderate,95.5,100.1
+SVK,Slovakia,eu,Summary Innovation Index,Emerging,69,71.6
+TUR,Turkey,non-eu,Summary Innovation Index,Emerging,50.8,56.9
+UKR,Ukraine,non-eu,Summary Innovation Index,Emerging,32,35.7
+GBR,United Kingdom,non-eu,Summary Innovation Index,Strong,126.4,126.3
+USA,United States,non-europe,Summary Innovation Index,Strong,111.3,117.4
+ZAF,South Africa,non-europe,Summary Innovation Index,Emerging,36.2,39.9

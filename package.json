@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf src/.observablehq/cache",
+    "build": "observable build",
+    "screenshots": "node scripts/capture-screenshots.js",
+    "dev": "observable preview",
+    "deploy": "observable deploy",
+    "observable": "observable"
+  },
+  "dependencies": {
+    "@observablehq/framework": "^1.12.0",
+    "@observablehq/plot": "^0.6.17",
+    "arquero": "^7.2.0",
+    "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
+    "puppeteer": "^24.12.1",
+    "slim-select": "^2.9.2"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

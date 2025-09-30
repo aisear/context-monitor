@@ -1,0 +1,284 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-air.css");
+
+/*#observablehq-toc nav {
+    width: 300px;
+  }*/
+
+  /* Universal Roboto font declaration */
+  * {
+    font-family: "Roboto", sans-serif !important;
+  }
+
+  body {
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 3rem; /* Increased for better breathing room */
+    line-height: 1.6; /* Added for better readability */
+  }
+  
+  nav {
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2;
+  }
+
+  /* Navigation font styling to match report design */
+  #observablehq-sidebar {
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .observablehq-link {
+    font-weight: 300 !important;
+    font-style: normal !important;
+    line-height: 1.2;
+  }
+
+  .observablehq-link-active {
+    font-weight: 500 !important;
+    font-style: normal !important;
+    line-height: 1.2;
+  }
+
+  /* Header font styling */
+  #observablehq-header {
+    margin-left: -48px;
+    font-weight: 300;
+    font-style: normal;
+    border-bottom: none;
+  }
+
+  #observablehq-header h1 {
+    font-weight: 500 !important;
+    font-style: normal !important;
+  }
+
+  /* Establish clear typographic hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h1 {
+    margin-top: 4rem; /* Generous space above main headings */
+    margin-bottom: 1.5rem; /* Proper relationship with following content */
+  }
+  
+  h2 {
+    margin-top: 3rem; /* Strong section break */
+    margin-bottom: 1rem; /* Closer to following content */
+  }
+  
+  h3 {
+    margin-top: 2.5rem; /* Medium section break */
+    margin-bottom: 0.75rem;
+  }
+  
+  h4, h5, h6 {
+    margin-top: 2rem; /* Smaller but consistent breaks */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Special case: subtitle directly following h1 */
+  h1 + h2 {
+    color: var(--theme-foreground);
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0.5rem; /* Tight coupling with h1 */
+    margin-bottom: 2rem; /* Generous space before body content */
+  }
+  
+  /* Optimize paragraph spacing */
+  p {
+    margin-bottom: 1.25rem; /* Consistent paragraph spacing */
+  }
+  
+  /* Tighter spacing for lists */
+  ul, ol {
+    margin-bottom: 1.25rem;
+  }
+  
+  li {
+    margin-bottom: 0.25rem; /* Subtle separation between list items */
+  }
+  
+  /* Prevent orphaned headings */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  
+  /* Ensure content flows well after headings */
+  h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, h2 + h3 {
+    margin-top: 0; /* Remove default top margin after headings */
+  }
+
+  button {
+    padding: 6px 12px; /* Improved touch target */
+    font-size: 11px; /* Slightly larger for better readability */
+    background-color: #f2f2f2;
+    color: #7c848e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.25rem 0.5rem 0.25rem 0; /* Consistent spacing around buttons */
+  }
+  
+  button:hover {
+    background-color: #dddddd;
+  }
+
+a.no-underline {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.8em;
+  max-width: 310px;
+  line-height: 1.3;
+  margin: 0;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 2.5em;
+  float: left;
+}
+
+a.logo {
+  height: auto;
+  margin: 0;
+  padding-right: 2em;
+  float: left;
+}
+
+img.logo_flag {
+  height: 50px;
+}
+
+/* Form and select styling */
+form[class$="-inputs"] {
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: #f0f0f0; 
+  border: 2px solid #0077cc; 
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 5px;
+  gap: 10px; 
+  cursor: pointer;
+}
+
+form[class$="-inputs"]:focus {
+  outline: none;
+  border-color: #ff9900; /* Orange border when focused */
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+}
+
+select[class$="-input"] option {
+  background-color: #ffffff; 
+  color: #0077cc; 
+  font-size: 14px;
+  padding: 5px;
+}
+
+select[class$="-input"] option:hover {
+  background-color: #0077cc;
+  color: #ffffff;
+}
+
+figure {
+  font-weight: 400;
+  font-style: normal;
+}
+
+figure text {
+  font-weight: 400;
+  font-size: 12px !important;
+  font-style: normal;
+}
+
+figcaption {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  color:#000;
+  margin-top: 0.5rem;
+}
+
+.download-link {
+  font-size: 11px;
+}
+
+/* Remove margin between figure and download link */
+figure {
+  margin-bottom: 0rem;
+}
+
+.observablehq.observablehq--block:has(+ p a[download]) {
+  margin-bottom: 0 !important;
+}
+
+p:has(a[download]) {
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem;
+}
+
+a[download] {
+  font-size: 11px;
+}
+/* Only figcaption links should be black */
+figcaption a[href] {
+  color: #000 !important;
+}
+
+figcaption a[href]:hover {
+  color: #000 !important;
+  opacity: 0.7;
+}
+
+header a[href] {
+  color: #000 !important;
+}
+
+header a[href]:hover {
+  color: #000 !important;
+  opacity: 0.7;
+}
+
+figure h2 {
+  font-weight: 700;
+  font-size: 16px;
+  max-width: 640px;
+}
+
+figure [class$="-swatch"] {
+  font-size: 12px !important;
+}
+
+/* Override monospace elements to use Roboto Mono */
+code, pre {
+  font-family: "Roboto Mono", "Menlo", "Consolas", monospace !important;
+  font-weight: 400;
+}
+
+/* Font weight overrides */
+strong, b, th, .big {
+  font-weight: 700;
+}
+
+em, i, blockquote {
+  font-style: italic;
+}
+
+mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(179, 217, 255, 0.1),
+    rgba(179, 217, 255, 0.7) 4%,
+    rgba(179, 217, 255, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

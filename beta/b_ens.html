@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Entrepreneurship and Start-ups | Innovation Ecosystem</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/styles.53c0ad84.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/styles.53c0ad84.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.19f413ec.js">
+<link rel="modulepreload" href="./_observablehq/runtime.9393ab6d.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.31fc9623.js">
+<link rel="modulepreload" href="./_import/components/utils/colors.c15b65cb.js">
+<link rel="modulepreload" href="./_import/components/plots/line_plots.07f52a00.js">
+<link rel="modulepreload" href="./_import/components/plots/bar_x.18bdc39d.js">
+<link rel="modulepreload" href="./_import/components/plots/bar_y.5a8da785.js">
+<link rel="modulepreload" href="./_import/components/plots/arrow_y.893fadd7.js">
+<link rel="modulepreload" href="./_npm/arquero@8.0.3/175c2cad.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.ab00648a.js">
+<link rel="modulepreload" href="./_import/components/utils/countries.10854bad.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_import/components/utils/occlusionY.19d354b2.js">
+<link rel="modulepreload" href="./_node/@observablehq/plot@0.6.17/index.b6341d14.js">
+<link rel="modulepreload" href="./_node/arquero@7.2.0/index.fbd5f71c.js">
+<link rel="modulepreload" href="./_node/d3@7.9.0/index.e21134d2.js">
+<link rel="modulepreload" href="./_node/htl@0.3.1/index.0caf36e7.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e780feca.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/acorn@8.15.0/c47b807d.js">
+<link rel="modulepreload" href="./_npm/@uwdata/flechette@2.0.1/9569db75.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_node/isoformat@0.2.1/index.0882e9d9.js">
+<link rel="modulepreload" href="./_node/interval-tree-1d@1.0.4/index.f507a53c.js">
+<link rel="modulepreload" href="./_node/acorn@8.14.0/index.80ce3267.js">
+<link rel="modulepreload" href="./_node/@uwdata/flechette@1.1.1/index.0ec36e66.js">
+<link rel="modulepreload" href="./_node/d3-array@3.2.4/index.f89e3560.js">
+<link rel="modulepreload" href="./_node/d3-axis@3.0.0/index.34ded868.js">
+<link rel="modulepreload" href="./_node/d3-brush@3.0.0/index.1c3fc471.js">
+<link rel="modulepreload" href="./_node/d3-chord@3.0.1/index.9b04aad8.js">
+<link rel="modulepreload" href="./_node/d3-color@3.1.0/index.e8c126ff.js">
+<link rel="modulepreload" href="./_node/d3-contour@4.0.2/index.0d0783e1.js">
+<link rel="modulepreload" href="./_node/d3-delaunay@6.0.4/index.1771ba9f.js">
+<link rel="modulepreload" href="./_node/d3-dispatch@3.0.1/index.be49ca5f.js">
+<link rel="modulepreload" href="./_node/d3-drag@3.0.0/index.8e5f73cc.js">
+<link rel="modulepreload" href="./_node/d3-dsv@3.0.1/index.a1fe4c7b.js">
+<link rel="modulepreload" href="./_node/d3-ease@3.0.1/index.09153f73.js">
+<link rel="modulepreload" href="./_node/d3-fetch@3.0.1/index.e91238ad.js">
+<link rel="modulepreload" href="./_node/d3-force@3.0.0/index.952bd793.js">
+<link rel="modulepreload" href="./_node/d3-format@3.1.0/index.75f84505.js">
+<link rel="modulepreload" href="./_node/d3-geo@3.1.1/index.75f0ca91.js">
+<link rel="modulepreload" href="./_node/d3-hierarchy@3.1.2/index.0a013d9a.js">
+<link rel="modulepreload" href="./_node/d3-interpolate@3.0.1/index.7ed7c7fe.js">
+<link rel="modulepreload" href="./_node/d3-path@3.1.0/index.c2b3c473.js">
+<link rel="modulepreload" href="./_node/d3-polygon@3.0.1/index.b64a6d51.js">
+<link rel="modulepreload" href="./_node/d3-quadtree@3.0.1/index.e9fed2eb.js">
+<link rel="modulepreload" href="./_node/d3-random@3.0.1/index.fd2cc361.js">
+<link rel="modulepreload" href="./_node/d3-scale@4.0.2/index.61617510.js">
+<link rel="modulepreload" href="./_node/d3-scale-chromatic@3.1.0/index.7961cbed.js">
+<link rel="modulepreload" href="./_node/d3-selection@3.0.0/index.13204b25.js">
+<link rel="modulepreload" href="./_node/d3-shape@3.2.0/index.b551bc1c.js">
+<link rel="modulepreload" href="./_node/d3-time@3.1.0/index.8fcc123e.js">
+<link rel="modulepreload" href="./_node/d3-time-format@4.1.0/index.20c5f3ca.js">
+<link rel="modulepreload" href="./_node/d3-timer@3.0.1/index.0ee6092b.js">
+<link rel="modulepreload" href="./_node/d3-transition@3.0.1/index.d140d658.js">
+<link rel="modulepreload" href="./_node/d3-zoom@3.0.0/index.0e732a91.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/86074ef6.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/843b6a76.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_node/binary-search-bounds@2.0.5/index.990a1c6d.js">
+<link rel="modulepreload" href="./_node/internmap@2.0.3/index.4106013c.js">
+<link rel="modulepreload" href="./_node/delaunator@5.0.1/index.70ae1478.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_node/robust-predicates@3.0.2/index.bdc459cc.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<link rel="icon" href="./_file/favicon-32x32.d06a8ecd.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.19f413ec.js";
+import {registerFile} from "./_observablehq/stdlib.31fc9623.js";
+
+registerFile("./data/20241024_vc.txt", {"name":"./data/20241024_vc.txt","mimeType":"text/plain","path":"./_file/data/20241024_vc.9f54b694.txt","lastModified":1730842497480,"size":76013});
+registerFile("./data/df_epo.csv", {"name":"./data/df_epo.csv","mimeType":"text/csv","path":"./_file/data/df_epo.e93054be.csv","lastModified":1749112876214,"size":2215});
+registerFile("./data/df_oecd_msti.csv", {"name":"./data/df_oecd_msti.csv","mimeType":"text/csv","path":"./_file/data/df_oecd_msti.b09f8d54.csv","lastModified":1750325916319,"size":3644208});
+registerFile("./data/df_oecd_vc.csv", {"name":"./data/df_oecd_vc.csv","mimeType":"text/csv","path":"./_file/data/df_oecd_vc.19e37870.csv","lastModified":1750325923998,"size":143236});
+registerFile("./data/df_startupticker_vc.csv", {"name":"./data/df_startupticker_vc.csv","mimeType":"text/csv","path":"./_file/data/df_startupticker_vc.4b010288.csv","lastModified":1749565420881,"size":90042});
+registerFile("./data/df_unicorns_ch.csv", {"name":"./data/df_unicorns_ch.csv","mimeType":"text/csv","path":"./_file/data/df_unicorns_ch.179401b3.csv","lastModified":1749117648077,"size":1440});
+registerFile("./data/df_unicorns_country.csv", {"name":"./data/df_unicorns_country.csv","mimeType":"text/csv","path":"./_file/data/df_unicorns_country.74964139.csv","lastModified":1749115345173,"size":929});
+registerFile("./data/gem_tea_2018-2024.csv", {"name":"./data/gem_tea_2018-2024.csv","mimeType":"text/csv","path":"./_file/data/gem_tea_2018-2024.13589a2d.csv","lastModified":1749219487650,"size":1301});
+registerFile("./data/iso3_country.csv", {"name":"./data/iso3_country.csv","mimeType":"text/csv","path":"./_file/data/iso3_country.72d5f011.csv","lastModified":1750259056093,"size":1873});
+
+define({id: "47f4dc99", inputs: ["FileAttachment","isr"], outputs: ["color_scale","color_range","colorLegend","countries","line_oecd","bar_x","bar_x_unicorn","bar_vc_ch","arrow_unicorns","aq","df_oecd_vc","df_vc_gdp","df_gem_tea","df_vc_ch","countries_filtered","df_vc","df_tea","df_vc_ch_rounds","df_vc_ch_fin","df_epo","df_oecd_msti","df_unicorns_country","df_unicorns_ch","gdp","df_ug"], body: async (FileAttachment,isr) => {
+const [{color_scale, color_range, colorLegend, countries}, {line_oecd}, {bar_x, bar_x_unicorn}, {bar_vc_ch}, {arrow_unicorns}, aq] = await Promise.all([import("./_import/components/utils/colors.c15b65cb.js"), import("./_import/components/plots/line_plots.07f52a00.js"), import("./_import/components/plots/bar_x.18bdc39d.js"), import("./_import/components/plots/bar_y.5a8da785.js"), import("./_import/components/plots/arrow_y.893fadd7.js"), import("./_npm/arquero@8.0.3/175c2cad.js")]);
+
+const df_oecd_vc = await FileAttachment("./data/df_oecd_vc.csv").csv({typed: true});
+const df_vc_gdp = await FileAttachment("./data/20241024_vc.txt").tsv({typed: true});
+const df_gem_tea = await FileAttachment("./data/gem_tea_2018-2024.csv").csv({typed: true});
+const df_vc_ch = await FileAttachment("./data/df_startupticker_vc.csv").csv({typed: true});
+const countries_filtered = isr ? countries.filter(d => !["DEU", "FIN", "NLD", "SWE"].includes(d)) : countries.filter(d => !["ISR", "USA"].includes(d))
+const df_vc = df_oecd_vc.filter(
+    (d) =>
+      (d.measure === "VC_INV_MKT") && // R&D Personnel
+      (d.bds === "_T") &&
+      (d.unit === "PT_B1GQ") && // per 1'000 employment
+      countries_filtered.includes(d.iso3)
+  ).sort((a, b) => a.year - b.year);
+const df_tea = df_gem_tea
+    .filter((d) => countries.includes(d.iso3))
+    .sort((a, b) => a.year - b.year)
+    .map(d => ({
+      ...d,
+      country: d.economy,
+      year_date: new Date(d.year.toString()),
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+const df_vc_ch_rounds = df_vc_ch.filter((d) => d.measure === "Financing rounds of Swiss start-ups" && d.year_date > new Date("2017"));
+const df_vc_ch_fin = df_vc_ch.filter((d) => d.measure === "Invested capital in Swiss start-ups" && d.year_date > new Date("2017"));
+const df_epo = await FileAttachment("./data/df_epo.csv").csv({ typed: true });
+const df_oecd_msti = await FileAttachment("./data/df_oecd_msti.csv").csv({ typed: true });
+const df_unicorns_country = await FileAttachment("./data/df_unicorns_country.csv").csv({ typed: true });
+const df_unicorns_ch = await FileAttachment("./data/df_unicorns_ch.csv").csv({ typed: true });
+const gdp = df_oecd_msti
+    .filter(
+      (d) =>
+        d.year_date < new Date("2024-01-01") &&
+        d.year_date > new Date("2022-01-01") &&
+        countries.includes(d.iso3) &&
+        d.unit === "USD_PPP" &&
+        d.measure === "GDP"
+    )
+    .map((d) => ({
+      iso3: d.iso3,
+      country: d.country,
+      year: d.year_date,
+      measure: d.measure_name,
+      gdp: d.obs_value
+    }));
+const df_ug = df_unicorns_country
+    .filter((d) => countries.includes(d.iso3))
+    .map((unicorn) => {
+      // Find matching GDP record
+      const gdpRecord = gdp.find((g) => g.iso3 === unicorn.iso3);
+      // Return unicorn data with added GDP
+      return {
+        ...unicorn,
+        gdp: gdpRecord ? gdpRecord.gdp / 133000 : null, // Add GDP or null if no match
+        gdp_unicorn: unicorn.unicorns / (gdpRecord.gdp / 133000)
+      };
+    });
+return {color_scale,color_range,colorLegend,countries,line_oecd,bar_x,bar_x_unicorn,bar_vc_ch,arrow_unicorns,aq,df_oecd_vc,df_vc_gdp,df_gem_tea,df_vc_ch,countries_filtered,df_vc,df_tea,df_vc_ch_rounds,df_vc_ch_fin,df_epo,df_oecd_msti,df_unicorns_country,df_unicorns_ch,gdp,df_ug};
+}});
+
+define({id: "4e058e15", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("CHE")
+))
+}});
+
+define({id: "729d77f7", mode: "inline", inputs: ["bar_vc_ch","df_vc_ch_fin","display"], body: async (bar_vc_ch,df_vc_ch_fin,display) => {
+display(await(
+bar_vc_ch(df_vc_ch_fin)
+))
+}});
+
+define({id: "53583ab4", mode: "inline", inputs: ["bar_vc_ch","df_vc_ch_rounds","display"], body: async (bar_vc_ch,df_vc_ch_rounds,display) => {
+display(await(
+bar_vc_ch(df_vc_ch_rounds)
+))
+}});
+
+define({id: "4e058e15-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("CHE")
+))
+}});
+
+define({id: "a05991af", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("ISR")
+))
+}});
+
+define({id: "c55312a5", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("USA")
+))
+}});
+
+define({id: "78c9f6c6", inputs: ["view","Inputs"], outputs: ["isr"], body: (view,Inputs) => {
+const isr = view(
+  Inputs.toggle({
+    label: "incl. Israel and the USA",
+    value: true
+  })
+);
+return {isr};
+}});
+
+define({id: "3879468a", inputs: ["display","line_oecd","df_vc"], body: (display,line_oecd,df_vc) => {
+display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 1, false, true))
+}});
+
+define({id: "4e058e15-2", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("CHE")
+))
+}});
+
+define({id: "5c56bdcb", inputs: ["display","line_oecd","df_tea"], body: (display,line_oecd,df_tea) => {
+display(line_oecd(df_tea, "Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %", true,"Global Entrepreneurship Monitor","https://gemconsortium.org/reports/latest-global-report", 1, false, true))
+}});
+
+define({id: "aba09763", mode: "inline", inputs: ["display","bar_x","df_epo"], body: (display,bar_x,df_epo) => {
+display(bar_x(df_epo, "country", "EPO", "https://epo.org/mapping-investors"))
+}});
+
+define({id: "a7adde53", mode: "inline", inputs: ["display","bar_x","df_epo"], body: (display,bar_x,df_epo) => {
+display(bar_x(df_epo, "investor", "EPO", "https://epo.org/mapping-investors"))
+}});
+
+define({id: "592fcfc2", mode: "inline", inputs: ["display","bar_x_unicorn","df_ug","color_scale"], body: (display,bar_x_unicorn,df_ug,color_scale) => {
+display(bar_x_unicorn(df_ug, color_scale))
+}});
+
+define({id: "2134d829", mode: "inline", inputs: ["display","arrow_unicorns","df_unicorns_ch"], body: (display,arrow_unicorns,df_unicorns_ch) => {
+display(arrow_unicorns(df_unicorns_ch))
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Innovation Ecosystem</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./a_rnd">Research and Development</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./b_ens">Entrepreneurship and Start-ups</a></li>
+    <li class="observablehq-link"><a href="./c_inno">Innovation Activities</a></li>
+    <li class="observablehq-link"><a href="./d_ktt">Knowledge and Technology Transfer</a></li>
+    <li class="observablehq-link"><a href="./e_snd">Sustainability and High-tech Exports</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#venture-capital-investments-in-of-gdp-2017-2024">Venture capital investments in % of GDP 2017–2024</a></li>
+<li class="observablehq-secondary-link"><a href="#total-early-stage-entrepreneurial-activity-tea">Total early-stage entrepreneurial activity (TEA)</a></li>
+<li class="observablehq-secondary-link"><a href="#technology-intensity-of-investment-portfolios">Technology Intensity of Investment Portfolios</a></li>
+<li class="observablehq-secondary-link"><a href="#unicorn-companies">Unicorn companies</a></li>
+</ol>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:47f4dc99:--></div>
+<h1 id="entrepreneurship-and-start-ups" tabindex="-1"><a class="observablehq-header-anchor" href="#entrepreneurship-and-start-ups">Entrepreneurship and Start-ups</a></h1>
+<h2 id="venture-capital-market-in-switzerland" tabindex="-1"><a class="observablehq-header-anchor" href="#venture-capital-market-in-switzerland">Venture capital market in Switzerland</a></h2>
+<p><mark>New:</mark>&nbsp;&nbsp;&nbsp;Venture capital availability in <observablehq-loading></observablehq-loading><!--:4e058e15:--> has been increasing steadily until 2022, but has declined since. The financing rounds have become only slightly fewer, but smaller. The in- and then decreasing VC funding with a peak in 2021/2022 is mirrored in other countries (see below).</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; max-width: 640px">
+    <observablehq-loading></observablehq-loading><!--:729d77f7:-->
+  <observablehq-loading></observablehq-loading><!--:53583ab4:-->
+</div>
+<h2 id="venture-capital-investments-in-of-gdp-2017-2024" tabindex="-1"><a class="observablehq-header-anchor" href="#venture-capital-investments-in-of-gdp-2017-2024">Venture capital investments in % of GDP 2017–2024</a></h2>
+<p>According to the report «Fast-growing start-ups in Switzerland» (<a href="https://www.seco.admin.ch/dam/seco/en/dokumente/Standortfoerderung/KMU-Politik/Finanzierung%20der%20KMU/Bericht%20Postulat%20Derder%20-%20Rasch%20wachsende%20Jungunternehmen%20in%20der%20Schweiz.pdf.download.pdf/EN_Bericht_PO_Derder_Fast_growing_start_ups_in_Switzerland.pdf" target="_blank" rel="noopener noreferrer">SECO, 2017</a>) the venture capital market in <observablehq-loading></observablehq-loading><!--:4e058e15-1:--> was not as mature as the markets in more advanced countries (such as <observablehq-loading></observablehq-loading><!--:a05991af:-->, the <observablehq-loading></observablehq-loading><!--:c55312a5:-->). The VC market has since expanded, but there is still room for improvement.</p>
+<div class="observablehq observablehq--block"><!--:78c9f6c6:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:3879468a:--></div>
+<p><a href="./_file/images/venture-capital-gdp-live.bc982dd2.png" download="venture-capital-gdp.png">⤓ Download image</a></p>
+<div class="warning" label="Note">The OECD data should be taken with a grain of salt. There is no standard for data collection for VC investment data and there is no single source. The <a href="https://www.investeurope.eu/media/aywhjtsp/20250508_invest-europe_pe-activity-data-2024-report.pdf" target="_blank" rel="noopener noreferrer">Invest Europe data</a> (p.56), which is most likely the source for the OECD data for Switzerland, does not show an upward trend for Switzerland in 2024, but confirms the downward trend in the startupticker.ch data.</div>
+<h2 id="total-early-stage-entrepreneurial-activity-tea" tabindex="-1"><a class="observablehq-header-anchor" href="#total-early-stage-entrepreneurial-activity-tea">Total early-stage entrepreneurial activity (TEA)</a></h2>
+<p><mark>New:</mark>&nbsp;&nbsp;&nbsp;The share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in <observablehq-loading></observablehq-loading><!--:4e058e15-2:--> has been hovering between 8 and 10 percent. This is a low- to mid-table position among innovation peers.</p>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:5c56bdcb:--></div>
+<p><a href="./_file/images/entrepreneurial-activity-tea-live.7a122bc2.png" download="entrepreneurial-activity-tea.png">⤓ Download image</a></p>
+<h2 id="technology-intensity-of-investment-portfolios" tabindex="-1"><a class="observablehq-header-anchor" href="#technology-intensity-of-investment-portfolios">Technology Intensity of Investment Portfolios</a></h2>
+<p><mark>New:</mark>&nbsp;&nbsp;&nbsp;The European Patent Office (EPO) links its own patent data to <a href="https://dealroom.co" target="_blank" rel="noopener noreferrer">dealroom.co</a>'s data on investors and their investments and creates a comparative analysis of the technology intensity of the investment portfolios in Europe and the US.</p>
+<p>The EPO introduces the metric <strong>Technology Investor Score (TIS)</strong> designed to identify investors specialized in supporting high-tech companies. The TIS measures the percentage of companies with at least one patent within an investor’s portfolio. A high TIS indicates an investor’s engagement with innovation-driven companies.</p>
+<p>The analysis reveals <em>"significant funding gaps between Europe and the US for high-TIS private investors, particularly in critical technology sectors with high growth potential. These gaps are also most evident in the later-stage funding rounds essential for scaling up. Instead, we find a funding surplus for public investors."</em></p>
+<p>In other words, the US has more funding from high-TIS investors who are private, specialize in later-stage rounds (scale-up), and invest in high-tech sectors. This is only partially offset in Europe by greater funding from public investors.</p>
+<p>These funding gaps also apply to Switzerland. However, they are less pronounced than in other European countries because Switzerland ranks at the top in most categories compared to its European peers, including having a more mature VC market and investors with higher TIS scores. Innosuisse also appears as a public investor with a high TIS score, primarily because its support for the Swiss Accelerator and Start-up Innovation Projects is included in the dealroom.co data.</p>
+<h3 id="average-technology-investor-score-tis-by-country" tabindex="-1"><a class="observablehq-header-anchor" href="#average-technology-investor-score-tis-by-country">Average Technology Investor Score (TIS) by country</a></h3>
+<div><observablehq-loading></observablehq-loading><!--:aba09763:--></div>
+<a href="./_file/images/technology-investor-score-country-live.8c1fc825.png" download="technology-investor-score-country.png">⤓ Download image</a>
+<h3 id="tis-score-of-top-swiss-investors" tabindex="-1"><a class="observablehq-header-anchor" href="#tis-score-of-top-swiss-investors">TIS-Score of top Swiss investors</a></h3>
+<div><observablehq-loading></observablehq-loading><!--:a7adde53:--></div>
+<a href="./_file/images/swiss-investor-scores-live.c135b206.png" download="swiss-investor-scores.png">⤓ Download image</a>
+<h2 id="unicorn-companies" tabindex="-1"><a class="observablehq-header-anchor" href="#unicorn-companies">Unicorn companies</a></h2>
+<p><mark>New:</mark>&nbsp;&nbsp;&nbsp;This report uses CB Insights' unicorn database as the main data source, as it offers the best, freely available basis for comparing unicorns across countries. Since there's no official data on unicorns and different sources define them differently, we compared the data to the results of Dealroom, PitchBook, and Crunchbase. While the exact numbers vary, the relative differences between countries are similar.</p>
+<div class="warning" label="Note">Please note that these statistics should be thus viewed cautiously, as methods for identifying unicorns differ between data providers. The list of Swiss unicorns makes no claim to completeness or accuracy, but is intended to give an impression.</div>
+<h3 id="number-of-unicorn-companies-relative-to-gdp" tabindex="-1"><a class="observablehq-header-anchor" href="#number-of-unicorn-companies-relative-to-gdp">Number of unicorn companies relative to GDP</a></h3>
+<p>The graph below compares countries' efficiency in creating unicorn companies relative to their economic size, measured as the number of unicorns per $133 billion of GDP. Switzerland produces one unicorn per $133 billion GDP, similar to the Netherlands and Sweden. In contrast, the United States and Israel significantly outperform this benchmark, generating 3-6 times more unicorns relative to their GDP. CB Insights defines a unicorn company, or unicorn startup, as a private company with a valuation over $1 billion.</p>
+<div><observablehq-loading></observablehq-loading><!--:592fcfc2:--></div>
+<a href="./_file/images/unicorn-density-live.55602e1c.png" download="unicorn-density.png">⤓ Download image</a>
+<h3 id="swiss-unicorn-companies" tabindex="-1"><a class="observablehq-header-anchor" href="#swiss-unicorn-companies">Swiss unicorn companies</a></h3>
+<p>We've also created our own list of Swiss unicorns, including both current unicorns and former ones that have gone public or been acquired, thus some might not meet the strictest unicorn definition. Accordingly, the number is significantly higher than the number in the CB Insights data (28 vs 6). The list is based on the list of the Swiss ICT Investor Club (SICTIC) and has been updated with our own research.</p>
+<div><observablehq-loading></observablehq-loading><!--:2134d829:--></div>
+<a href="./_file/images/swiss-unicorns-live.c03e5b46.png" download="swiss-unicorns.png">⤓ Download image</a>
+<h4 id="sources" tabindex="-1"><a class="observablehq-header-anchor" href="#sources">Sources</a></h4>
+<ul>
+<li>Startupticker.ch (<a href="https://www.startupticker.ch/en/swiss-venture-capital-report" target="_blank" rel="noopener noreferrer">2025</a>) Venture Capital Report&nbsp;&nbsp;&nbsp;<mark>New</mark></li>
+<li>SECO (<a href="https://www.seco.admin.ch/dam/seco/en/dokumente/Standortfoerderung/KMU-Politik/Finanzierung%20der%20KMU/Bericht%20Postulat%20Derder%20-%20Rasch%20wachsende%20Jungunternehmen%20in%20der%20Schweiz.pdf.download.pdf/EN_Bericht_PO_Derder_Fast_growing_start_ups_in_Switzerland.pdf" target="_blank" rel="noopener noreferrer">2017</a>) Fast-growing start-ups in Switzerland</li>
+<li>GEM (<a href="https://gemconsortium.org/reports/latest-global-report" target="_blank" rel="noopener noreferrer">2025</a>) Global Entrepreneurship Monitor&nbsp;&nbsp;&nbsp;<mark>New</mark></li>
+<li>European Patent Office (<a href="https://epo.org/mapping-investors" target="_blank" rel="noopener noreferrer">2025</a>) Mapping investors for European innovators</li>
+</ul>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./a_rnd"><span>Research and Development</span></a><a rel="next" href="./c_inno"><span>Innovation Activities</span></a></nav>
+<div>Authors: <a href="mailto:adrianriser@innosuisse.ch" target="_blank" rel="noopener noreferrer">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 25.06.2025 • <a href="https://observablehq.com/framework/" target="_blank" rel="noopener noreferrer">Built with Observable.</a></div>
+</footer>
+</div>
+</body>
+</html>

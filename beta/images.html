@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Innovation Ecosystem Monitor 2024 | Innovation Ecosystem</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/styles.53c0ad84.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/styles.53c0ad84.css">
+<link rel="modulepreload" href="./_observablehq/client.19f413ec.js">
+<link rel="modulepreload" href="./_observablehq/runtime.9393ab6d.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.31fc9623.js">
+<link rel="modulepreload" href="./_import/components/plots/rank.35433a9c.js">
+<link rel="modulepreload" href="./_import/components/plots/arrow_y.893fadd7.js">
+<link rel="modulepreload" href="./_import/components/plots/line_plots.07f52a00.js">
+<link rel="modulepreload" href="./_import/components/plots/bar_stacked_y.7446718b.js">
+<link rel="modulepreload" href="./_import/components/plots/bar_stacked_x.fcd8d3e3.js">
+<link rel="modulepreload" href="./_import/components/plots/sankey.f39e7441.js">
+<link rel="modulepreload" href="./_import/components/plots/bar_x.18bdc39d.js">
+<link rel="modulepreload" href="./_import/components/utils/countries.10854bad.js">
+<link rel="modulepreload" href="./_import/components/utils/colors.c15b65cb.js">
+<link rel="modulepreload" href="./_import/components/utils/subtractYears.6c06f425.js">
+<link rel="modulepreload" href="./_npm/arquero@8.0.3/175c2cad.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_node/@observablehq/plot@0.6.17/index.b6341d14.js">
+<link rel="modulepreload" href="./_node/arquero@7.2.0/index.fbd5f71c.js">
+<link rel="modulepreload" href="./_node/htl@0.3.1/index.0caf36e7.js">
+<link rel="modulepreload" href="./_import/components/utils/occlusionY.19d354b2.js">
+<link rel="modulepreload" href="./_node/d3@7.9.0/index.e21134d2.js">
+<link rel="modulepreload" href="./_npm/d3-sankey@0.12.3/4d634262.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e780feca.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/acorn@8.15.0/c47b807d.js">
+<link rel="modulepreload" href="./_npm/@uwdata/flechette@2.0.1/9569db75.js">
+<link rel="modulepreload" href="./_node/isoformat@0.2.1/index.0882e9d9.js">
+<link rel="modulepreload" href="./_node/interval-tree-1d@1.0.4/index.f507a53c.js">
+<link rel="modulepreload" href="./_node/acorn@8.14.0/index.80ce3267.js">
+<link rel="modulepreload" href="./_node/@uwdata/flechette@1.1.1/index.0ec36e66.js">
+<link rel="modulepreload" href="./_node/d3-array@3.2.4/index.f89e3560.js">
+<link rel="modulepreload" href="./_node/d3-axis@3.0.0/index.34ded868.js">
+<link rel="modulepreload" href="./_node/d3-brush@3.0.0/index.1c3fc471.js">
+<link rel="modulepreload" href="./_node/d3-chord@3.0.1/index.9b04aad8.js">
+<link rel="modulepreload" href="./_node/d3-color@3.1.0/index.e8c126ff.js">
+<link rel="modulepreload" href="./_node/d3-contour@4.0.2/index.0d0783e1.js">
+<link rel="modulepreload" href="./_node/d3-delaunay@6.0.4/index.1771ba9f.js">
+<link rel="modulepreload" href="./_node/d3-dispatch@3.0.1/index.be49ca5f.js">
+<link rel="modulepreload" href="./_node/d3-drag@3.0.0/index.8e5f73cc.js">
+<link rel="modulepreload" href="./_node/d3-dsv@3.0.1/index.a1fe4c7b.js">
+<link rel="modulepreload" href="./_node/d3-ease@3.0.1/index.09153f73.js">
+<link rel="modulepreload" href="./_node/d3-fetch@3.0.1/index.e91238ad.js">
+<link rel="modulepreload" href="./_node/d3-force@3.0.0/index.952bd793.js">
+<link rel="modulepreload" href="./_node/d3-format@3.1.0/index.75f84505.js">
+<link rel="modulepreload" href="./_node/d3-geo@3.1.1/index.75f0ca91.js">
+<link rel="modulepreload" href="./_node/d3-hierarchy@3.1.2/index.0a013d9a.js">
+<link rel="modulepreload" href="./_node/d3-interpolate@3.0.1/index.7ed7c7fe.js">
+<link rel="modulepreload" href="./_node/d3-path@3.1.0/index.c2b3c473.js">
+<link rel="modulepreload" href="./_node/d3-polygon@3.0.1/index.b64a6d51.js">
+<link rel="modulepreload" href="./_node/d3-quadtree@3.0.1/index.e9fed2eb.js">
+<link rel="modulepreload" href="./_node/d3-random@3.0.1/index.fd2cc361.js">
+<link rel="modulepreload" href="./_node/d3-scale@4.0.2/index.61617510.js">
+<link rel="modulepreload" href="./_node/d3-scale-chromatic@3.1.0/index.7961cbed.js">
+<link rel="modulepreload" href="./_node/d3-selection@3.0.0/index.13204b25.js">
+<link rel="modulepreload" href="./_node/d3-shape@3.2.0/index.b551bc1c.js">
+<link rel="modulepreload" href="./_node/d3-time@3.1.0/index.8fcc123e.js">
+<link rel="modulepreload" href="./_node/d3-time-format@4.1.0/index.20c5f3ca.js">
+<link rel="modulepreload" href="./_node/d3-timer@3.0.1/index.0ee6092b.js">
+<link rel="modulepreload" href="./_node/d3-transition@3.0.1/index.d140d658.js">
+<link rel="modulepreload" href="./_node/d3-zoom@3.0.0/index.0e732a91.js">
+<link rel="modulepreload" href="./_npm/d3-array@2.12.1/bca3792b.js">
+<link rel="modulepreload" href="./_npm/d3-shape@1.3.7/9a730356.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/86074ef6.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/843b6a76.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_node/binary-search-bounds@2.0.5/index.990a1c6d.js">
+<link rel="modulepreload" href="./_node/internmap@2.0.3/index.4106013c.js">
+<link rel="modulepreload" href="./_node/delaunator@5.0.1/index.70ae1478.js">
+<link rel="modulepreload" href="./_npm/internmap@1.0.1/b4c0ca9e.js">
+<link rel="modulepreload" href="./_npm/d3-path@1.0.9/b57ea69b.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_node/robust-predicates@3.0.2/index.bdc459cc.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<link rel="icon" href="./_file/favicon-32x32.d06a8ecd.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.19f413ec.js";
+import {registerFile} from "./_observablehq/stdlib.31fc9623.js";
+
+registerFile("./data/df_epo.csv", {"name":"./data/df_epo.csv","mimeType":"text/csv","path":"./_file/data/df_epo.e93054be.csv","lastModified":1749112876214,"size":2215});
+registerFile("./data/df_gtard.csv", {"name":"./data/df_gtard.csv","mimeType":"text/csv","path":"./_file/data/df_gtard.64dd3710.csv","lastModified":1750325911552,"size":41207});
+registerFile("./data/df_ht_csv.csv", {"name":"./data/df_ht_csv.csv","mimeType":"text/csv","path":"./_file/data/df_ht_csv.9794f53c.csv","lastModified":1751272191721,"size":18173});
+registerFile("./data/df_oecd_mfp_csv.csv", {"name":"./data/df_oecd_mfp_csv.csv","mimeType":"text/csv","path":"./_file/data/df_oecd_mfp_csv.0ef5c507.csv","lastModified":1751271970441,"size":62853});
+registerFile("./data/df_oecd_msti.csv", {"name":"./data/df_oecd_msti.csv","mimeType":"text/csv","path":"./_file/data/df_oecd_msti.b09f8d54.csv","lastModified":1750325916319,"size":3644208});
+registerFile("./data/df_oecd_vc_csv.csv", {"name":"./data/df_oecd_vc_csv.csv","mimeType":"text/csv","path":"./_file/data/df_oecd_vc_csv.19e37870.csv","lastModified":1751272012801,"size":143236});
+registerFile("./data/df_rank.csv", {"name":"./data/df_rank.csv","mimeType":"text/csv","path":"./_file/data/df_rank.117d0b4e.csv","lastModified":1750843137065,"size":142056});
+registerFile("./data/df_rnd_type.csv", {"name":"./data/df_rnd_type.csv","mimeType":"text/csv","path":"./_file/data/df_rnd_type.b2801318.csv","lastModified":1750325921331,"size":7595});
+registerFile("./data/df_unicorns_ch.csv", {"name":"./data/df_unicorns_ch.csv","mimeType":"text/csv","path":"./_file/data/df_unicorns_ch.179401b3.csv","lastModified":1749117648077,"size":1440});
+registerFile("./data/df_unicorns_country.csv", {"name":"./data/df_unicorns_country.csv","mimeType":"text/csv","path":"./_file/data/df_unicorns_country.74964139.csv","lastModified":1749115345173,"size":929});
+registerFile("./data/eurostat_eis_values.csv", {"name":"./data/eurostat_eis_values.csv","mimeType":"text/csv","path":"./_file/data/eurostat_eis_values.daf48e9b.csv","lastModified":1725968143223,"size":1436003});
+registerFile("./data/gem_tea_2018-2024.csv", {"name":"./data/gem_tea_2018-2024.csv","mimeType":"text/csv","path":"./_file/data/gem_tea_2018-2024.13589a2d.csv","lastModified":1749219487650,"size":1301});
+registerFile("./data/iso3_country.csv", {"name":"./data/iso3_country.csv","mimeType":"text/csv","path":"./_file/data/iso3_country.72d5f011.csv","lastModified":1750259056093,"size":1873});
+registerFile("./data/rnd_ch_2023.csv", {"name":"./data/rnd_ch_2023.csv","mimeType":"text/csv","path":"./_file/data/rnd_ch_2023.0bf10830.csv","lastModified":1751463281132,"size":604});
+registerFile("./data/switt_startup_2024.csv", {"name":"./data/switt_startup_2024.csv","mimeType":"text/csv","path":"./_file/data/switt_startup_2024.69dc4a42.csv","lastModified":1749203568598,"size":1175});
+
+define({id: "13f8bb67", inputs: ["FileAttachment"], outputs: ["plot_eis","plot_rank_bump","arrow_eis","line_cis","line_oecd","line_oecd_gbard","bar_stacked_y","bar_stacked_y_normalized","area_stacked_y_gerd_ch","bar_stacked_x","rnd_ch_sankey","bar_x","bar_x_unicorn","arrow_unicorns","country_iso3","iso3_country","color_scale","colorLegend","countries","subtractYears","aq","df_rank","df_ranking","df_eis","df_eis_filtered","df_eis_pivoted","df_eis_sorted","df_gtard","df_oecd_msti","df_rnd_ch","df_rnd_type","filter_oecd_msti","df_gerd","df_gerd_gov","df_berd_gov","df_rnd_personnel","df_gbard_tax","df_gerd_type","df_gerd_type1","domain1","order1","df_gerd_type3","df_gerd_type2","domain2","order2","rnd_type","rnd_type2023","df_ch_gerd","df_oecd_vc","df_gem_tea","df_tea","df_epo","df_unicorns_country","df_unicorns_ch","countries_filtered","df_vc","gdp","df_ug","df_oecd_mfp","df_oecd_mfp_plot","df_switt","df_patents","df_ppcp","df_ht","df_ert","df_htex","df_mht"], body: async (FileAttachment) => {
+const [{plot_eis, plot_rank_bump}, {arrow_eis}, {line_cis, line_oecd, line_oecd_gbard}, {bar_stacked_y, bar_stacked_y_normalized, area_stacked_y_gerd_ch}, {bar_stacked_x}, {rnd_ch_sankey}, {bar_x, bar_x_unicorn}, {arrow_unicorns}, {country_iso3, iso3_country}, {color_scale, colorLegend, countries}, {subtractYears}, aq] = await Promise.all([import("./_import/components/plots/rank.35433a9c.js"), import("./_import/components/plots/arrow_y.893fadd7.js"), import("./_import/components/plots/line_plots.07f52a00.js"), import("./_import/components/plots/bar_stacked_y.7446718b.js"), import("./_import/components/plots/bar_stacked_x.fcd8d3e3.js"), import("./_import/components/plots/sankey.f39e7441.js"), import("./_import/components/plots/bar_x.18bdc39d.js"), import("./_import/components/plots/arrow_y.893fadd7.js"), import("./_import/components/utils/countries.10854bad.js"), import("./_import/components/utils/colors.c15b65cb.js"), import("./_import/components/utils/subtractYears.6c06f425.js"), import("./_npm/arquero@8.0.3/175c2cad.js")]);
+// Component imports
+
+// Data loading for all charts
+const df_rank = await FileAttachment("./data/df_rank.csv").csv({ typed: true });
+const df_ranking = df_rank
+    .map((item) => ({
+      iso3: item.iso3,
+      country: item.country,
+      index: item.index,
+      index_name: item.index_name,
+      year: item.year.toString(),
+      year_date: item.date,
+      rank: item.rank,
+    }))
+    .filter(
+      (d) =>
+        countries.includes(d.iso3) &&
+        (d.year_date > new Date("2021-12-31") || d.year_date === "NA") 
+        //&& ["2022", "2023", "2024", "Change"].includes(d.year)
+    );
+const df_eis = await FileAttachment("./data/eurostat_eis_values.csv").csv({typed: true});
+const df_eis_filtered = df_eis.filter(
+  (d) => countries.includes(d.iso3) & (d.var_code === "SII"));
+const df_eis_pivoted = aq
+  .from(df_eis_filtered)
+  .groupby("country", "iso3")
+  .pivot("year", "obs_value")
+  .orderby(aq.desc("2024"))
+  .objects();
+const df_eis_sorted = df_eis_pivoted.map((d) => d.country);
+// Research & Development data
+const df_gtard = await FileAttachment("./data/df_gtard.csv").csv({ typed: true });
+const df_oecd_msti = await FileAttachment("./data/df_oecd_msti.csv").csv({ typed: true });
+const df_rnd_ch = await FileAttachment("./data/rnd_ch_2023.csv").csv({ typed: true });
+const df_rnd_type = await FileAttachment("./data/df_rnd_type.csv").csv({ typed: true });
+
+// Manipulate data
+function filter_oecd_msti(data, unit = "PT_B1GQ", measure = "G", countries = ["CHE"]) {
+  return data
+    .filter((d) => d.unit === unit && d.measure === measure && countries.includes(d.iso3))
+    .sort((a, b) => {
+      // First sort by country: CHE comes first
+      if (a.iso3 === "CHE" && b.iso3 !== "CHE") return 1;
+      if (a.iso3 !== "CHE" && b.iso3 === "CHE") return -1;
+      
+      // Then sort by year
+      return a.year - b.year;
+    });
+}
+const df_gerd = filter_oecd_msti(df_oecd_msti, "PT_B1GQ", "G", countries)
+df_gerd.push({iso3: "CHE", country: "Switzerland", measure: "G", measure_name: "Gross Domestic Expenditure on R&D (GERD)", unit: "PT_B1GQ", year: 2021, obs_value: 3.2, year_date: new Date("2023-01-01")})
+const df_gerd_gov = filter_oecd_msti(df_oecd_msti, "PT_B1GQ","G_FG", countries)
+const df_berd_gov = filter_oecd_msti(df_oecd_msti, "PT_BERD","B_FG", countries);
+const df_rnd_personnel = filter_oecd_msti(df_oecd_msti, "10P3EMP","T_TT", countries)
+const df_gbard_tax = df_gtard
+    .filter((d) => countries.includes(d.iso3))
+    .sort((a, b) => a.year - b.year); // only for selected countries
+const df_gerd_type = aq.from(df_oecd_msti.filter((d) => ["B", "GV", "H"].includes(d.measure) &&
+      d.unit === "PT_B1GQ" &&
+      countries.includes(d.iso3) &&
+      [2021].includes(d.year)
+  )).groupby('country')
+  .derive({
+    country_total: d => aq.op.sum(d.obs_value)
+  })
+  .ungroup()
+  .derive({
+    share: d => (d.obs_value / d.country_total) * 100
+  })
+  .select(aq.not('country_total'))
+  .orderby('measure_name', aq.desc('share'))
+const df_gerd_type1 = df_gerd_type.objects()
+const domain1 = df_gerd_type.filter(d=> d.measure === "B").orderby('measure_name', 'share')
+    .array("country")
+const order1 = df_gerd_type.groupby('measure_name').count().orderby(aq.desc('measure_name')).array('measure_name')
+const df_gerd_type3 = aq.from(df_oecd_msti.filter((d) => ["G_FA", "G_FON", "G_FG", "G_FB"].includes(d.measure) &&
+      d.unit === "PT_B1GQ" &&
+      countries.includes(d.iso3) &&
+      [2021].includes(d.year)
+  )).groupby('country')
+  .derive({
+    country_total: d => aq.op.sum(d.obs_value),
+    measure_name: d => d.measure === "G_FA" ? "Rest of the world" : d.measure === "G_FB" ? "Business sector" : d.measure ==="G_FG" ? "Government" : "Higher Education and PNP sectors"
+  })
+  .ungroup()
+  .derive({
+    share: d => (d.obs_value / d.country_total) * 100
+  })
+  .select(aq.not('country_total'))
+  .orderby('measure_name', aq.desc('share'))
+const df_gerd_type2 = df_gerd_type3.objects()
+const domain2 = df_gerd_type3.filter(d=> d.measure === "G_FB").orderby('measure_name', 'share')
+    .array("country")
+const order2 = df_gerd_type3.groupby('measure_name').count().orderby(aq.desc('measure_name')).array('measure_name')
+const rnd_type = df_rnd_type.filter(d => countries.includes(d.iso3))
+const rnd_type2023 = rnd_type.map((d) => ({
+  ...d,
+share: (d.iso3 === "CHE" && d.type === "Applied research") ? 37.9 : 
+(d.iso3 === "CHE" && d.type === "Basic research") ? 27.2 : (d.iso3 === "CHE" && d.type === "Experimental development") ? 34.9 : d.share
+    }))
+const df_ch_gerd = df_oecd_msti.filter(
+  (d) => ["B", "GV", "H"].includes(d.measure) &&
+  d.unit === "PT_B1GQ" &&
+  ["CHE"].includes(d.iso3) &&
+  [2021, 2019, 2017].includes(d.year));
+
+// Entrepreneurship and Start-ups data
+const df_oecd_vc = await FileAttachment("./data/df_oecd_vc_csv.csv").csv({ typed: true });
+const df_gem_tea = await FileAttachment("./data/gem_tea_2018-2024.csv").csv({ typed: true });
+const df_tea = df_gem_tea
+    .filter((d) => countries.includes(d.iso3))
+    .sort((a, b) => a.year - b.year)
+    .map(d => ({
+      ...d,
+      country: d.economy,
+      year_date: new Date(d.year.toString()),
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+const df_epo = await FileAttachment("./data/df_epo.csv").csv({ typed: true });
+const df_unicorns_country = await FileAttachment("./data/df_unicorns_country.csv").csv({ typed: true });
+const df_unicorns_ch = await FileAttachment("./data/df_unicorns_ch.csv").csv({ typed: true });
+const countries_filtered = 
+//isr ? countries.filter(d => !["DEU", "FIN", "NLD", "SWE"].includes(d)) : 
+countries.filter(d => !["ISR", "USA"].includes(d))
+const df_vc = df_oecd_vc.filter(
+    (d) =>
+      (d.measure === "VC_INV_MKT") && // R&D Personnel
+      (d.bds === "_T") &&
+      (d.unit === "PT_B1GQ") && // per 1'000 employment
+      countries_filtered.includes(d.iso3)
+  ).sort((a, b) => a.year - b.year);
+const gdp = df_oecd_msti
+    .filter(
+      (d) =>
+        d.year_date < new Date("2024-01-01") &&
+        d.year_date > new Date("2022-01-01") &&
+        countries.includes(d.iso3) &&
+        d.unit === "USD_PPP" &&
+        d.measure === "GDP"
+    )
+    .map((d) => ({
+      iso3: d.iso3,
+      country: d.country,
+      year: d.year_date,
+      measure: d.measure_name,
+      gdp: d.obs_value
+    }));
+const df_ug = df_unicorns_country
+    .filter((d) => countries.includes(d.iso3))
+    .map((unicorn) => {
+      // Find matching GDP record
+      const gdpRecord = gdp.find((g) => g.iso3 === unicorn.iso3);
+      // Return unicorn data with added GDP
+      return {
+        ...unicorn,
+        gdp: gdpRecord ? gdpRecord.gdp / 133000 : null, // Add GDP or null if no match
+        gdp_unicorn: unicorn.unicorns / (gdpRecord.gdp / 133000)
+      };
+    });
+
+// Innovation Activities data
+const df_oecd_mfp = await FileAttachment("./data/df_oecd_mfp_csv.csv").csv({ typed: true });
+const df_oecd_mfp_plot = df_oecd_mfp.filter((d) => countries.includes(d.iso3)).sort((a, b) => a.year - b.year);
+
+// OECD MSTI Daten laden
+const df_switt = await FileAttachment("./data/switt_startup_2024.csv").csv({
+  typed: true,
+});
+const df_patents = df_eis.filter(
+  (d) =>
+    countries.includes(d.iso3) &
+    (d.var_code === "pct_patents") &
+    (d.year > 2018)
+).map(d => ({
+      ...d,
+        year_date: subtractYears(d.year_date, 4),
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+
+const df_ppcp = df_eis.filter(
+  (d) =>
+    countries.includes(d.iso3) &
+    (d.var_code === "pub_priv_pubs") &
+    (d.year > 2017)
+).map(d => ({
+      ...d,
+        year_date: subtractYears(d.year_date, 1)
+      }))
+
+// Sustainability and High-tech Exports data
+const df_ht = await FileAttachment("./data/df_ht_csv.csv").csv({ typed: true });
+const df_ert = df_eis.filter(
+  (d) => countries.includes(d.iso3) & (d.var_code === "env_tech")
+).map(d => ({
+  ...d,
+  year_date: subtractYears(d.year_date, 5),
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+const df_htex = df_ht.filter((d) => countries.includes(d.iso3) & (d.year_date > new Date("2016-01-01")))
+.map(d => ({
+      ...d,
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex);
+const df_mht = df_eis.filter((d) => countries.includes(d.iso3) & (d.var_code === "hi_tech_exports"))
+  .map(d => ({
+      ...d,
+        year_date: subtractYears(d.year_date, 1),
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex);
+
+return {plot_eis,plot_rank_bump,arrow_eis,line_cis,line_oecd,line_oecd_gbard,bar_stacked_y,bar_stacked_y_normalized,area_stacked_y_gerd_ch,bar_stacked_x,rnd_ch_sankey,bar_x,bar_x_unicorn,arrow_unicorns,country_iso3,iso3_country,color_scale,colorLegend,countries,subtractYears,aq,df_rank,df_ranking,df_eis,df_eis_filtered,df_eis_pivoted,df_eis_sorted,df_gtard,df_oecd_msti,df_rnd_ch,df_rnd_type,filter_oecd_msti,df_gerd,df_gerd_gov,df_berd_gov,df_rnd_personnel,df_gbard_tax,df_gerd_type,df_gerd_type1,domain1,order1,df_gerd_type3,df_gerd_type2,domain2,order2,rnd_type,rnd_type2023,df_ch_gerd,df_oecd_vc,df_gem_tea,df_tea,df_epo,df_unicorns_country,df_unicorns_ch,countries_filtered,df_vc,gdp,df_ug,df_oecd_mfp,df_oecd_mfp_plot,df_switt,df_patents,df_ppcp,df_ht,df_ert,df_htex,df_mht};
+}});
+
+define({id: "d9a29c49", mode: "inline", inputs: ["display","plot_rank_bump","df_ranking","html"], body: (display,plot_rank_bump,df_ranking,html) => {
+display(plot_rank_bump(df_ranking, ["EIS", "GII", "EIQ"], true, html`Sources: WIPO (2024), European Commission (2024) & Economist Impact (2023)`))
+}});
+
+define({id: "1de46353", mode: "inline", inputs: ["display","arrow_eis","df_eis_pivoted","df_eis_filtered","df_eis_sorted","color_scale"], body: (display,arrow_eis,df_eis_pivoted,df_eis_filtered,df_eis_sorted,color_scale) => {
+display(arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, color_scale))
+}});
+
+define({id: "3ceb84af", mode: "inline", inputs: ["display","plot_rank_bump","df_ranking"], body: (display,plot_rank_bump,df_ranking) => {
+display(plot_rank_bump(df_ranking, ["WCR", "WDCR"], false,"Source: IMD World Competitiveness Center"))
+}});
+
+define({id: "c1f37035", mode: "inline", inputs: ["display","rnd_ch_sankey","df_rnd_ch"], body: (display,rnd_ch_sankey,df_rnd_ch) => {
+display(rnd_ch_sankey(df_rnd_ch))
+}});
+
+define({id: "0c891739", mode: "inline", inputs: ["display","line_oecd","df_gerd"], body: (display,line_oecd,df_gerd) => {
+display(line_oecd(df_gerd,"GERD in % of GDP",false,"OECD Main Science and Technology Indicators (MSTI)","https://oe.cd/msti", 1, true, true))
+}});
+
+define({id: "ccb86dba", mode: "inline", inputs: ["display","bar_stacked_y_normalized","df_gerd_type1","domain1","order1"], body: (display,bar_stacked_y_normalized,df_gerd_type1,domain1,order1) => {
+display(bar_stacked_y_normalized(df_gerd_type1, true, domain1, order1))
+}});
+
+define({id: "0a696211", mode: "inline", inputs: ["display","bar_stacked_x","rnd_type2023"], body: (display,bar_stacked_x,rnd_type2023) => {
+display(bar_stacked_x(rnd_type2023))
+}});
+
+define({id: "46e65cbc", mode: "inline", inputs: ["display","bar_stacked_y_normalized","df_gerd_type2","domain2","order2"], body: (display,bar_stacked_y_normalized,df_gerd_type2,domain2,order2) => {
+display(bar_stacked_y_normalized(df_gerd_type2, true, domain2, order2))
+}});
+
+define({id: "49b23839", mode: "inline", inputs: ["display","line_oecd","df_gerd_gov"], body: (display,line_oecd,df_gerd_gov) => {
+display(line_oecd(df_gerd_gov, "% of GDP", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, true, true))
+}});
+
+define({id: "86beedd1", mode: "inline", inputs: ["display","line_oecd","df_berd_gov"], body: (display,line_oecd,df_berd_gov) => {
+display(line_oecd(df_berd_gov, "% of business enterprise expenditure on R&D", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, true, true))
+}});
+
+define({id: "21c03c6b", mode: "inline", inputs: ["display","line_oecd","df_rnd_personnel"], body: (display,line_oecd,df_rnd_personnel) => {
+display(line_oecd(df_rnd_personnel, "R&D personnel per 1'000 employment", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, false, true))
+}});
+
+define({id: "bc0bdb17", mode: "inline", inputs: ["display","line_oecd","df_vc"], body: (display,line_oecd,df_vc) => {
+display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 1, true, true))
+}});
+
+define({id: "a4151ac8", mode: "inline", inputs: ["display","line_oecd","df_tea"], body: (display,line_oecd,df_tea) => {
+display(line_oecd(df_tea, "Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %", true,"Global Entrepreneurship Monitor","https://gemconsortium.org/reports/latest-global-report", 1, false, true))
+}});
+
+define({id: "aba09763", mode: "inline", inputs: ["display","bar_x","df_epo"], body: (display,bar_x,df_epo) => {
+display(bar_x(df_epo, "country", "EPO", "https://epo.org/mapping-investors"))
+}});
+
+define({id: "a7adde53", mode: "inline", inputs: ["display","bar_x","df_epo"], body: (display,bar_x,df_epo) => {
+display(bar_x(df_epo, "investor", "EPO", "https://epo.org/mapping-investors"))
+}});
+
+define({id: "592fcfc2", mode: "inline", inputs: ["display","bar_x_unicorn","df_ug","color_scale"], body: (display,bar_x_unicorn,df_ug,color_scale) => {
+display(bar_x_unicorn(df_ug, color_scale))
+}});
+
+define({id: "2134d829", mode: "inline", inputs: ["display","arrow_unicorns","df_unicorns_ch"], body: (display,arrow_unicorns,df_unicorns_ch) => {
+display(arrow_unicorns(df_unicorns_ch))
+}});
+
+define({id: "608aeecd", mode: "inline", inputs: ["display","line_oecd","df_oecd_mfp_plot"], body: (display,line_oecd,df_oecd_mfp_plot) => {
+display(line_oecd(df_oecd_mfp_plot, "Multi-factor productivity (Index = 2015, Current prices)", false, "OECD Productivity database", "https://oe.cd/productivity", 1, false, false))
+}});
+
+define({id: "81041099", mode: "inline", inputs: ["display","line_oecd","df_patents"], body: (display,line_oecd,df_patents) => {
+display(line_oecd(df_patents, "PCT patent applications per billion GDP (in PPS)", false, "European Commission / WIPO", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, true))
+}});
+
+define({id: "c1e66239", mode: "inline", inputs: ["display","line_oecd","df_ppcp"], body: (display,line_oecd,df_ppcp) => {
+display(line_oecd(df_ppcp, "Public-private co-publications per million population", false, "European Commission", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))
+}});
+
+define({id: "2e77f50d", mode: "inline", inputs: ["display","bar_stacked_y","df_switt"], body: (display,bar_stacked_y,df_switt) => {
+display(bar_stacked_y(df_switt, "swiTT", "https://switt.ch/switt-reports"))
+}});
+
+define({id: "9b7d58e9", mode: "inline", inputs: ["display","line_oecd","df_ert"], body: (display,line_oecd,df_ert) => {
+display(line_oecd(df_ert, "Development of environment-related technologies, percentage of all technologies", false, "European Commission, OECD Green Growth database", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))
+}});
+
+define({id: "2895869f", mode: "inline", inputs: ["display","line_oecd","df_htex"], body: (display,line_oecd,df_htex) => {
+display(line_oecd(df_htex, "Exports of high technology products as a share of total products exports", false, "European Commission", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))
+}});
+
+define({id: "380129c3", mode: "inline", inputs: ["display","line_oecd","df_mht"], body: (display,line_oecd,df_mht) => {
+display(line_oecd(df_mht, "Exports of medium and high technology products as a share of total products exports", false, "European Commission", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">Innovation Ecosystem</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./a_rnd">Research and Development</a></li>
+    <li class="observablehq-link"><a href="./b_ens">Entrepreneurship and Start-ups</a></li>
+    <li class="observablehq-link"><a href="./c_inno">Innovation Activities</a></li>
+    <li class="observablehq-link"><a href="./d_ktt">Knowledge and Technology Transfer</a></li>
+    <li class="observablehq-link"><a href="./e_snd">Sustainability and High-tech Exports</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<div class="observablehq observablehq--block"><!--:13f8bb67:--></div>
+<h1 id="index" tabindex="-1"><a class="observablehq-header-anchor" href="#index">Index</a></h1>
+<figure id="innovation-rankings-figure">
+<h2>Comparative Innovation Index Ranking, 2022–24</h2>
+<observablehq-loading></observablehq-loading><!--:d9a29c49:-->
+</figure>
+<figcaption><a href="./_file/images/innovation-rankings-live.2bb70b72.png" download="innovation-rankings.png">⤓ Download image</a><p></p>
+<figure id="eis-progress-arrow-figure">
+<h2>European Innovation Index Score Development, 2017–2024</h2>
+<observablehq-loading></observablehq-loading><!--:1de46353:-->
+</figure>
+<figcaption><a href="./_file/images/eis-progress-arrow-live.522acc45.png" download="eis-progress-arrow.png">⤓ Download image</a><p></p>
+<figure id="competitiveness-rankings-figure">
+<h2>International Competitiveness Rankings, 2022–25</h2>
+<observablehq-loading></observablehq-loading><!--:3ceb84af:-->
+</figure>
+<figcaption><a href="./_file/images/competitiveness-rankings-live.16a777b6.png" download="competitiveness-rankings.png">⤓ Download image</a><p></p>
+<h1 id="a-research-and-development" tabindex="-1"><a class="observablehq-header-anchor" href="#a-research-and-development">A. Research &amp; Development</a></h1>
+<figure id="swiss-rnd-sankey-figure">
+<h2>Swiss R&amp;D Financial Flows by Sector, 2023</h2>
+<observablehq-loading></observablehq-loading><!--:c1f37035:-->
+<figcaption><span>Source: Federal Statistical Office<br>Note: Private non-profit organizations (PNP) are included for comprehensiveness; however, they represent only a marginal portion of total funding (CHF 0.1 bn) and expenditure (CHF 0.3 bn).</span></figcaption>
+</figure>
+<div>test
+<a href="./_file/images/swiss-rnd-sankey-live.671705fe.png" download="swiss-rnd-sankey.png">⤓ Download image</a>
+</div>
+<figure id="gerd-gdp-comparison-figure">
+<h2>Gross Domestic Expenditure on R&amp;D (GERD) as Percentage of GDP, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:0c891739:-->
+</figure>
+<small><a href="./_file/images/gerd-gdp-comparison-live.92f50925.png" download="gerd-gdp-comparison.png">⤓ Download image</a></small>
+<figure id="rnd-expenditure-by-sector-figure">
+<h2>R&amp;D Expenditure by Sector as Percentage of GERD</h2>
+<observablehq-loading></observablehq-loading><!--:ccb86dba:-->
+</figure>
+<a href="./_file/images/rnd-expenditure-by-sector-live.41547254.png" download="rnd-expenditure-by-sector.png">⤓ Download image</a>
+<figure id="rnd-activities-by-type-figure">
+<h2>R&amp;D Activities by Type as Percentage of GERD</h2>
+<observablehq-loading></observablehq-loading><!--:0a696211:-->
+</figure>
+<small><a href="./_file/images/rnd-activities-by-type-live.fba157f6.png" download="rnd-activities-by-type.png">⤓ Download image</a></small>
+<figure id="rnd-funding-sources-figure">
+<h2>R&amp;D Funding Sources by Sector as Percentage of GERD</h2>
+<observablehq-loading></observablehq-loading><!--:46e65cbc:-->
+</figure>
+<small><a href="./_file/images/rnd-funding-sources-live.0ed7883a.png" download="rnd-funding-sources.png">⤓ Download image</a></small>
+<figure id="government-rnd-funding-figure">
+<h2>Government-Financed R&amp;D Expenditure as Percentage of GDP, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:49b23839:-->
+</figure>
+<figcaption><a href="./_file/images/government-rnd-funding-live.344678d2.png" download="government-rnd-funding.png">⤓ Download image</a><p></p>
+<figure id="government-business-rnd-figure">
+<h2>Government Financing of Business R&amp;D Expenditure (BERD) as Percentage of BERD, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:86beedd1:-->
+</figure>
+<figcaption><a href="./_file/images/government-business-rnd-live.4a8b84cb.png" download="government-business-rnd.png">⤓ Download image</a><p></p>
+<figure id="rnd-personnel-intensity-figure">
+<h2>R&amp;D Personnel Intensity, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:21c03c6b:-->
+</figure>
+<figcaption><a href="./_file/images/rnd-personnel-intensity-live.98f2a1bb.png" download="rnd-personnel-intensity.png">⤓ Download image</a><p></p>
+<h1 id="b-entrepreneurship-and-start-ups" tabindex="-1"><a class="observablehq-header-anchor" href="#b-entrepreneurship-and-start-ups">B. Entrepreneurship and Start-ups</a></h1>
+<figure id="venture-capital-gdp-figure">
+<h2>Venture Capital Investments as Percentage of GDP, 2017–2024</h2>
+<observablehq-loading></observablehq-loading><!--:bc0bdb17:-->
+</figure>
+<a href="./_file/images/venture-capital-gdp-live.bc982dd2.png" download="venture-capital-gdp.png">⤓ Download image</a>
+<figure id="entrepreneurial-activity-tea-figure">
+<h2>Total Entrepreneurial Activity Rate (TEA) among 18-64 Population, 2018–2024</h2>
+<observablehq-loading></observablehq-loading><!--:a4151ac8:-->
+</figure>
+<a href="./_file/images/entrepreneurial-activity-tea-live.7a122bc2.png" download="entrepreneurial-activity-tea.png">⤓ Download image</a>
+<figure id="technology-investor-score-country-figure">
+<h2>Technology Investor Score: Patent Portfolio Intensity of Investment Firms</h2>
+<observablehq-loading></observablehq-loading><!--:aba09763:-->
+</figure>
+<p><a href="./_file/images/technology-investor-score-country-live.8c1fc825.png" download="technology-investor-score-country.png">⤓ Download image</a></p>
+<figure id="swiss-investor-scores-figure">
+<h2>Technology Investor Scores of Leading Swiss Investment Firms</h2>
+<observablehq-loading></observablehq-loading><!--:a7adde53:-->
+</figure>
+<figcaption><a href="./_file/images/swiss-investor-scores-live.c135b206.png" download="swiss-investor-scores.png">⤓ Download image</a><p></p>
+<figure id="unicorn-density-figure">
+<h2>Unicorn Company Density, 2025</h2>
+<observablehq-loading></observablehq-loading><!--:592fcfc2:-->
+</figure>
+<a href="./_file/images/unicorn-density-live.55602e1c.png" download="unicorn-density.png">⤓ Download image</a>
+<figure id="swiss-unicorns-figure">
+<h2>Swiss Unicorn Companies: Current and Former Unicorn Enterprises, 2025</h2>
+<observablehq-loading></observablehq-loading><!--:2134d829:-->
+</figure>
+<a href="./_file/images/swiss-unicorns-live.c03e5b46.png" download="swiss-unicorns.png">⤓ Download image</a>
+<h1 id="c-innovation-activities" tabindex="-1"><a class="observablehq-header-anchor" href="#c-innovation-activities">C. Innovation Activities</a></h1>
+<figure id="multifactor-productivity-figure">
+<h2>Multi-Factor Productivity, 1998–2022</h2>
+<observablehq-loading></observablehq-loading><!--:608aeecd:-->
+</figure>
+<figcaption><a href="./_file/images/multifactor-productivity-live.ff06c584.png" download="multifactor-productivity.png">⤓ Download image</a><p></p>
+<h1 id="d-knowledge-and-technology-transfer" tabindex="-1"><a class="observablehq-header-anchor" href="#d-knowledge-and-technology-transfer">D. Knowledge and Technology Transfer</a></h1>
+<figure id="pct-patents-figure">
+<h2>International Patent Applications per Billion GDP (PPS), 2015–2020</h2>
+<observablehq-loading></observablehq-loading><!--:81041099:-->
+</figure>
+<figcaption><a href="./_file/images/pct-patents-live.7b201526.png" download="pct-patents.png">⤓ Download image</a><p></p>
+<figure id="public-private-copubs-figure">
+<h2>Public-Private Research Collaboration, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:c1e66239:-->
+</figure>
+<figcaption><a href="./_file/images/public-private-copubs-live.c8615294.png" download="public-private-copubs.png">⤓ Download image</a><p></p>
+<figure id="swiss-research-startups-figure">
+<h2>Start-ups and Spin-offs from Swiss Universities, 2017–2023</h2>
+<observablehq-loading></observablehq-loading><!--:2e77f50d:-->
+</figure>
+<figcaption><a href="./_file/images/swiss-research-startups-live.db2f1aad.png" download="swiss-research-startups.png">⤓ Download image</a><p></p>
+<h1 id="e-sustainability-and-high-tech-exports" tabindex="-1"><a class="observablehq-header-anchor" href="#e-sustainability-and-high-tech-exports">E. Sustainability and High-tech Exports</a></h1>
+<figure id="green-technology-patents-figure">
+<h2>Green Technology Patent Share, 2012–19</h2>
+<observablehq-loading></observablehq-loading><!--:9b7d58e9:-->
+</figure>
+<a href="./_file/images/green-technology-patents-live.2b96794d.png" download="green-technology-patents.png">⤓ Download image</a>
+<figure id="hightech-exports-figure">
+<h2>High-Technology Export Share, 2017–2022</h2>
+<observablehq-loading></observablehq-loading><!--:2895869f:-->
+</figure>
+<a href="./_file/images/hightech-exports-live.c8466cb0.png" download="hightech-exports.png">⤓ Download image</a>
+<figure id="medium-hightech-exports-figure">
+<h2>Medium and High-Technology Export Share, 2016–2023</h2>
+<observablehq-loading></observablehq-loading><!--:380129c3:-->
+</figure>
+<a href="./_file/images/medium-hightech-exports-live.6909fbb9.png" download="medium-hightech-exports.png">⤓ Download image</a></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></figcaption></main>
+<footer id="observablehq-footer">
+<div>Authors: <a href="mailto:adrianriser@innosuisse.ch" target="_blank" rel="noopener noreferrer">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 25.06.2025 • <a href="https://observablehq.com/framework/" target="_blank" rel="noopener noreferrer">Built with Observable.</a></div>
+</footer>
+</div>
+</body>
+</html>
