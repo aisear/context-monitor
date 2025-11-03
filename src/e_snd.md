@@ -55,7 +55,7 @@ const df_serv = df_eis.filter((d) => countries.includes(d.iso3) & (d.var === "4.
 # Sustainability and High-tech Exports
 ## Resource productivity
 
-${colorLegend("CHE")} has a comparably low share of green technologies in percent of all patents and the share has been declining. Of the top innovators, ${colorLegend("DNK")} has a clear focus on environment-related technologies and its importance has grown over time.
+${colorLegend("CHE")}
 
 ```js
 display(line_oecd(df_r_prod,"",false,"Eurostat","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 1, false, true))
@@ -75,7 +75,7 @@ display(line_oecd(df_co2_prod,"",false,"Eurostat","https://research-and-innovati
 ${colorLegend("CHE")} has very high share of high-tech exports. The pharmaceuticals industry is likely the most important factor for Switzerland's top position, next to the other sub-sectors ("computer, electronic and optical products" and "air and spacecraft and related machinery").
 
 ```js
-display(line_oecd(df_htex,"Exports of high technology products as a share of total products exports",false,"European Commission","https://data.europa.eu/data/datasets/vfajyjoirq3icsstf1zw?locale=en", 1, false, true))
+display(line_oecd(df_htex,"Exports of high technology products as a share of total products exports",false,"European Commission","https://data.europa.eu/data/datasets/vfajyjoirq3icsstf1zw?locale=en", 0, true, true))
 ```
 <a href="./images/hightech-exports-live.png" download="hightech-exports.png">⤓ Download image</a>
 
@@ -87,7 +87,7 @@ Interestingly enough, if we widen the scope to medium and high-tech exports, ${c
 Medium-tech exports are – among others – chemical products, machinery, medical and dental instruments, etc.
 
 ```js
-display(line_oecd(df_mht, "Exports of medium and high technology products as a share of total products exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 1, false, true))
+display(line_oecd(df_mht, "Exports of medium and high technology products as a share of total products exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 0, true, true))
 ```
 
 !!! ToDo: <a href="./images/medium-hightech-exports-live.png" download="medium-hightech-exports.png">⤓ Download image</a>
@@ -95,7 +95,7 @@ display(line_oecd(df_mht, "Exports of medium and high technology products as a s
 ## Knowledge-intensive services exports
 
 ```js
-display(line_oecd(df_serv, "Knowledge-intensive services exports as a percentage of total services exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 1, false, true))
+display(line_oecd(df_serv, "Knowledge-intensive services exports as a percentage of total services exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 0, true, true))
 ```
 
 !!! ToDo: <a href="./images/medium-hightech-exports-live.png" download="medium-hightech-exports.png">⤓ Download image</a>

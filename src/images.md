@@ -19,15 +19,15 @@ import { subtractYears } from "./components/utils/subtractYears.js"
 import * as aq from "npm:arquero";
 
 // Data loading for all charts
-const df_rank = await FileAttachment("data/df_rank.csv").csv({ typed: true });
+const df_rank = await FileAttachment("data/rankings_2025.csv").csv({ typed: true });
 const df_ranking = df_rank
     .map((item) => ({
       iso3: item.iso3,
       country: item.country,
       index: item.index,
       index_name: item.index_name,
-      year: item.year.toString(),
-      year_date: item.date,
+      year: item.year.toString().substring(0, 4),
+      year_date: item.year,
       rank: item.rank,
     }))
     .filter(
@@ -36,14 +36,14 @@ const df_ranking = df_rank
         (d.year_date > new Date("2021-12-31") || d.year_date === "NA") 
         //&& ["2022", "2023", "2024", "Change"].includes(d.year)
     );
-const df_eis = await FileAttachment("data/eurostat_eis_values.csv").csv({typed: true});
-const df_eis_filtered = df_eis.filter(
-  (d) => countries.includes(d.iso3) & (d.var_code === "SII"));
+const df_eis = await FileAttachment("data/eis_raw_data_2025.csv").csv({typed: true});
+const df_eis_filtered = df_eis.filter((d) => countries.includes(d.iso3) && (d.var === "SII"));
 const df_eis_pivoted = aq
-  .from(df_eis_filtered)
+  .from(df_eis.filter((d) => countries.includes(d.iso3) & d.var === "SII"))
+  .filter((d) => d.year === 2025 || d.year === 2018)
   .groupby("country", "iso3")
   .pivot("year", "obs_value")
-  .orderby(aq.desc("2024"))
+  .orderby(aq.desc("2025"))
   .objects();
 const df_eis_sorted = df_eis_pivoted.map((d) => d.country);
 // Research & Development data
@@ -65,8 +65,7 @@ function filter_oecd_msti(data, unit = "PT_B1GQ", measure = "G", countries = ["C
       return a.year - b.year;
     });
 }
-const df_gerd = filter_oecd_msti(df_oecd_msti, "PT_B1GQ", "G", countries)
-df_gerd.push({iso3: "CHE", country: "Switzerland", measure: "G", measure_name: "Gross Domestic Expenditure on R&D (GERD)", unit: "PT_B1GQ", year: 2021, obs_value: 3.2, year_date: new Date("2023-01-01")})
+const df_gerd = filter_oecd_msti(df_oecd_msti, "PT_B1GQ", "G", countries).filter(d => d.iso3 !== "GBR")
 const df_gerd_gov = filter_oecd_msti(df_oecd_msti, "PT_B1GQ","G_FG", countries)
 const df_berd_gov = filter_oecd_msti(df_oecd_msti, "PT_BERD","B_FG", countries);
 const df_rnd_personnel = filter_oecd_msti(df_oecd_msti, "10P3EMP","T_TT", countries)
@@ -76,7 +75,7 @@ const df_gbard_tax = df_gtard
 const df_gerd_type = aq.from(df_oecd_msti.filter((d) => ["B", "GV", "H"].includes(d.measure) &&
       d.unit === "PT_B1GQ" &&
       countries.includes(d.iso3) &&
-      [2021].includes(d.year)
+      [2023].includes(d.year)
   )).groupby('country')
   .derive({
     country_total: d => aq.op.sum(d.obs_value)
@@ -93,8 +92,8 @@ const domain1 = df_gerd_type.filter(d=> d.measure === "B").orderby('measure_name
 const order1 = df_gerd_type.groupby('measure_name').count().orderby(aq.desc('measure_name')).array('measure_name')
 const df_gerd_type3 = aq.from(df_oecd_msti.filter((d) => ["G_FA", "G_FON", "G_FG", "G_FB"].includes(d.measure) &&
       d.unit === "PT_B1GQ" &&
-      countries.includes(d.iso3) &&
-      [2021].includes(d.year)
+      (countries.includes(d.iso3) &&
+      [2023].includes(d.year) || ["ISR"].includes(d.iso3) && [2021].includes(d.year))
   )).groupby('country')
   .derive({
     country_total: d => aq.op.sum(d.obs_value),
@@ -120,10 +119,10 @@ const df_ch_gerd = df_oecd_msti.filter(
   (d) => ["B", "GV", "H"].includes(d.measure) &&
   d.unit === "PT_B1GQ" &&
   ["CHE"].includes(d.iso3) &&
-  [2021, 2019, 2017].includes(d.year));
+  [2023, 2021, 2019].includes(d.year));
 
 // Entrepreneurship and Start-ups data
-const df_oecd_vc = await FileAttachment("./data/df_oecd_vc_csv.csv").csv({ typed: true });
+const df_oecd_vc = await FileAttachment("./data/df_oecd_vc.csv").csv({ typed: true });
 const df_gem_tea = await FileAttachment("./data/gem_tea_2018-2024.csv").csv({ typed: true });
 const df_tea = df_gem_tea
     .filter((d) => countries.includes(d.iso3))
@@ -178,8 +177,16 @@ const df_ug = df_unicorns_country
     });
 
 // Innovation Activities data
-const df_oecd_mfp = await FileAttachment("./data/df_oecd_mfp_csv.csv").csv({ typed: true });
-const df_oecd_mfp_plot = df_oecd_mfp.filter((d) => countries.includes(d.iso3)).sort((a, b) => a.year - b.year);
+const df_oecd_mfp = await FileAttachment("./data/df_oecd_mfp.csv").csv({ typed: true });
+const df_oecd_mfp_plot = df_oecd_mfp
+    .filter((d) => countries.includes(d.iso3))
+    .sort((a, b) => a.year_date - b.year_date)
+      .map(d => ({
+      ...d,
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex);
+    ; // only for selected countries
 
 // OECD MSTI Daten laden
 const df_switt = await FileAttachment("data/switt_startup_2024.csv").csv({
@@ -188,11 +195,9 @@ const df_switt = await FileAttachment("data/switt_startup_2024.csv").csv({
 const df_patents = df_eis.filter(
   (d) =>
     countries.includes(d.iso3) &
-    (d.var_code === "pct_patents") &
-    (d.year > 2018)
+    (d.var === "3.3.1")
 ).map(d => ({
       ...d,
-        year_date: subtractYears(d.year_date, 4),
       zIndex: d.iso3 === "CHE" ? 1 : 0
       }))
       .sort((a, b) => a.zIndex - b.zIndex)
@@ -200,49 +205,65 @@ const df_patents = df_eis.filter(
 const df_ppcp = df_eis.filter(
   (d) =>
     countries.includes(d.iso3) &
-    (d.var_code === "pub_priv_pubs") &
-    (d.year > 2017)
+    (d.var === "3.2.2")
 ).map(d => ({
       ...d,
-        year_date: subtractYears(d.year_date, 1)
-      }))
-
-// Sustainability and High-tech Exports data
-const df_ht = await FileAttachment("./data/df_ht_csv.csv").csv({ typed: true });
-const df_ert = df_eis.filter(
-  (d) => countries.includes(d.iso3) & (d.var_code === "env_tech")
-).map(d => ({
-  ...d,
-  year_date: subtractYears(d.year_date, 5),
       zIndex: d.iso3 === "CHE" ? 1 : 0
       }))
       .sort((a, b) => a.zIndex - b.zIndex)
+
+// Sustainability and High-tech Exports data
+const df_ht = await FileAttachment("./data/df_ht.csv").csv({ typed: true });
+
 const df_htex = df_ht.filter((d) => countries.includes(d.iso3) & (d.year_date > new Date("2016-01-01")))
 .map(d => ({
       ...d,
       zIndex: d.iso3 === "CHE" ? 1 : 0
       }))
       .sort((a, b) => a.zIndex - b.zIndex);
-const df_mht = df_eis.filter((d) => countries.includes(d.iso3) & (d.var_code === "hi_tech_exports"))
+
+const df_mht = df_eis.filter((d) => countries.includes(d.iso3) & (d.var === "4.2.1"))
   .map(d => ({
       ...d,
-        year_date: subtractYears(d.year_date, 1),
       zIndex: d.iso3 === "CHE" ? 1 : 0
       }))
       .sort((a, b) => a.zIndex - b.zIndex);
-
+const df_r_prod = df_eis.filter(
+  (d) =>
+    countries.includes(d.iso3) &
+    (d.var === "4.3.1")
+).map(d => ({
+      ...d,
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+const df_co2_prod = df_eis.filter(
+  (d) =>
+    countries.includes(d.iso3) &
+    (d.var === "4.3.2")
+).map(d => ({
+      ...d,
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex)
+const df_serv = df_eis.filter((d) => countries.includes(d.iso3) & (d.var === "4.2.2"))
+  .map(d => ({
+      ...d,
+      zIndex: d.iso3 === "CHE" ? 1 : 0
+      }))
+      .sort((a, b) => a.zIndex - b.zIndex);
 ```
 
 # Index
 
 <figure id="innovation-rankings-figure">
-<h2>Comparative Innovation Index Ranking, 2022–24</h2>
-${display(plot_rank_bump(df_ranking, ["EIS", "GII", "EIQ"], true, html`Sources: WIPO (2024), European Commission (2024) & Economist Impact (2023)`))}
+<h2>Comparative Innovation Index Ranking, 2022–25</h2>
+${display(plot_rank_bump(df_ranking, ["EIS", "GII"], true, html`Sources: WIPO (2024), European Commission (2025)`))}
 </figure>
 <figcaption><a href="./images/innovation-rankings-live.png" download="innovation-rankings.png">⤓ Download image</a></p>
 
 <figure id="eis-progress-arrow-figure">
-<h2>European Innovation Index Score Development, 2017–2024</h2>
+<h2>European Innovation Index Score Development, 2018–2025</h2>
 ${display(arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, color_scale))}
 </figure>
 <figcaption><a href="./images/eis-progress-arrow-live.png" download="eis-progress-arrow.png">⤓ Download image</a></p>
@@ -267,24 +288,24 @@ ${display(rnd_ch_sankey(df_rnd_ch))}
 
 <figure id="gerd-gdp-comparison-figure">
 <h2>Gross Domestic Expenditure on R&D (GERD) as Percentage of GDP, 2017–2023</h2>
-${display(line_oecd(df_gerd,"GERD in % of GDP",false,"OECD Main Science and Technology Indicators (MSTI)","https://oe.cd/msti", 1, true, true))}
+${display(line_oecd(df_gerd,"GERD in % of GDP",false,"OECD Main Science and Technology Indicators (MSTI)","https://oe.cd/msti", 2, true, true))}
 </figure>
 <small><a href="./images/gerd-gdp-comparison-live.png" download="gerd-gdp-comparison.png">⤓ Download image</a></small>
 
 <figure id="rnd-expenditure-by-sector-figure">
-<h2>R&D Expenditure by Sector as Percentage of GERD</h2>
+<h2>R&D Expenditure by Sector as Percentage of GERD, 2023</h2>
 ${display(bar_stacked_y_normalized(df_gerd_type1, true, domain1, order1))}
 </figure>
 <a href="./images/rnd-expenditure-by-sector-live.png" download="rnd-expenditure-by-sector.png">⤓ Download image</a>
 
 <figure id="rnd-activities-by-type-figure">
-<h2>R&D Activities by Type as Percentage of GERD</h2>
+<h2>R&D Activities by Type as Percentage of GERD, 2023</h2>
 ${display(bar_stacked_x(rnd_type2023))}
 </figure>
 <small><a href="./images/rnd-activities-by-type-live.png" download="rnd-activities-by-type.png">⤓ Download image</a></small>
 
 <figure id="rnd-funding-sources-figure">
-<h2>R&D Funding Sources by Sector as Percentage of GERD</h2>
+<h2>R&D Funding Sources by Sector as Percentage of GERD, 2023</h2>
 ${display(bar_stacked_y_normalized(df_gerd_type2, true, domain2, order2))}
 </figure>
 <small><a href="./images/rnd-funding-sources-live.png" download="rnd-funding-sources.png">⤓ Download image</a></small>
@@ -311,13 +332,13 @@ ${display(line_oecd(df_rnd_personnel, "R&D personnel per 1'000 employment", fals
 
 <figure id="venture-capital-gdp-figure">
 <h2>Venture Capital Investments as Percentage of GDP, 2017–2024</h2>
-${display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 1, true, true))}
+${display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 2, true, true))}
 </figure>
 <a href="./images/venture-capital-gdp-live.png" download="venture-capital-gdp.png">⤓ Download image</a>
 
 <figure id="entrepreneurial-activity-tea-figure">
 <h2>Total Entrepreneurial Activity Rate (TEA) among 18-64 Population, 2018–2024</h2>
-${display(line_oecd(df_tea, "Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %", true,"Global Entrepreneurship Monitor","https://gemconsortium.org/reports/latest-global-report", 1, false, true))}
+${display(line_oecd(df_tea,"Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %", true,"Global Entrepreneurship Monitor","https://gemconsortium.org/reports/latest-global-report", 1, false, true))}
 </figure>
 <a href="./images/entrepreneurial-activity-tea-live.png" download="entrepreneurial-activity-tea.png">⤓ Download image</a>
 
@@ -349,7 +370,7 @@ ${display(arrow_unicorns(df_unicorns_ch))}
 # C. Innovation Activities
 <figure id="multifactor-productivity-figure">
 <h2>Multi-Factor Productivity, 1998–2022</h2>
-${display(line_oecd(df_oecd_mfp_plot, "Multi-factor productivity (Index = 2015, Current prices)", false, "OECD Productivity database", "https://oe.cd/productivity", 1, false, false))}
+${line_oecd(df_oecd_mfp_plot, "Multi-factor productivity (Index = 2015, Current prices)",false,"OECD Productivity database","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=1998&format=csvfilewithlabels", 1, false, false)}
 </figure>
 <a href="./images/multifactor-productivity-live.png" download="multifactor-productivity.png">⤓ Download image</a>
 
@@ -375,20 +396,32 @@ ${display(bar_stacked_y(df_switt, "swiTT", "https://switt.ch/switt-reports"))}
 
 # E. Sustainability and High-tech Exports
 
-<figure id="green-technology-patents-figure">
-<h2>Green Technology Patent Share, 2012–19</h2>
-${display(line_oecd(df_ert, "Development of environment-related technologies, percentage of all technologies", false, "European Commission, OECD Green Growth database", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))}
+<figure id="resource-productivity-figure">
+<h2>Resource Productivity</h2>
+${display(line_oecd(df_r_prod,"",false,"Eurostat","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 1, false, true))}
 </figure>
-<a href="./images/green-technology-patents-live.png" download="green-technology-patents.png">⤓ Download image</a>
+<a href="./images/resource-productivity-live.png" download="resource-productivity.png">⤓ Download image</a>
+
+<figure id="co2-productivity-figure">
+<h2>CO2 Productivity</h2>
+${display(line_oecd(df_co2_prod,"",false,"Eurostat","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 1, false, true))}
+</figure>
+<a href="./images/co2-productivity-live.png" download="co2-productivity.png">⤓ Download image</a>
 
 <figure id="hightech-exports-figure">
 <h2>High-Technology Export Share, 2017–2022</h2>
-${display(line_oecd(df_htex, "Exports of high technology products as a share of total products exports", false, "European Commission", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))}
+${display(line_oecd(df_htex,"Exports of high technology products as a share of total products exports",false,"European Commission","https://data.europa.eu/data/datasets/vfajyjoirq3icsstf1zw?locale=en", 0, true, true))}
 </figure>
 <a href="./images/hightech-exports-live.png" download="hightech-exports.png">⤓ Download image</a>
 
 <figure id="medium-hightech-exports-figure">
 <h2>Medium and High-Technology Export Share, 2016–2023</h2>
-${display(line_oecd(df_mht, "Exports of medium and high technology products as a share of total products exports", false, "European Commission", "https://ec.europa.eu/research-and-innovation/en/statistics/performance-indicators/european-innovation-scoreboard", 1, false, false))}
+${display(line_oecd(df_mht, "Exports of medium and high technology products as a share of total products exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 0, true, true))}
 </figure>
 <a href="./images/medium-hightech-exports-live.png" download="medium-hightech-exports.png">⤓ Download image</a>
+
+<figure id="knowledge-intensive-services-figure">
+<h2>Knowledge-intensive Services Exports</h2>
+${display(line_oecd(df_serv, "Knowledge-intensive services exports as a percentage of total services exports", false, "European Commission","https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en", 0, true, true))}
+</figure>
+<a href="./images/knowledge-intensive-services-live.png" download="knowledge-intensive-services.png">⤓ Download image</a>

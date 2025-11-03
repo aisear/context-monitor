@@ -15,7 +15,7 @@ async function captureScreenshots() {
   // Define all figure IDs to capture
   const figureIds = [
     'innovation-rankings-figure',
-    'eis-progress-arrow-figure', 
+    'eis-progress-arrow-figure',
     'competitiveness-rankings-figure',
     'swiss-rnd-sankey-figure',
     'gerd-gdp-comparison-figure',
@@ -35,9 +35,11 @@ async function captureScreenshots() {
     'pct-patents-figure',
     'public-private-copubs-figure',
     'swiss-research-startups-figure',
-    'green-technology-patents-figure',
+    'resource-productivity-figure',
+    'co2-productivity-figure',
     'hightech-exports-figure',
-    'medium-hightech-exports-figure'
+    'medium-hightech-exports-figure',
+    'knowledge-intensive-services-figure'
   ];
   
   // Launch browser

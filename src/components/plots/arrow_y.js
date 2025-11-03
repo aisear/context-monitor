@@ -3,20 +3,26 @@ import * as aq from "arquero";
 import { color_scale } from "../utils/colors.js"
 import {html} from "htl";
 
-export function arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted) {
+export function arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, year_start = 2018, year_end = 2025, later_greater = true) {
+  const anchor_early = later_greater ? "end" : "start";
+  const anchor_late = later_greater ? "start" : "end";
+  
   return Plot.plot({
+    height: 250 * df_eis_sorted.length / 11,
     marginLeft: 100,
     marginTop: 35,
   marginRight: 50,
-  caption: "Source: European Commission (2025)",
+  caption: df_eis_filtered[0].var_axis  === "Global Innovation Index Score" ? "Source: WIPO (2025)" : "Source: European Commission (2025)",
     color: color_scale,
   x: {
-    label: `${df_eis_filtered[0].var_axis} 2018–2025`,
+    label: `${df_eis_filtered[0].var_axis} ${year_start}–${year_end}`,
+    labelAnchor: "left",
     grid: true,
     axis: "top",
     labelOffset: 35,
     tickPadding: 5,
     tickSize: 0,
+    nice: true,
   },
   y: {
     label: null,
@@ -25,43 +31,37 @@ export function arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted) {
   },
   marks: [
     Plot.arrow(df_eis_pivoted, {
-      x1: "2018",
+      x1: year_start,
       y1: "country",
-      x2: "2025",
+      x2: year_end,
       y2: "country",
       headLength: 5,
       stroke: "iso3"
-      // strokeWidth: d => ["CHE","SWE","DNK", "FIN"].includes(d.iso3) ? 1.5 : 1,
-      // strokeOpacity: (d) =>
-      //   ["CHE", "SWE", "DNK", "FIN"].includes(d.iso3) ? 1 : 0.6,
     }),
     Plot.dot(df_eis_pivoted, {
-      x: "2018",
+      x: year_start,
       y: "country",
       fill: "iso3",
-      r: 2,
-      //strokeWidth: 0,
-      // fillOpacity: (d) =>
-      //   ["CHE", "SWE", "DNK", "FIN"].includes(d.iso3) ? 1 : 0.6,
+      r: 2
     }),
     Plot.text(
       df_eis_pivoted.filter((d) => d.country === "Switzerland"),
       {
-        x: "2018",
+        x: year_start,
         y: "country",
-        text: ["2018"],
-        textAnchor: "end",
-        dx: 34,
+        text: [year_start],
+        textAnchor: anchor_early,
+        dx: later_greater ? -5 : 5,
       }
     ),
     Plot.text(
       df_eis_pivoted.filter((d) => d.country === "Switzerland"),
       {
-        x: "2025",
+        x: year_end,
         y: "country",
-        text: ["2025"],
-        textAnchor: "start",
-        dx: -32,
+        text: [year_end],
+        textAnchor: anchor_late,
+        dx: later_greater ? 5 : -5,
       }
     ),
   ],
@@ -102,7 +102,7 @@ export function arrow_unicorns(data, color_range) {
     caption: html`Source: <a href="https://www.sictic.ch/swiss-startup-unicorns/" target="_blank">SICTIC</a>, <a href="https://www.startupticker.ch/" target="_blank">Startupticker</a> and own research`,
     marginLeft: 80,
     marginTop: 40,
-    marginRight: 175,
+    marginRight: 200,
     x: {
       axis: "top",label: "top-left", labelAnchor: "left",
       label: "Year of founding and 1B USD valuation",

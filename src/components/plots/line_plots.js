@@ -16,8 +16,10 @@ export function line_oecd(
 download_link = undefined)
 {
   const pct = percent ? " %" : ""
-  const label = data[0].var_axis === undefined ? data[0].measure_name + ", " + data[0].unit_name : data[0].var_axis
-
+const label = data[0].var_axis === undefined 
+  ? (data[0].unit_name === undefined ? data[0].measure_name : data[0].measure_name + ", " + data[0].unit_name)
+  : data[0].var_axis
+  
   return Plot.plot({
     caption: download_link === undefined ?
       html`Source: <a href="${source_link}" target="_blank">${source}</a>` :

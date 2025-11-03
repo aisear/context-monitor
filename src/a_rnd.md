@@ -33,7 +33,6 @@ function filter_oecd_msti(data, unit = "PT_B1GQ", measure = "G", countries = ["C
     });
 }
 const df_gerd = filter_oecd_msti(df_oecd_msti, "PT_B1GQ", "G", countries).filter(d => d.iso3 !== "GBR")
-df_gerd.push({iso3: "CHE", country: "Switzerland", measure: "G", measure_name: "Gross Domestic Expenditure on R&D (GERD)", unit: "PT_B1GQ", unit_name: "Percentage of GDP", year: 2021, obs_value: 3.2, year_date: new Date("2023-01-01")})
 const df_gerd_gov = filter_oecd_msti(df_oecd_msti, "PT_B1GQ","G_FG", countries)
 const df_berd_gov = filter_oecd_msti(df_oecd_msti, "PT_BERD","B_FG", countries);
 const df_rnd_personnel = filter_oecd_msti(df_oecd_msti, "10P3EMP","T_TT", countries)
@@ -43,7 +42,7 @@ const df_gbard_tax = df_gtard
 const df_gerd_type = aq.from(df_oecd_msti.filter((d) => ["B", "GV", "H"].includes(d.measure) &&
       d.unit === "PT_B1GQ" &&
       countries.includes(d.iso3) &&
-      [2021].includes(d.year)
+      [2023].includes(d.year)
   )).groupby('country')
   .derive({
     country_total: d => aq.op.sum(d.obs_value)
@@ -60,8 +59,8 @@ const domain1 = df_gerd_type.filter(d=> d.measure === "B").orderby('measure_name
 const order1 = df_gerd_type.groupby('measure_name').count().orderby(aq.desc('measure_name')).array('measure_name')
 const df_gerd_type3 = aq.from(df_oecd_msti.filter((d) => ["G_FA", "G_FON", "G_FG", "G_FB"].includes(d.measure) &&
       d.unit === "PT_B1GQ" &&
-      countries.includes(d.iso3) &&
-      [2021].includes(d.year)
+      (countries.includes(d.iso3) &&
+      [2023].includes(d.year) || ["ISR"].includes(d.iso3) && [2021].includes(d.year))
   )).groupby('country')
   .derive({
     country_total: d => aq.op.sum(d.obs_value),
@@ -78,21 +77,16 @@ const domain2 = df_gerd_type3.filter(d=> d.measure === "G_FB").orderby('measure_
     .array("country")
 const order2 = df_gerd_type3.groupby('measure_name').count().orderby(aq.desc('measure_name')).array('measure_name')
 const rnd_type = df_rnd_type.filter(d => countries.includes(d.iso3))
-const rnd_type2023 = rnd_type.map((d) => ({
-  ...d,
-share: (d.iso3 === "CHE" && d.type === "Applied research") ? 37.9 : 
-(d.iso3 === "CHE" && d.type === "Basic research") ? 27.2 : (d.iso3 === "CHE" && d.type === "Experimental development") ? 34.9 : d.share
-    }))
 const df_ch_gerd = df_oecd_msti.filter(
   (d) => ["B", "GV", "H"].includes(d.measure) &&
   d.unit === "PT_B1GQ" &&
   ["CHE"].includes(d.iso3) &&
-  [2021, 2019, 2017].includes(d.year));
+  [2023, 2021, 2019].includes(d.year));
 ```
 # Research & Development (R&D)
 
 ## Funding and expenditure on R&D in Switzerland by sector in 2023
-&nbsp;&nbsp;&nbsp;<mark>New:</mark>&nbsp;&nbsp;&nbsp;In Switzerland, as in almost all countries, the majority of R&D funding originates from and flows to business enterprises. However, Switzerland has a comparatively high outflow of R&D funding abroad and a comparatively low inflow. The high outflow of R&D funding is likely due to the strong presence of multinational firms, and among them the very R&D-active pharmaceutical companies. 
+In Switzerland, as in most countries, the majority of R&D funding originates from and flows to business enterprises. However, Switzerland has a comparatively high outflow of R&D funding abroad and a comparatively low inflow. The high outflow of R&D funding is likely due to the strong presence of multinational firms, and among them the very R&D-active pharmaceutical companies.
 
 The federal government primarily funds R&D via the higher education sector, directly via universities (mainly the Swiss Federal Institutes of Technology ETH and EPFL) and indirectly via its national agencies, the Swiss National Science Foundation and Innosuisse. See new FSO graph for more detail: [DE](https://www.bfs.admin.ch/bfs/en/home/news/whats-new.assetdetail.33948459.html) / [FR](https://www.bfs.admin.ch/bfs/fr/home/actualites/quoi-de-neuf.assetdetail.33948457.html).
 
@@ -105,22 +99,19 @@ display(rnd_ch_sankey(df_rnd_ch))
 In the following, we look in more detail at R&D funding from two perspectives:
 - [R&D Expenditure: Who performs the R&D?](#r-and-d-expenditure)
 - [R&D Funding: Who finances the R&D?](#r-and-d-funding)
-<div class="note" label="Note">
-The Federal Statistical Office (FSO) has just published its data for 2023. However, the OECD's data that allows for international comparison has not been updated yet. We've added data and comments for the year 2023 for Switzerland where we thought it was important and where we could do it with confidence.
-</div>
 
 ## R&D Expenditure
 
-### Gross Domestic Expenditure on Research and Development (GERD) in % of GDP 2017–2023
+### Gross Domestic Expenditure on Research and Development (GERD) in % of GDP 2018–2023
 
-&nbsp;&nbsp;&nbsp;<mark>New:</mark>&nbsp;&nbsp;&nbsp;${colorLegend("CHE")} is among the top five of the most innovative countries in R&D spending as a percentage of GDP (3.2% or CHF 25.9 billion). Its GERD has slightly declined by 0.1 percentage point from 2021 to 2023, because the GDP grew faster than the spending on R&D. The R&D expenditures of ${colorLegend("ISR")} and ${colorLegend("KOR")} have increased significantly, while others stagnate on levels comparable to Switzerland. In the [graph above](#funding-and-expenditure-on-r-and-d-in-switzerland-by-sector-in-2023), GERD corresponds to the R&D expenditure in the column on the right minus the expenditure that flows abroad.
+${colorLegend("CHE")} is among the top five of the most innovative countries in R&D spending as a percentage of GDP (3.2% or CHF 25.9 billion). Its GERD has slightly declined by 0.03 percentage points from 2021 to 2023, because the GDP grew faster than the spending on R&D. The R&D expenditures of ${colorLegend("ISR")} and ${colorLegend("KOR")} have increased significantly, while others stagnate on levels comparable to Switzerland. In the [graph above](#funding-and-expenditure-on-r-and-d-in-switzerland-by-sector-in-2023), GERD corresponds to the R&D expenditure in the column on the right minus the expenditure that flows abroad.
 
 ```js
-display(line_oecd(df_gerd,"GERD in % of GDP",false,"OECD Main Science and Technology Indicators (MSTI)","https://oe.cd/msti", 1, true, true))
+display(line_oecd(df_gerd,"GERD in % of GDP",false,"OECD Main Science and Technology Indicators (MSTI)","https://oe.cd/msti", 2, true, true))
 ```
 <a href="./images/gerd-gdp-comparison-live.png" download="gerd-gdp-comparison.png">⤓ Download image</a>
 
-### GERD by sector in % of GDP 2021
+### GERD by sector in % of GDP 2023
 
 Research and Development in Switzerland is mainly performed by <span style="border-bottom: solid 2px #0571b0">private businesses</span> or <span style="border-bottom: solid 2px #FCE300">higher education institutions</span> and rarely by the <span style="border-bottom: solid 2px #06F7DA">government</span> itself. Switzerland has one of the lowest share of R&D performed by government institutions. Sweden and Denmark's pattern of research and development most closely mirrors that of Switzerland. The high proportion of R&D carried out by the private sector in Israel is also striking.
 
@@ -144,17 +135,17 @@ display(bar_stacked_y_normalized(df_gerd_type1, normalize, domain1, order1))
 <a href="./images/rnd-expenditure-by-sector-live.png" download="rnd-expenditure-by-sector.png">⤓ Download image</a>
 
 ### R&D expenditure by type of research in % of GERD 2023
-&nbsp;&nbsp;&nbsp;<mark>New:</mark>&nbsp;&nbsp;&nbsp;Compared to other innovation leaders, Switzerland has a relatively high share of R&D expenditure in both <span style="border-bottom: solid 2px #0571b0">basic</span> and <span style="border-bottom: solid 2px #06F7DA">applied research</span>, which seek fundamental knowledge without immediate practical goals or target specific practical problems and directed towards application. Consequently, the share of expenditure for <span style="border-bottom: solid 2px #A2AFE9">experimental development</span>, which more clearly focuses on creating or improving products, processes, or services, is rather small. 
+Compared to other innovation leaders, Switzerland has a relatively high share of R&D expenditure in both <span style="border-bottom: solid 2px #0571b0">basic</span> and <span style="border-bottom: solid 2px #06F7DA">applied research</span>, which seek fundamental knowledge without immediate practical goals or target specific practical problems and directed towards application. Consequently, the share of expenditure for <span style="border-bottom: solid 2px #A2AFE9">experimental development</span>, which more clearly focuses on creating or improving products, processes, or services, is comparatively small. 
 
 ```js
-display(bar_stacked_x(rnd_type2023))
+display(bar_stacked_x(rnd_type))
 ```
 <a href="./images/rnd-activities-by-type-live.png" download="rnd-activities-by-type.png">⤓ Download image</a>
 
 ## R&D Funding
 
-### GERD financed by sector in % of GDP 2021
-&nbsp;&nbsp;&nbsp;<mark>New:</mark>&nbsp;&nbsp;&nbsp;The main source of R&D funding is the business sector itself. Switzerland's domestic <span style="border-bottom: solid 2px #0571b0">business sector</span> share is among the top 3 of its innovation leader peers. The same holds true for <span style="border-bottom: solid 2px #06F7DA">government spending</span> on R&D (see [next graph](#gerd-financed-by-government-in-of-gdp-2017-2022) as well). <span style="border-bottom: solid 2px #FCE300">Higher education institutions</span> contribute an average and the <span style="border-bottom: solid 2px #FF8774">rest of the world</span> a below average share to the Swiss R&D funding.
+### GERD financed by sector in % of GDP 2023
+The main source of R&D funding is the business sector itself. Switzerland's domestic <span style="border-bottom: solid 2px #0571b0">business sector</span> share is among the top 4 of its innovation leader peers. The same holds true for <span style="border-bottom: solid 2px #06F7DA">government spending</span> on R&D (see [next graph](#gerd-financed-by-government-in-of-gdp-2018-2023) as well). <span style="border-bottom: solid 2px #FCE300">Higher education institutions</span> contribute an average and the <span style="border-bottom: solid 2px #FF8774">rest of the world</span> a below average share to the Swiss R&D funding.
 
 Interesting here are Israel, and to a lesser extent Finland and Sweden, which are able to attract sizeable foreign direct investment into domestic R&D. Israel's funding for R&D would be average if it weren't for the high influx of foreign R&D funding.
 
@@ -175,9 +166,9 @@ display(bar_stacked_y_normalized(df_gerd_type2, normalize, domain2, order2))
 ```
 <a href="./images/rnd-funding-sources-live.png" download="rnd-funding-sources.png" class="download-link">⤓ Download image</a>
 
-### GERD financed by government in % of GDP 2017–2022
+### GERD financed by government in % of GDP 2018–2023
 
-${colorLegend("CHE")}'s government-financed R&D remained stable in the last 5 years, but will likely decrease to 0.83 % in 2023 (official OECD data is not published yet). Meanwhile, ${colorLegend("DEU")} and ${colorLegend("KOR")} have increased their financing ratio to GDP. Interestingly, ${colorLegend("ISR")} has a comparatively low share of government-financed GERD. Its R&D is mainly driven by private funding, especially from abroad (cf. also [venture capital investments](b_ens#venture-capital-investments-in-of-gdp-2017-2024)). 
+${colorLegend("CHE")}'s government-financed R&D remained stable in the last 5 years, with a slight decrease 0.1 percentage points in 2023. Meanwhile, ${colorLegend("KOR")} has increased its financing ratio to GDP. Interestingly, ${colorLegend("ISR")} has a comparatively low share of government-financed GERD. Its R&D is mainly driven by private funding, especially from abroad (cf. also [venture capital investments](b_ens#venture-capital-investments-in-of-gdp-2017-2024)). 
 
 ```js
 display(line_oecd(df_gerd_gov, "% of GDP", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, true, true))
@@ -188,7 +179,7 @@ display(line_oecd(df_gerd_gov, "% of GDP", false, "OECD Main Science and Technol
 
 ${colorLegend("CHE")}'s restrained approach to direct funding of BERD stands out clearly in an international comparison. Compared to other countries there has been very little direct financial support for business R&D. The statement still holds if tax incentives for R&D are included, see note below. 
 
-The official OECD statistics are not out yet, but in 2023 the value for ${colorLegend("CHE")}'s government financed business enterprise expenditure on R&D is likely to rise to 1.7%, probably due to the new Innosuisse instruments Swiss Accelerator and the start-up innovation projects. However, this has very little effect on Switzerland's position.
+In 2023 the value for ${colorLegend("CHE")}'s government financed business enterprise expenditure on R&D has risen to 1.7%, most likely due to the new Innosuisse instruments Swiss Accelerator and the start-up innovation projects. However, this has very little effect on Switzerland's overall position.
 
 ```js
 display(line_oecd(df_berd_gov, "% of business enterprise expenditure on R&D", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, true, true))
@@ -214,7 +205,7 @@ display(line_oecd(df_berd_gov, "% of business enterprise expenditure on R&D", fa
 
 ## R&D Personnel
 
-The share of personnel employed in R&D has increased over the years. ${colorLegend("CHE")} is no exception and its trend will continue as well in 2023 with 18.2 R&D personnel per 1'000 employment.
+The share of personnel employed in R&D has increased over the years. ${colorLegend("CHE")} is no exception and its trend has continued as well in 2023 with 18.2 R&D personnel per 1'000 employment.
 
 ```js
 display(line_oecd(df_rnd_personnel, "R&D personnel per 1'000 employment", false, "OECD Main Science and Technology Indicators (MSTI)", "https://oe.cd/msti", 1, false, false)) 

@@ -6,6 +6,7 @@ export function plot_rank_bump(data, domain_fx, reverse = true, caption, downloa
     const { document } = options;
 
     const df = data.filter((d) => domain_fx.includes(d.index) && d.year !== "Change");
+    const max_value = Math.max(...df.map(d => d.rank));
 
     return Plot.plot({
         document,
@@ -14,7 +15,7 @@ export function plot_rank_bump(data, domain_fx, reverse = true, caption, downloa
         marginTop: 45,
         marginLeft: 45,
         marginRight: 100,
-        height: 3/domain_fx.length * 450,
+        height: max_value/18 * 450,
         width: 240 + domain_fx.length / 3 * 400,
         style: {fontSize: "11px"},
         color: color_scale,

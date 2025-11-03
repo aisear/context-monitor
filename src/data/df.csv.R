@@ -1,0 +1,19 @@
+library(readr)
+library(tidyverse)
+
+df <- read.csv("https://sdmx.oecd.org/public/rest/data/OECD.STI.STP,DSD_MSTI@DF_MSTI,/.A....?startPeriod=2017&format=csvfilewithlabels") # nolint: line_length_linter.
+
+df <- df |>  select(
+  iso3 = REF_AREA,
+  country = Reference.area,
+  measure = MEASURE,
+  measure_name = Measure,
+  unit = UNIT_MEASURE,
+  year = TIME_PERIOD,
+  obs_value = OBS_VALUE
+) |>
+  mutate(
+    year_date = paste0(year, "-01-01")
+  )
+
+cat(format_csv(df))

@@ -68,7 +68,7 @@ export function bar_stacked_y_normalized(data, normalize = true, domain = undefi
     color: {
       legend: true,
       columns: 1, 
-      width: 300,
+      width: 400,
       //reverse: true,
       range: color_range
     },
@@ -80,8 +80,8 @@ export function bar_stacked_y_normalized(data, normalize = true, domain = undefi
         y: "obs_value",
         fill: "measure_name",
         order: order,
-        insetLeft: 10,
-        insetRight: 10,
+        insetLeft: 5,
+        insetRight: 5,
         offset: normalize ? "normalize" : undefined,
         sort: { x: { value: "-y", reverse: "true" } },
         title: (d) => `${d.obs_value.toFixed(2)} % of GDP\n${d.measure_name}`,

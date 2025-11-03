@@ -35,12 +35,26 @@ const df_eis = await FileAttachment("data/eis_raw_data_2025.csv").csv({typed: tr
 const df_eis_filtered = df_eis.filter((d) => countries.includes(d.iso3) && (d.var === "SII"));
 const df_eis_pivoted = aq
   .from(df_eis.filter((d) => countries.includes(d.iso3) & d.var === "SII"))
-  .filter((d) => d.year === 2025 || d.year === 2018)
+  .filter((d) => d.year === 2025 || d.year === 2021)
   .groupby("country", "iso3")
   .pivot("year", "obs_value")
   .orderby(aq.desc("2025"))
   .objects();
 const df_eis_sorted = df_eis_pivoted.map((d) => d.country);
+
+const df_gii = await FileAttachment("data/gii_2021_2025_score.csv").csv({typed: true});
+const df_gii_filtered = df_gii.filter((d) =>
+    countries.includes(d.iso3)
+  );
+const df_gii_pivoted = aq
+    .from(df_gii_filtered)
+    .groupby("country", "iso3")
+    .pivot("year", "obs_value")
+    .orderby(aq.desc("2025"))
+    .objects();
+  // Extract the sorted country names
+const df_gii_sorted = df_gii_pivoted.map((d) => d.country);
+
 ```
 <div style="background: transparent linear-gradient(284deg, #AFBDFA 0%, #FE8776 100%) no-repeat padding-box; height: 60px; width: 650px; padding-left: 48px; padding-top: 1px; padding-bottom: 60px;  margin-left: -48px; margin-top: -31px;">
 
@@ -84,42 +98,41 @@ display(plot_rank_bump(df_ranking, ["EIS", "GII"], true, html`Sources: WIPO (202
 
 ## However, followers are catching up
 
-### European Innovation Scoreboard Index Score 2018–2025
+### Comparison of the score evolution for GII and EIS 2021–2025
 
-Its closest competitors in the European Innovation Scoreboard – ${colorLegend("SWE")}, ${colorLegend("KOR")} and ${colorLegend("DNK")} – have made up substantial ground and are closing the gap. ${colorLegend("CHE")} on the other hand has lost ground in the last 7 years. [Reason: Modified EIS]
+With the newest update of the European Innovation Scoreboard, ${colorLegend("CHE")} has made modest losses in its score. Others – ${colorLegend("SWE")}, ${colorLegend("KOR")} and ${colorLegend("DNK")} – have made up substantial ground and are closing the gap. The methodology of the EIS has been modified to include variables that measure an economies exposure to supply chain disruption. This penalises Switzerland with its products with high complexity and its corresponding dependence on high-tech imports from outside the EU.
+
+The Global Innovation Index on the other hand, with its broader scope of indicators, shows no similar narrowing of the gap between ${colorLegend("CHE")} and its closest competitors, except for the rise of ${colorLegend("CHN")}, reflected in both indices.  
 
 ```js
-display(arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, color_scale));
+display(arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, "2021","2025", false));
 ```
 <a href="./images/eis-progress-arrow-live.png" download="eis-progress-arrow.png">⤓ Download image</a>
 
+```js
+display(arrow_eis(df_gii_pivoted, df_gii_filtered, df_gii_sorted, "2021","2025", true));
+```
+
 ### Switzerland's strengths and weaknesses
 
-The European Innovation Scoreboard (EIS) highlights Switzerland's greatest strengths in innovation as its universities' research output and the international composition of their student bodies / academic staff. Switzerland has recently shown significant progress in two crucial areas: venture capital availability and product innovation by SMEs. Notably, the long-declining trend in SME product innovation has reversed, showing positive momentum.
+If we look at the relative strengths in both indices, they both highlight Switzerland’s extraordinary performance in the scientific output of its research system and the comparatively close links between industry and science reflected in the public-private co-publications.
 
-| **🦾 Relative strengths**                                              |
-| ---------------------------------------------------------------------- |
-| [Public-private co-publications](d_ktt#public-private-co-publications) |
-| International scientific co-publications                               |
-| Foreign doctorate students as a % of all doctorate students            |
+The relative weaknesses are more diverse ranging from Switzerland’s reluctant approach to government support, to foreign direct investment net inflows  to trade impacts. An interesting difference between the EIS and GII is the high-tech imports indicator. While the EIS values it negatively as measure of dependency on critical imports, the GII values it positively as measure of economic complexity and capability to absorb knowledge from outside. Both perspectives have their raison d'être; they are two sides of the same coin, and which perspective holds true depends on how open the global economy will remain.
 
-| **⚠️ Relative weaknesses**                                              |
-| --------------------------------------------------------------------------------------------------------------------------- |
-| [Direct and indirect government support of business R&D](a_rnd#business-expenditure-on-r-and-d-berd-financed-by-government) |
-| High-tech imports from outside the EU                             |
-| [Exports of medium and high-tech products](e_snd#exports-of-medium-and-high-technology-products-as-a-share-of-total-products-exports)                          |
-
-| **↗ Strong increases since 2018**                                                      |
-| -------------------------------------------------------------------------------------- |
-| [Venture capital expenditures](b_ens#venture-capital-investments-in-of-gdp-2017-2024)  |
-| [Sales of new-to-market and new-to-firm innovations](c_inno#sales-of-new-to-market-and-new-to-enterprise-innovations-as-a-percentage-of-turnover)                                     |
-| Population involved in lifelong learning                                               |
-
-|**↘ Strong decreases since 2018**
-|------|
-| SMEs introducing business process innovations |
-| Design applications                           |
-| Employment in innovative enterprises          |
+| | European Innovation Scoreboard | Global Innovation Index |
+|-------------------------------|-------------------------------|------------------------|
+| **Relative<br>strengths** | [Public-private co-publications](d_ktt#public-private-co-publications)<br>*Innovation linkages* | University–industry R&D collaboration<br>*Innovation linkages* |
+| | International scientific co-publications<br>*Attractive research systems* | Patents by origin/bn PPP$ GDP<br>*Knowledge creation* |
+| | Foreign doctorate students as a share of all doct. stud.<br>*Attractive research systems* | Production and export complexity<br>*Knowledge diffusion* |
+| **Relative<br>weaknesses** | [Direct & indirect government support of business R&D](a_rnd#business-expenditure-on-r-and-d-berd-financed-by-government)<br>*Finance and support* | FDI net inflows, % GDP<br>*Knowledge absorption* |
+| | High-tech imports from outside the EU<br>*Trade impacts* | ICT use<br>*ICT* |
+| | [Exports of medium and high-tech products](e_snd#exports-of-medium-and-high-technology-products-as-a-share-of-total-products-exports)<br>*Trade impacts* | Domestic industry diversification<br>*Trade, diversification and market scale* |
+| **↗ Strong<br>increases** | [Venture capital expenditures](b_ens#venture-capital-investments-in-of-gdp-2017-2024)<br>*Finance and support* | Applied tariff rate, weighted avg., %<br>*Trade, diversification and market scale* |
+| | [Sales of new-to-market and new-to-firm innovations](c_inno#sales-of-new-to-market-and-new-to-enterprise-innovations-as-a-percentage-of-turnover)  <br>*Sales and employment impacts* | High-tech imports, % total trade<br>*Knowledge absorption* |
+| | Population involved in lifelong learning<br>*Human resources* | Industrial designs by origin/bn $ GDP<br>*Intangible assets* |
+| **↘ Strong<br>decreases** | SMEs introducing business process innovations<br>*Innovators* | FDI net inflows, % GDP<br>*Knowledge absorption* |
+| | Design applications<br>*Intellectual assets* | ICT services imports, % total trade<br>*Knowledge absorption* |
+| | Employment in innovative enterprises<br>*Sales and employment impacts* | Labor productivity growth, %<br>*Knowledge impact* |
 
 ## Switzerland is one of the most competitive countries
 <mark>New:</mark>&nbsp;&nbsp;&nbsp;${colorLegend("CHE")} is also well positioned in other, less innovation focused rankings, such as IMD's competitiveness rankings, where it has recently made significant progress in both the competitiveness and the digital competitiveness ranking.

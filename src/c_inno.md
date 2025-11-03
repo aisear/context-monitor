@@ -21,7 +21,6 @@ const df_oecd_mfp_plot = df_oecd_mfp
     .sort((a, b) => a.year_date - b.year_date)
       .map(d => ({
       ...d,
-      var_axis: "Multi-factor productivity (Index = 2015, Current prices)",
       zIndex: d.iso3 === "CHE" ? 1 : 0
       }))
       .sort((a, b) => a.zIndex - b.zIndex);
@@ -29,7 +28,7 @@ const df_oecd_mfp_plot = df_oecd_mfp
 ```
 
 # Innovation Activities
-<mark>New:</mark>&nbsp;&nbsp;&nbsp;The KOF Swiss Economic Institute of the ETH Zürich publishes every two years the results of its innovation survey. The report and survey are mainly financed by the SEFRI. The results are also included in the Community Innovation Survey of the European Union and allow for limited international comparison . Since 2019 Innosuisse finances an extension of the company panel with applicants of Innosuisse grants with applications since 2016.
+The KOF Swiss Economic Institute of the ETH Zürich publishes every two years the results of its innovation survey. The report and survey are mainly financed by the SEFRI. The results are also included in the Community Innovation Survey of the European Union and allow for limited international comparison . Since 2019 Innosuisse finances an extension of the company panel with applicants of Innosuisse grants with applications since 2016.
 
 ## The Swiss innovation landscape: Robust, but facing challenges
 ### The downward trend in business R&D and innovation activity has bottomed out

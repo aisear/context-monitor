@@ -92,7 +92,7 @@ const isr = view(
 ```
 
 ```js
-display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 1, false, true))
+display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capital investments","https://data-explorer.oecd.org/vis?lc=en&tm=invest&pg=0&snb=107&vw=tb&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_VC%40DF_VC_INV&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=2007%2C&dq=...PT_B1GQ.A&ly[rw]=BUSINESS_DEVELOPMENT_STAGE&ly[cl]=TIME_PERIOD&ly[rs]=REF_AREA&to[TIME_PERIOD]=false", 2, true, true))
 ```
 <a href="./images/venture-capital-gdp-live.png" download="venture-capital-gdp.png">⤓ Download image</a>
 
@@ -107,7 +107,7 @@ display(line_oecd(df_tea, "Share of 18-64 population who are either a nascent en
 <a href="./images/entrepreneurial-activity-tea-live.png" download="entrepreneurial-activity-tea.png">⤓ Download image</a>
 
 ## Technology Intensity of Investment Portfolios 
-<mark>New:</mark>&nbsp;&nbsp;&nbsp;The European Patent Office (EPO) links its own patent data to [dealroom.co](https://dealroom.co)'s data on investors and their investments and creates a comparative analysis of the technology intensity of the investment portfolios in Europe and the US.
+The European Patent Office (EPO) links its own patent data to [dealroom.co](https://dealroom.co)'s data on investors and their investments and creates a comparative analysis of the technology intensity of the investment portfolios in Europe and the US.
 
 The EPO introduces the metric **Technology Investor Score (TIS)** designed to identify investors specialized in supporting high-tech companies. The TIS measures the percentage of companies with at least one patent within an investor’s portfolio. A high TIS indicates an investor’s engagement with innovation-driven companies. 
 
@@ -126,7 +126,7 @@ These funding gaps also apply to Switzerland. However, they are less pronounced 
 <a href="./images/swiss-investor-scores-live.png" download="swiss-investor-scores.png">⤓ Download image</a>
 
 ## Unicorn companies
-<mark>New:</mark>&nbsp;&nbsp;&nbsp;This report uses CB Insights' unicorn database as the main data source, as it offers the best, freely available basis for comparing unicorns across countries. Since there's no official data on unicorns and different sources define them differently, we compared the data to the results of Dealroom, PitchBook, and Crunchbase. While the exact numbers vary, the relative differences between countries are similar.
+This report uses CB Insights' unicorn database as the main data source, as it offers the best, freely available basis for comparing unicorns across countries. Since there's no official data on unicorns and different sources define them differently, we compared the data to the results of Dealroom, PitchBook, and Crunchbase. While the exact numbers vary, the relative differences between countries are similar.
 
 <div class="warning" label="Note">Please note that these statistics should be thus viewed cautiously, as methods for identifying unicorns differ between data providers. The list of Swiss unicorns makes no claim to completeness or accuracy, but is intended to give an impression.</div>
 
