@@ -57,7 +57,6 @@ newer edition is published, replace the file, update every
 
 | File | What it is | Used in | Next edition to watch for |
 |---|---|---|---|
-| `gii_2021_2025_score.csv` | Global Innovation Index scores, 2021–2025 | `index.md`, `images.md` | GII is published annually, typically autumn — watch for the 2026 edition extending the range to 2026 |
 | `df_gem_tea_2018_2024.csv` | Global Entrepreneurship Monitor, Total early-stage Entrepreneurial Activity, 2018–2024 | `b_ens.md`, `images.md` | GEM publishes its annual report (typically spring) — watch for a 2025 data point |
 | `switt_startup_2024.csv` | Swiss startup ecosystem data (startupticker/SWITT), 2024 edition | `d_ktt.md`, `images.md` | Published annually — watch for a 2025 edition |
 | `rnd_ch_2023.csv` | Swiss R&D survey (BFS/KOF), 2023 edition | `a_rnd.md`, `images.md` | The Swiss R&D survey runs roughly every two years — watch for a 2025 edition |
@@ -76,3 +75,4 @@ newer edition is published, replace the file, update every
 - `eis_raw_data_2025.csv` → `eis_raw_data_2026.csv` (same shape, newer data). See Task 2.
 - `df.csv.R` — dead duplicate of `df_oecd_msti.csv.R`, fed an unused variable. See Task 3.
 - `iso3_country.csv.R` — broken, unused; the real ISO3<->country mapping is the static `iso3_country_csv.csv`. See Task 3.
+- `gii_2021_2025_score.csv` → `gii_2021_2026_score.csv` (2026-11-02, post-merge). The old file only covers 2021 and 2025; the new one covers 2021 and 2026 — the `arrow_eis()` component (`src/components/plots/arrow_y.js`) hardcoded a filter for `year === 2025` regardless of its own `year_start`/`year_end` parameters, which would have silently broken the GII arrow chart against a file with no 2025 row. Fixed to actually use those parameters, and the `index.md`/`images.md` call sites were updated to `"2021","2026"`.

@@ -1,0 +1,272 @@
+iso3,country,var_axis,obs_value,year
+AGO,Angola,Global Innovation Index Score,15,2021
+ALB,Albania,Global Innovation Index Score,28,2021
+ARE,United Arab Emirates,Global Innovation Index Score,43,2021
+ARG,Argentina,Global Innovation Index Score,30,2021
+ARM,Armenia,Global Innovation Index Score,31,2021
+AUS,Australia,Global Innovation Index Score,48,2021
+AUT,Austria,Global Innovation Index Score,51,2021
+AZE,Azerbaijan,Global Innovation Index Score,28,2021
+BEL,Belgium,Global Innovation Index Score,49,2021
+BEN,Benin,Global Innovation Index Score,18,2021
+BFA,Burkina Faso,Global Innovation Index Score,21,2021
+BGD,Bangladesh,Global Innovation Index Score,20,2021
+BGR,Bulgaria,Global Innovation Index Score,42,2021
+BHR,Bahrain,Global Innovation Index Score,29,2021
+BIH,Bosnia and Herzegovina,Global Innovation Index Score,30,2021
+BLR,Belarus,Global Innovation Index Score,33,2021
+BOL,Bolivia (Plurinational State of),Global Innovation Index Score,23,2021
+BRA,Brazil,Global Innovation Index Score,34,2021
+BRN,Brunei Darussalam,Global Innovation Index Score,28,2021
+BWA,Botswana,Global Innovation Index Score,23,2021
+CAN,Canada,Global Innovation Index Score,53,2021
+CHE,Switzerland,Global Innovation Index Score,65,2021
+CHL,Chile,Global Innovation Index Score,35,2021
+CHN,China,Global Innovation Index Score,55,2021
+CIV,Cote dIvoire,Global Innovation Index Score,21,2021
+CMR,Cameroon,Global Innovation Index Score,20,2021
+COL,Colombia,Global Innovation Index Score,32,2021
+CPV,Cabo Verde,Global Innovation Index Score,26,2021
+CRI,Costa Rica,Global Innovation Index Score,34,2021
+CYP,Cyprus,Global Innovation Index Score,47,2021
+CZE,Czech Republic,Global Innovation Index Score,49,2021
+DEU,Germany,Global Innovation Index Score,57,2021
+DNK,Denmark,Global Innovation Index Score,57,2021
+DOM,Dominican Republic,Global Innovation Index Score,25,2021
+DZA,Algeria,Global Innovation Index Score,20,2021
+ECU,Ecuador,Global Innovation Index Score,25,2021
+EGY,Egypt,Global Innovation Index Score,25,2021
+ESP,Spain,Global Innovation Index Score,45,2021
+EST,Estonia,Global Innovation Index Score,50,2021
+ETH,Ethiopia,Global Innovation Index Score,19,2021
+FIN,Finland,Global Innovation Index Score,58,2021
+FRA,France,Global Innovation Index Score,55,2021
+GBR,United Kingdom,Global Innovation Index Score,60,2021
+GEO,Georgia,Global Innovation Index Score,32,2021
+GHA,Ghana,Global Innovation Index Score,22,2021
+GIN,Guinea,Global Innovation Index Score,17,2021
+GRC,Greece,Global Innovation Index Score,36,2021
+GTM,Guatemala,Global Innovation Index Score,24,2021
+HKG,Hong Kong,Global Innovation Index Score,54,2021
+HND,Honduras,Global Innovation Index Score,23,2021
+HRV,Croatia,Global Innovation Index Score,37,2021
+HUN,Hungary,Global Innovation Index Score,43,2021
+IDN,Indonesia,Global Innovation Index Score,27,2021
+IND,India,Global Innovation Index Score,36,2021
+IRL,Ireland,Global Innovation Index Score,51,2021
+IRN,Iran (Islamic Republic of),Global Innovation Index Score,33,2021
+ISL,Iceland,Global Innovation Index Score,52,2021
+ISR,Israel,Global Innovation Index Score,53,2021
+ITA,Italy,Global Innovation Index Score,46,2021
+JAM,Jamaica,Global Innovation Index Score,30,2021
+JOR,Jordan,Global Innovation Index Score,28,2021
+JPN,Japan,Global Innovation Index Score,54,2021
+KAZ,Kazakhstan,Global Innovation Index Score,29,2021
+KEN,Kenya,Global Innovation Index Score,27,2021
+KGZ,Kyrgyzstan,Global Innovation Index Score,24,2021
+KHM,Cambodia,Global Innovation Index Score,23,2021
+KOR,Republic of Korea,Global Innovation Index Score,59,2021
+KWT,Kuwait,Global Innovation Index Score,30,2021
+LAO,Lao People's Democratic Republic,Global Innovation Index Score,20,2021
+LBN,Lebanon,Global Innovation Index Score,25,2021
+LKA,Sri Lanka,Global Innovation Index Score,25,2021
+LTU,Lithuania,Global Innovation Index Score,40,2021
+LUX,Luxembourg,Global Innovation Index Score,49,2021
+LVA,Latvia,Global Innovation Index Score,40,2021
+MAR,Morocco,Global Innovation Index Score,29,2021
+MDA,Republic of Moldova,Global Innovation Index Score,32,2021
+MDG,Madagascar,Global Innovation Index Score,23,2021
+MEX,Mexico,Global Innovation Index Score,35,2021
+MKD,North Macedonia,Global Innovation Index Score,34,2021
+MLI,Mali,Global Innovation Index Score,20,2021
+MLT,Malta,Global Innovation Index Score,47,2021
+MMR,Myanmar,Global Innovation Index Score,18,2021
+MNE,Montenegro,Global Innovation Index Score,35,2021
+MNG,Mongolia,Global Innovation Index Score,34,2021
+MOZ,Mozambique,Global Innovation Index Score,20,2021
+MUS,Mauritius,Global Innovation Index Score,35,2021
+MWI,Malawi,Global Innovation Index Score,23,2021
+MYS,Malaysia,Global Innovation Index Score,42,2021
+NAM,Namibia,Global Innovation Index Score,24,2021
+NER,Niger,Global Innovation Index Score,18,2021
+NGA,Nigeria,Global Innovation Index Score,20,2021
+NLD,Netherlands,Global Innovation Index Score,59,2021
+NOR,Norway,Global Innovation Index Score,50,2021
+NPL,Nepal,Global Innovation Index Score,22,2021
+NZL,New Zealand,Global Innovation Index Score,47,2021
+OMN,Oman,Global Innovation Index Score,29,2021
+PAK,Pakistan,Global Innovation Index Score,24,2021
+PAN,Panama,Global Innovation Index Score,28,2021
+PER,Peru,Global Innovation Index Score,31,2021
+PHL,Philippines,Global Innovation Index Score,35,2021
+POL,Poland,Global Innovation Index Score,40,2021
+PRT,Portugal,Global Innovation Index Score,44,2021
+PRY,Paraguay,Global Innovation Index Score,26,2021
+QAT,Qatar,Global Innovation Index Score,31,2021
+ROU,Romania,Global Innovation Index Score,36,2021
+RUS,Russian Federation,Global Innovation Index Score,37,2021
+RWA,Rwanda,Global Innovation Index Score,24,2021
+SAU,Saudi Arabia,Global Innovation Index Score,32,2021
+SEN,Senegal,Global Innovation Index Score,23,2021
+SGP,Singapore,Global Innovation Index Score,58,2021
+SLV,El Salvador,Global Innovation Index Score,25,2021
+SRB,Serbia,Global Innovation Index Score,35,2021
+SVK,Slovakia,Global Innovation Index Score,40,2021
+SVN,Slovenia,Global Innovation Index Score,44,2021
+SWE,Sweden,Global Innovation Index Score,63,2021
+TGO,Togo,Global Innovation Index Score,19,2021
+THA,Thailand,Global Innovation Index Score,37,2021
+TJK,Tajikistan,Global Innovation Index Score,24,2021
+TTO,Trinidad and Tobago,Global Innovation Index Score,25,2021
+TUN,Tunisia,Global Innovation Index Score,31,2021
+TUR,Turkey,Global Innovation Index Score,38,2021
+TZA,United Republic of Tanzania,Global Innovation Index Score,26,2021
+UGA,Uganda,Global Innovation Index Score,20,2021
+UKR,Ukraine,Global Innovation Index Score,36,2021
+URY,Uruguay,Global Innovation Index Score,32,2021
+USA,United States of America,Global Innovation Index Score,61,2021
+UZB,Uzbekistan,Global Innovation Index Score,27,2021
+VNM,Viet Nam,Global Innovation Index Score,37,2021
+YEM,Yemen,Global Innovation Index Score,15,2021
+ZAF,South Africa,Global Innovation Index Score,33,2021
+ZMB,Zambia,Global Innovation Index Score,20,2021
+ZWE,Zimbabwe,Global Innovation Index Score,22,2021
+ALB,Albania,Global Innovation Index Score,28.2499995869374,2026
+DZA,Algeria,Global Innovation Index Score,20.5216875909344,2026
+AGO,Angola,Global Innovation Index Score,12.9951121288242,2026
+ARG,Argentina,Global Innovation Index Score,28.7842437839075,2026
+ARM,Armenia,Global Innovation Index Score,31.6112333732277,2026
+AUS,Australia,Global Innovation Index Score,49.6305949762164,2026
+AUT,Austria,Global Innovation Index Score,50.2347064962113,2026
+AZE,Azerbaijan,Global Innovation Index Score,25.7562011991919,2026
+BHR,Bahrain,Global Innovation Index Score,30.7633038007847,2026
+BGD,Bangladesh,Global Innovation Index Score,21.4607121072681,2026
+BRB,Barbados,Global Innovation Index Score,24.1708704939128,2026
+BLR,Belarus,Global Innovation Index Score,24.5041628592489,2026
+BEL,Belgium,Global Innovation Index Score,48.4552051664497,2026
+BEN,Benin,Global Innovation Index Score,19.0955378165079,2026
+BTN,Bhutan,Global Innovation Index Score,28.91789392965,2026
+BOL,Bolivia (Plurinational State of),Global Innovation Index Score,19.7311032695721,2026
+BIH,Bosnia and Herzegovina,Global Innovation Index Score,26.0993645211727,2026
+BWA,Botswana,Global Innovation Index Score,27.0707371715952,2026
+BRA,Brazil,Global Innovation Index Score,33.4782113658743,2026
+BRN,Brunei Darussalam,Global Innovation Index Score,22.9940521956784,2026
+BGR,Bulgaria,Global Innovation Index Score,40.3134152682151,2026
+BFA,Burkina Faso,Global Innovation Index Score,16.1265280178975,2026
+BDI,Burundi,Global Innovation Index Score,15.0773494158353,2026
+CPV,Cabo Verde,Global Innovation Index Score,22.3696706340695,2026
+KHM,Cambodia,Global Innovation Index Score,23.8307523549235,2026
+CMR,Cameroon,Global Innovation Index Score,18.8638175970792,2026
+CAN,Canada,Global Innovation Index Score,51.122913314033,2026
+TCD,Chad,Global Innovation Index Score,9.48283194158165,2026
+CHL,Chile,Global Innovation Index Score,33.8338105465994,2026
+CHN,China,Global Innovation Index Score,57.0024113127069,2026
+COL,Colombia,Global Innovation Index Score,28.6198847971729,2026
+CRI,Costa Rica,Global Innovation Index Score,29.8063239797602,2026
+HRV,Croatia,Global Innovation Index Score,36.8999201630286,2026
+CYP,Cyprus,Global Innovation Index Score,45.343954465175,2026
+CZE,Czech Republic,Global Innovation Index Score,42.7488788786829,2026
+CIV,Côte d'Ivoire,Global Innovation Index Score,20.8243708007654,2026
+COD,Democratic Republic of the Congo,Global Innovation Index Score,12.5559598575496,2026
+DNK,Denmark,Global Innovation Index Score,57.6647633788692,2026
+DOM,Dominican Republic,Global Innovation Index Score,22.9188460016201,2026
+ECU,Ecuador,Global Innovation Index Score,21.2882449976898,2026
+EGY,Egypt,Global Innovation Index Score,26.1387946828745,2026
+SLV,El Salvador,Global Innovation Index Score,22.7819476952746,2026
+EST,Estonia,Global Innovation Index Score,50.4192171156806,2026
+ETH,Ethiopia,Global Innovation Index Score,15.7020286321583,2026
+FIN,Finland,Global Innovation Index Score,57.8871192930313,2026
+FRA,France,Global Innovation Index Score,53.9809178989823,2026
+GEO,Georgia,Global Innovation Index Score,32.2380295035718,2026
+DEU,Germany,Global Innovation Index Score,56.7589175472885,2026
+GHA,Ghana,Global Innovation Index Score,22.6296004080052,2026
+GRC,Greece,Global Innovation Index Score,38.2239072204964,2026
+GTM,Guatemala,Global Innovation Index Score,18.9501663920895,2026
+HND,Honduras,Global Innovation Index Score,19.1732458811279,2026
+HKG,"Hong Kong, China",Global Innovation Index Score,53.1654757752625,2026
+HUN,Hungary,Global Innovation Index Score,40.7257096469896,2026
+ISL,Iceland,Global Innovation Index Score,46.3054497156761,2026
+IND,India,Global Innovation Index Score,40.1444241538996,2026
+IDN,Indonesia,Global Innovation Index Score,32.6529098782685,2026
+IRN,Iran (Islamic Republic of),Global Innovation Index Score,27.5849543359948,2026
+IRL,Ireland,Global Innovation Index Score,50.0476473294839,2026
+ISR,Israel,Global Innovation Index Score,52.2150819524602,2026
+ITA,Italy,Global Innovation Index Score,46.1764694274251,2026
+JAM,Jamaica,Global Innovation Index Score,24.8810945640271,2026
+JPN,Japan,Global Innovation Index Score,54.1421031898342,2026
+JOR,Jordan,Global Innovation Index Score,31.5226714235066,2026
+KAZ,Kazakhstan,Global Innovation Index Score,29.0786331292293,2026
+KEN,Kenya,Global Innovation Index Score,23.0242464686006,2026
+KWT,Kuwait,Global Innovation Index Score,30.9367628861256,2026
+KGZ,Kyrgyzstan,Global Innovation Index Score,24.1429662736128,2026
+LAO,Lao People's Democratic Republic,Global Innovation Index Score,21.2181649015954,2026
+LVA,Latvia,Global Innovation Index Score,38.2560564558798,2026
+LBN,Lebanon,Global Innovation Index Score,25.6261208205118,2026
+LSO,Lesotho,Global Innovation Index Score,16.4742633735174,2026
+LTU,Lithuania,Global Innovation Index Score,43.2123925026458,2026
+LUX,Luxembourg,Global Innovation Index Score,46.5595023108275,2026
+MDG,Madagascar,Global Innovation Index Score,20.1499673244402,2026
+MWI,Malawi,Global Innovation Index Score,17.2196040430083,2026
+MYS,Malaysia,Global Innovation Index Score,41.8329030452006,2026
+MLI,Mali,Global Innovation Index Score,15.1697796836754,2026
+MLT,Malta,Global Innovation Index Score,43.8198342602323,2026
+MRT,Mauritania,Global Innovation Index Score,16.1094152692572,2026
+MUS,Mauritius,Global Innovation Index Score,34.1385715088016,2026
+MEX,Mexico,Global Innovation Index Score,30.5676897178765,2026
+MNG,Mongolia,Global Innovation Index Score,29.1261026788317,2026
+MNE,Montenegro,Global Innovation Index Score,28.7507303548469,2026
+MAR,Morocco,Global Innovation Index Score,32.7928813357021,2026
+MOZ,Mozambique,Global Innovation Index Score,16.1389920902615,2026
+MMR,Myanmar,Global Innovation Index Score,17.3983481283444,2026
+NAM,Namibia,Global Innovation Index Score,22.4468433527145,2026
+NPL,Nepal,Global Innovation Index Score,22.2900534978366,2026
+NLD,Netherlands (Kingdom of the),Global Innovation Index Score,58.3951985235131,2026
+NZL,New Zealand,Global Innovation Index Score,46.4166985485946,2026
+NIC,Nicaragua,Global Innovation Index Score,18.0138139466871,2026
+NER,Niger,Global Innovation Index Score,12.1333111811105,2026
+NGA,Nigeria,Global Innovation Index Score,19.0678048978282,2026
+MKD,North Macedonia,Global Innovation Index Score,31.1851135278369,2026
+NOR,Norway,Global Innovation Index Score,48.4886702018864,2026
+OMN,Oman,Global Innovation Index Score,30.033067850105,2026
+PAK,Pakistan,Global Innovation Index Score,23.6907035887887,2026
+PAN,Panama,Global Innovation Index Score,24.4058208666745,2026
+PRY,Paraguay,Global Innovation Index Score,21.1399535485744,2026
+PER,Peru,Global Innovation Index Score,27.9167218046509,2026
+PHL,Philippines,Global Innovation Index Score,33.7732365041454,2026
+POL,Poland,Global Innovation Index Score,39.4605049647105,2026
+PRT,Portugal,Global Innovation Index Score,44.4891097431416,2026
+QAT,Qatar,Global Innovation Index Score,36.587161940917,2026
+KOR,Republic of Korea,Global Innovation Index Score,61.3971003381289,2026
+MDA,Republic of Moldova,Global Innovation Index Score,30.2642208770319,2026
+ROU,Romania,Global Innovation Index Score,35.2925848494794,2026
+RUS,Russian Federation,Global Innovation Index Score,31.7845873673787,2026
+RWA,Rwanda,Global Innovation Index Score,23.2826041963744,2026
+SAU,Saudi Arabia,Global Innovation Index Score,37.8934466032719,2026
+SEN,Senegal,Global Innovation Index Score,24.401804700908,2026
+SRB,Serbia,Global Innovation Index Score,32.5218008663826,2026
+SGP,Singapore,Global Innovation Index Score,61.0141946998195,2026
+SVK,Slovakia,Global Innovation Index Score,36.4470739790428,2026
+SVN,Slovenia,Global Innovation Index Score,41.1269360954834,2026
+ZAF,South Africa,Global Innovation Index Score,30.8901662281073,2026
+ESP,Spain,Global Innovation Index Score,45.4190013408312,2026
+LKA,Sri Lanka,Global Innovation Index Score,23.7253539724421,2026
+SWE,Sweden,Global Innovation Index Score,63.2257866392058,2026
+CHE,Switzerland,Global Innovation Index Score,66.6467721682537,2026
+TJK,Tajikistan,Global Innovation Index Score,20.3176856579838,2026
+THA,Thailand,Global Innovation Index Score,37.6115486343651,2026
+TGO,Togo,Global Innovation Index Score,18.7024037267406,2026
+TTO,Trinidad and Tobago,Global Innovation Index Score,21.2329556596222,2026
+TUN,Tunisia,Global Innovation Index Score,29.3372944478887,2026
+TUR,Türkiye,Global Innovation Index Score,37.5338229953288,2026
+UGA,Uganda,Global Innovation Index Score,18.3838850272145,2026
+UKR,Ukraine,Global Innovation Index Score,30.367778958117,2026
+ARE,United Arab Emirates,Global Innovation Index Score,46.3658248255246,2026
+GBR,United Kingdom,Global Innovation Index Score,59.5594244902574,2026
+TZA,United Republic of Tanzania,Global Innovation Index Score,19.0150635008274,2026
+USA,United States of America,Global Innovation Index Score,62.2461638203799,2026
+URY,Uruguay,Global Innovation Index Score,30.4462322355676,2026
+UZB,Uzbekistan,Global Innovation Index Score,28.7439022606004,2026
+VEN,Venezuela (Bolivarian Republic of),Global Innovation Index Score,16.6688838687389,2026
+VNM,Viet Nam,Global Innovation Index Score,37.7311464184964,2026
+ZMB,Zambia,Global Innovation Index Score,19.5085076434695,2026
+ZWE,Zimbabwe,Global Innovation Index Score,16.1042418309452,2026

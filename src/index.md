@@ -38,7 +38,7 @@ const df_eis = await FileAttachment("data/eis_raw_data_2026.csv").csv({
 const df_eis_filtered = df_eis.filter(
   (d) => countries.includes(d.iso3) && d.var === "SII",
 );
-const df_gii = await FileAttachment("data/gii_2021_2025_score.csv").csv({
+const df_gii = await FileAttachment("data/gii_2021_2026_score.csv").csv({
   typed: true,
 });
 const df_gii_filtered = df_gii.filter((d) => countries.includes(d.iso3));
@@ -107,7 +107,7 @@ display(arrow_eis(df_eis_filtered, "2021", "2025", false));
 The Global Innovation Index, which uses a broader set of indicators, shows no such convergence and no decline in Swiss innovative power.
 
 ```js
-display(arrow_eis(df_gii_filtered, "2021", "2025", true));
+display(arrow_eis(df_gii_filtered, "2021", "2026", true));
 ```
 
 <a href="./images/gii-progress-arrow-live.png" download="gii-progress-arrow.png">⤓ Download image</a>

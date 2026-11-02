@@ -11,10 +11,10 @@ export function arrow_eis(
 ) {
   const df_pivoted = aq
     .from(df_filtered)
-    .filter((d) => d.year === 2025 || d.year === 2021)
+    .filter((d) => d.year === Number(year_end) || d.year === Number(year_start))
     .groupby("country", "iso3")
     .pivot("year", "obs_value")
-    .orderby(aq.desc("2025"))
+    .orderby(aq.desc(String(year_end)))
     .objects();
   const df_sorted = df_pivoted.map((d) => d.country);
   const anchor_early = later_greater ? "end" : "start";
@@ -27,8 +27,8 @@ export function arrow_eis(
     marginRight: 50,
     caption:
       df_filtered[0].var_axis === "Global Innovation Index Score"
-        ? "Source: WIPO (2025)"
-        : "Source: European Commission (2025)",
+        ? `Source: WIPO (${year_end})`
+        : `Source: European Commission (${year_end})`,
     color: color_scale,
     x: {
       label: `${df_filtered[0].var_axis} ${year_start}–${year_end}`,
