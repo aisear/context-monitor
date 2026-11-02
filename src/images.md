@@ -32,7 +32,7 @@ import { subtractYears } from "./components/utils/subtractYears.js";
 import * as aq from "npm:arquero";
 
 // Data loading for all charts
-const df_rank = await FileAttachment("data/rankings_2025.csv").csv({
+const df_rank = await FileAttachment("data/rankings_2026.csv").csv({
   typed: true,
 });
 const df_ranking = df_rank
