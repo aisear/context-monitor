@@ -1,7 +1,7 @@
 library(readr)
 library(tidyverse)
 
-df <- read.csv("https://sdmx.oecd.org/public/rest/data/OECD.ENV.EPI,DSD_GG@DF_GREEN_GROWTH,1.1/..DMC_PROD+CO2_PBPROD..?startPeriod=2017&format=csvfilewithlabels") # nolint: line_length_linter.
+df <- read.csv("https://sdmx.oecd.org/public/rest/data/OECD.ENV.EPI,DSD_GG@DF_GREEN_GROWTH/..DMC_PROD+CO2_PBPROD..?startPeriod=2017&format=csvfilewithlabels") # nolint: line_length_linter.
 
 df <- df |>  select(
   iso3 = REF_AREA,
