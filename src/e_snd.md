@@ -16,7 +16,7 @@ import { filter_oecd_data } from "./components/utils/filterOecdData.js";
 // OECD ENV Daten
 const df_ht = await FileAttachment("data/df_ht.csv").csv({ typed: true });
 // EU European Innovation Scoreboard Daten laden
-const df_eis = await FileAttachment("data/eis_raw_data_2025.csv").csv({
+const df_eis = await FileAttachment("data/eis_raw_data_2026.csv").csv({
   typed: true,
 });
 const df_eis_2017 = df_eis.filter((d) => d.year_date >= new Date("2017-01-01"));

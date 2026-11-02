@@ -32,7 +32,7 @@ const df_ranking = df_rank
       countries.includes(d.iso3) &&
       (d.year_date > new Date("2022-12-31") || d.year_date === "NA"),
   );
-const df_eis = await FileAttachment("data/eis_raw_data_2025.csv").csv({
+const df_eis = await FileAttachment("data/eis_raw_data_2026.csv").csv({
   typed: true,
 });
 const df_eis_filtered = df_eis.filter(

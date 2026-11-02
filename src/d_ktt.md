@@ -17,7 +17,7 @@ import { subtractYears } from "./components/utils/subtractYears.js";
 // OECD MSTI Daten laden
 const df = await FileAttachment("data/df.csv").csv({ typed: true });
 // EU European Innovation Scoreboard Daten laden
-const df_eis = await FileAttachment("data/eis_raw_data_2025.csv").csv({
+const df_eis = await FileAttachment("data/eis_raw_data_2026.csv").csv({
   typed: true,
 });
 
