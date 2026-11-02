@@ -9,9 +9,11 @@ export function arrow_eis(
   year_end = 2025,
   later_greater = true
 ) {
+  const yearStartNum = Number(year_start);
+  const yearEndNum = Number(year_end);
   const df_pivoted = aq
     .from(df_filtered)
-    .filter((d) => d.year === Number(year_end) || d.year === Number(year_start))
+    .filter(aq.escape((d) => d.year === yearEndNum || d.year === yearStartNum))
     .groupby("country", "iso3")
     .pivot("year", "obs_value")
     .orderby(aq.desc(String(year_end)))
