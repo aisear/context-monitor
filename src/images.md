@@ -458,7 +458,7 @@ ${display(arrow_unicorns(df_unicorns_ch))}
 
 <figure id="multifactor-productivity-figure">
 <h2>Multi-Factor Productivity, 1998–2022</h2>
-${line_oecd(df_oecd_mfp_plot, "Multi-factor productivity (Index = 2015, Current prices)",false,"OECD Productivity database","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=1998&format=csvfilewithlabels", 1, false, false)}
+${line_oecd(df_oecd_mfp_plot, "Multi-factor productivity, growth rate",false,"OECD Productivity database","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB,2.0/.A.MFPH._T......?startPeriod=2015&format=csvfilewithlabels", 1, false, false)}
 </figure>
 <a href="./images/multifactor-productivity-live.png" download="multifactor-productivity.png">⤓ Download image</a>
 

@@ -131,7 +131,7 @@ display(
 
 Survey results show that process innovations are leading to significant reductions in production costs, particularly among SMEs. This is reflected in the development of multi-factor productivity (MFP), which points to positive productivity effects from innovation activities. MFP is a measure of economic efficiency that captures the portion of output growth that cannot be explained by increases in labour and capital inputs alone. It reflects how effectively an economy or firm combines its resources to produce goods and services, essentially measuring the "residual" productivity gains that stem from technological progress, improved processes, organizational changes, and other innovations.
 
-<div>${line_oecd(df_oecd_mfp_plot, "Multi-factor productivity (Index = 2015, Current prices)",false,"OECD Productivity database","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=1998&format=csvfilewithlabels", 1, false, false)}</div>
+<div>${line_oecd(df_oecd_mfp_plot, "Multi-factor productivity, growth rate",false,"OECD Productivity database","https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB,2.0/.A.MFPH._T......?startPeriod=2015&format=csvfilewithlabels", 1, false, false)}</div>
 <a href="./images/multifactor-productivity-live.png" download="multifactor-productivity.png">⤓ Download image</a>
 
 #### Sources

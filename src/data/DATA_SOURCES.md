@@ -2,6 +2,12 @@
 
 Updated 2026-11-02. See `docs/superpowers/plans/2026-11-02-data-import-audit.md` for how this was derived.
 
+**Note:** this file is Markdown under `src/`, so Observable Framework builds
+it as a page (`dist/data/DATA_SOURCES.html`) even though it isn't listed in
+`observablehq.config.js`'s `pages` — confirmed by a full `npm run build`.
+It's an internal maintenance doc, not meant for the public dashboard;
+consider moving it outside `src/` (e.g. to `docs/`) if that matters.
+
 ## Auto-refreshing (live API loaders — `*.csv.R`, no manual action)
 
 These re-fetch on every `npm run build`. Nothing to do here unless the build
@@ -11,7 +17,7 @@ fails or the API's dimension codes change.
 |---|---|---|
 | `df_gtard.csv.R` | OECD SDMX `DF_RDTAX` (R&D tax incentives) | `startPeriod=2018`, open-ended |
 | `df_oecd_msti.csv.R` | OECD SDMX `DF_MSTI` (main science & tech indicators) | `startPeriod=2017`, open-ended |
-| `df_oecd_mfp.csv.R` | OECD SDMX `DF_PDB_GR` (multifactor productivity) | `startPeriod=2015`, open-ended — **BROKEN as of 2026-11-02, and not a transient outage: OECD retired this dataflow (its structure now reports `isExternalReference="true"` / `NonProductionDataflow`) and the live `/public/rest/` endpoint 500s on every query shape, including a bare `/all`. The exact same query still works against the archive mirror — `https://sdmx.oecd.org/archive/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=2015&format=csvfilewithlabels` returns HTTP 200, but the data is frozen at 2015–2022 (CHE included). The replacement dataflow is `DSD_PDB@DF_PDB` v2.0, which has MFPH through 2025 but currently has no Swiss (`CHE`) row for MFPH and uses a different dimension key (adds `ASSET_CODE`), so it is not a drop-in replacement. This needs a human decision: point at the archive (frozen at 2022, keeps CHE) or move to `DF_PDB` 2.0 (current, loses the Swiss series) — see the plan's final-review follow-up.** |
+| `df_oecd_mfp.csv.R` | OECD SDMX `DF_PDB` v2.0, measure `MFPH`, `ACTIVITY=_T` (multifactor productivity, hours-based, whole economy) | `startPeriod=2015`, open-ended — **migrated 2026-11-02.** The old `DF_PDB_GR` dataflow was retired by OECD (`isExternalReference="true"` / `NonProductionDataflow`; its `/public/rest/` endpoint now 500s on every query, confirmed down to a bare `/all`). `DF_PDB` v2.0 is the live replacement and has data through 2025, but **it currently has no `MFPH` row for Switzerland (`CHE`) at all** — checked directly against the full dataflow dump, CHE has many other PDB measures (GDP, employment, labour costs, …) but not multifactor productivity. The user chose to move to the current data and accept that Switzerland drops off this one chart rather than stay frozen on the old dataflow's archive mirror (`https://sdmx.oecd.org/archive/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/...`, which still works and has CHE but is frozen at 2015–2022). The new dataflow also changed what's published: it's a year-over-year growth rate (`Transformation = "Growth rate, over 1 year"`), not an index level, so `var_axis` now reads "Multifactor productivity (hour based), Growth rate, over 1 year" instead of an index-level label — the chart titles/source links in `c_inno.md:134` and `images.md:461` were updated to match; if Switzerland's MFPH ever reappears in `DF_PDB`, this loader needs no further change, it'll just start showing up. |
 | `df_oecd_vc.csv.R` | OECD SDMX `DF_VC_INV` (venture capital investment) | `startPeriod=2017`, open-ended |
 | `df_oecd_gg.csv.R` | OECD SDMX `DF_GREEN_GROWTH` | `startPeriod=2017`, open-ended — version pin was removed 2026-11-02 after OECD superseded the pinned `1.1` (started 404ing); if this loader starts failing with "Could not find Dataflow and/or DSD", check whether OECD pinned a breaking structure change and whether the query needs adjusting |
 | `df_ht.csv.R` | Eurostat `tin00140` (high-tech exports) + GitHub ISO-3166 lookup | no bound |
@@ -20,10 +26,12 @@ fails or the API's dimension codes change.
 **Lesson from the `df_oecd_gg.csv.R` bug:** loaders that pin an exact OECD
 dataflow version (e.g. `DF_GREEN_GROWTH,1.1`) will eventually 404 when OECD
 publishes a new version, or — worse, per `df_oecd_mfp.csv.R` above — the
-whole dataflow can be retired under them. Only `df_oecd_msti.csv.R` and
-(after this fix) `df_oecd_gg.csv.R` omit the version segment; `df_gtard.csv.R`,
-`df_oecd_vc.csv.R`, `df_oecd_mfp.csv.R` and `df_rnd_type.csv.R` still pin
-`,1.0` and carry the same latent risk. Dropping the pin isn't free, though:
+whole dataflow can be retired under them (exactly what happened to the old
+`DF_PDB_GR` version `df_oecd_mfp.csv.R` used to pin). Only `df_oecd_msti.csv.R`
+and (after this fix) `df_oecd_gg.csv.R` omit the version segment; `df_gtard.csv.R`
+and `df_oecd_vc.csv.R` still pin `,1.0`, `df_rnd_type.csv.R` still pins `,1.0`,
+and `df_oecd_mfp.csv.R` now pins `,2.0` — all four carry the same latent
+risk. Dropping the pin isn't free, though:
 confirm the unpinned query still returns the expected shape before changing
 any of them, the same way the `df_oecd_gg.csv.R` fix was verified live
 before it was committed.
