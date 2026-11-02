@@ -11,7 +11,7 @@ fails or the API's dimension codes change.
 |---|---|---|
 | `df_gtard.csv.R` | OECD SDMX `DF_RDTAX` (R&D tax incentives) | `startPeriod=2018`, open-ended |
 | `df_oecd_msti.csv.R` | OECD SDMX `DF_MSTI` (main science & tech indicators) | `startPeriod=2017`, open-ended |
-| `df_oecd_mfp.csv.R` | OECD SDMX `DF_PDB_GR` (multifactor productivity) | `startPeriod=2015`, open-ended — **currently failing as of 2026-11-02: OECD's `DF_PDB_GR` dataflow returns HTTP 500 for every query shape, including the bare `/all` query. Confirmed external/OECD-side, not a bug in this loader. Check `curl -s -o /dev/null -w "%{http_code}" "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR/all?startPeriod=2022&format=csvfilewithlabels"` before assuming anything else is wrong.** |
+| `df_oecd_mfp.csv.R` | OECD SDMX `DF_PDB_GR` (multifactor productivity) | `startPeriod=2015`, open-ended — **BROKEN as of 2026-11-02, and not a transient outage: OECD retired this dataflow (its structure now reports `isExternalReference="true"` / `NonProductionDataflow`) and the live `/public/rest/` endpoint 500s on every query shape, including a bare `/all`. The exact same query still works against the archive mirror — `https://sdmx.oecd.org/archive/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=2015&format=csvfilewithlabels` returns HTTP 200, but the data is frozen at 2015–2022 (CHE included). The replacement dataflow is `DSD_PDB@DF_PDB` v2.0, which has MFPH through 2025 but currently has no Swiss (`CHE`) row for MFPH and uses a different dimension key (adds `ASSET_CODE`), so it is not a drop-in replacement. This needs a human decision: point at the archive (frozen at 2022, keeps CHE) or move to `DF_PDB` 2.0 (current, loses the Swiss series) — see the plan's final-review follow-up.** |
 | `df_oecd_vc.csv.R` | OECD SDMX `DF_VC_INV` (venture capital investment) | `startPeriod=2017`, open-ended |
 | `df_oecd_gg.csv.R` | OECD SDMX `DF_GREEN_GROWTH` | `startPeriod=2017`, open-ended — version pin was removed 2026-11-02 after OECD superseded the pinned `1.1` (started 404ing); if this loader starts failing with "Could not find Dataflow and/or DSD", check whether OECD pinned a breaking structure change and whether the query needs adjusting |
 | `df_ht.csv.R` | Eurostat `tin00140` (high-tech exports) + GitHub ISO-3166 lookup | no bound |
@@ -19,9 +19,26 @@ fails or the API's dimension codes change.
 
 **Lesson from the `df_oecd_gg.csv.R` bug:** loaders that pin an exact OECD
 dataflow version (e.g. `DF_GREEN_GROWTH,1.1`) will eventually 404 when OECD
-publishes a new version. The other loaders above deliberately omit the
-version segment so they always resolve to whatever is current — prefer that
-pattern over pinning a version number.
+publishes a new version, or — worse, per `df_oecd_mfp.csv.R` above — the
+whole dataflow can be retired under them. Only `df_oecd_msti.csv.R` and
+(after this fix) `df_oecd_gg.csv.R` omit the version segment; `df_gtard.csv.R`,
+`df_oecd_vc.csv.R`, `df_oecd_mfp.csv.R` and `df_rnd_type.csv.R` still pin
+`,1.0` and carry the same latent risk. Dropping the pin isn't free, though:
+confirm the unpinned query still returns the expected shape before changing
+any of them, the same way the `df_oecd_gg.csv.R` fix was verified live
+before it was committed.
+
+**Known manual follow-up (not fixed in this round):** `df_rnd_type.csv.R`
+now auto-picks the latest year with Swiss data, but the pages that render
+it don't follow along automatically — `images.md` hardcodes Switzerland's
+share values (currently 37.9/27.2/34.9) instead of reading them from the
+loader's output, and `a_rnd.md`/`images.md` hardcode the year "2023" in
+chart headings/captions. When `df_rnd_type.csv.R` picks up a newer year
+(e.g. once CHE reports 2025 data), those pages will keep showing the 2023
+figures under a "2023" label even though every other country on the same
+chart has moved to the new year. Fixing this means editing chart logic in
+those pages, which was out of scope for this round (see the plan's Global
+Constraints) — flagging it here so it isn't lost.
 
 ## Static — needs a human to fetch a new edition and swap the file
 
