@@ -7,21 +7,21 @@
 <title>Innovation Ecosystem Monitor 2024 | Innovation Ecosystem</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/styles.53c0ad84.css">
+<link rel="preload" as="style" href="./_import/styles.faf16aca.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/styles.53c0ad84.css">
+<link rel="stylesheet" type="text/css" href="./_import/styles.faf16aca.css">
 <link rel="modulepreload" href="./_observablehq/client.19f413ec.js">
 <link rel="modulepreload" href="./_observablehq/runtime.9393ab6d.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.31fc9623.js">
-<link rel="modulepreload" href="./_import/components/plots/rank.35433a9c.js">
-<link rel="modulepreload" href="./_import/components/plots/arrow_y.893fadd7.js">
-<link rel="modulepreload" href="./_import/components/utils/colors.c15b65cb.js">
+<link rel="modulepreload" href="./_import/components/plots/rank.0bd732f0.js">
+<link rel="modulepreload" href="./_import/components/plots/arrow_y.aef9be44.js">
+<link rel="modulepreload" href="./_import/components/utils/colors.069c64c0.js">
 <link rel="modulepreload" href="./_npm/arquero@8.0.3/175c2cad.js">
 <link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
 <link rel="modulepreload" href="./_node/@observablehq/plot@0.6.17/index.b6341d14.js">
 <link rel="modulepreload" href="./_node/arquero@7.2.0/index.fbd5f71c.js">
 <link rel="modulepreload" href="./_node/htl@0.3.1/index.0caf36e7.js">
-<link rel="modulepreload" href="./_import/components/utils/countries.10854bad.js">
+<link rel="modulepreload" href="./_import/components/utils/countries.da511c71.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
 <link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
 <link rel="modulepreload" href="./_npm/acorn@8.15.0/c47b807d.js">
@@ -107,90 +107,48 @@
 import {define} from "./_observablehq/client.19f413ec.js";
 import {registerFile} from "./_observablehq/stdlib.31fc9623.js";
 
-registerFile("./data/df_rank.csv", {"name":"./data/df_rank.csv","mimeType":"text/csv","path":"./_file/data/df_rank.117d0b4e.csv","lastModified":1750843137065,"size":142056});
-registerFile("./data/eurostat_eis_values.csv", {"name":"./data/eurostat_eis_values.csv","mimeType":"text/csv","path":"./_file/data/eurostat_eis_values.daf48e9b.csv","lastModified":1725968143223,"size":1436003});
-registerFile("./data/iso3_country.csv", {"name":"./data/iso3_country.csv","mimeType":"text/csv","path":"./_file/data/iso3_country.72d5f011.csv","lastModified":1750259056093,"size":1873});
+registerFile("./data/eis_raw_data_2025.csv", {"name":"./data/eis_raw_data_2025.csv","mimeType":"text/csv","path":"./_file/data/eis_raw_data_2025.74b6999e.csv","lastModified":1762788763969,"size":2019054});
+registerFile("./data/gii_2021_2025_score.csv", {"name":"./data/gii_2021_2025_score.csv","mimeType":"text/csv","path":"./_file/data/gii_2021_2025_score.f205fb8b.csv","lastModified":1762180160238,"size":14408});
+registerFile("./data/iso3_country_csv.csv", {"name":"./data/iso3_country_csv.csv","mimeType":"text/csv","path":"./_file/data/iso3_country_csv.9c2db0de.csv","lastModified":1762789024697,"size":1854});
+registerFile("./data/rankings_2025.csv", {"name":"./data/rankings_2025.csv","mimeType":"text/csv","path":"./_file/data/rankings_2025.97d67bf6.csv","lastModified":1762443865300,"size":131705});
 
-define({id: "30f71b4b", inputs: ["FileAttachment","aq"], outputs: ["plot_eis","plot_rank_bump","arrow_eis","color_scale","colorLegend","countries","df_eis","df_rank","df_ranking","df_eis_filtered","df_eis_pivoted","df_eis_sorted"], body: async (FileAttachment,aq) => {
-const [{plot_eis, plot_rank_bump}, {arrow_eis}, {color_scale, colorLegend, countries}] = await Promise.all([import("./_import/components/plots/rank.35433a9c.js"), import("./_import/components/plots/arrow_y.893fadd7.js"), import("./_import/components/utils/colors.c15b65cb.js")]);
-//import { iso3_country } from "./components/utils/countries.js"
-// // EU European Innovation Scoreboard Daten laden
-const df_eis = await FileAttachment("./data/eurostat_eis_values.csv").csv({typed: true});
-// Rankingdaten laden.
-const df_rank = await FileAttachment("./data/df_rank.csv").csv({ typed: true });
+define({id: "e7d92949", inputs: ["FileAttachment"], outputs: ["plot_eis","plot_rank_bump","arrow_eis","color_scale","colorLegend","countries","aq","df_rank","df_ranking","df_eis","df_eis_filtered","df_gii","df_gii_filtered"], body: async (FileAttachment) => {
+const [{plot_eis, plot_rank_bump}, {arrow_eis}, {color_scale, colorLegend, countries}, aq] = await Promise.all([import("./_import/components/plots/rank.0bd732f0.js"), import("./_import/components/plots/arrow_y.aef9be44.js"), import("./_import/components/utils/colors.069c64c0.js"), import("./_npm/arquero@8.0.3/175c2cad.js")]);
+
+const df_rank = await FileAttachment("./data/rankings_2025.csv").csv({
+  typed: true,
+});
 const df_ranking = df_rank
-    .map((item) => ({
-      iso3: item.iso3,
-      country: item.country,
-      index: item.index,
-      index_name: item.index_name,
-      year: item.year.toString(),
-      year_date: item.date,
-      rank: item.rank,
-    }))
-    .filter(
-      (d) =>
-        countries.includes(d.iso3) &&
-        (d.year_date > new Date("2021-12-31") || d.year_date === "NA") 
-        //&& ["2022", "2023", "2024", "Change"].includes(d.year)
-    );
-// First, sort the eis_score data by SII_2024 in descending order
+  .map((item) => ({
+    iso3: item.iso3,
+    country: item.country,
+    index: item.index,
+    index_name: item.index_name,
+    year: item.year.toString().substring(0, 4),
+    year_date: item.year,
+    rank: item.rank,
+  }))
+  .filter(
+    (d) =>
+      countries.includes(d.iso3) &&
+      (d.year_date > new Date("2021-12-31") || d.year_date === "NA")
+  );
+const df_eis = await FileAttachment("./data/eis_raw_data_2025.csv").csv({
+  typed: true,
+});
 const df_eis_filtered = df_eis.filter(
-  (d) => countries.includes(d.iso3) & (d.var_code === "SII"));
-const df_eis_pivoted = aq
-  .from(df_eis_filtered)
-  .groupby("country", "iso3")
-  .pivot("year", "obs_value")
-  .orderby(aq.desc("2024"))
-  .objects();
-const df_eis_sorted = df_eis_pivoted.map((d) => d.country);
-return {plot_eis,plot_rank_bump,arrow_eis,color_scale,colorLegend,countries,df_eis,df_rank,df_ranking,df_eis_filtered,df_eis_pivoted,df_eis_sorted};
+  (d) => countries.includes(d.iso3) && d.var === "SII"
+);
+const df_gii = await FileAttachment("./data/gii_2021_2025_score.csv").csv({
+  typed: true,
+});
+const df_gii_filtered = df_gii.filter((d) => countries.includes(d.iso3));
+return {plot_eis,plot_rank_bump,arrow_eis,color_scale,colorLegend,countries,aq,df_rank,df_ranking,df_eis,df_eis_filtered,df_gii,df_gii_filtered};
 }});
 
 define({id: "4e058e15", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
 display(await(
 colorLegend("CHE")
-))
-}});
-
-define({id: "9a4da08b", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("KOR")
-))
-}});
-
-define({id: "263d7e7c", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("SGP")
-))
-}});
-
-define({id: "30b2d9bc", inputs: ["display","plot_rank_bump","df_ranking","html"], body: (display,plot_rank_bump,df_ranking,html) => {
-display(plot_rank_bump(df_ranking, ["EIS", "GII", "EIQ"], true, html`Sources: WIPO (2024), European Commission (2024) & Economist Impact (2023)`))
-// display(plot_rank(df_ranking, domain_rank_gii, ["EIS", "GII", "EIQ"],"Sources: WIPO (2024), European Commission (2024) & Economist Impact (2023)", true))
-}});
-
-define({id: "3e3682b0", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("GBR")
-))
-}});
-
-define({id: "c55312a5", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("USA")
-))
-}});
-
-define({id: "1a7588f8", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("DNK")
-))
-}});
-
-define({id: "1a7588f8-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
-display(await(
-colorLegend("DNK")
 ))
 }});
 
@@ -200,10 +158,34 @@ colorLegend("SWE")
 ))
 }});
 
-define({id: "fc642e84", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+define({id: "9a4da08b", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
 display(await(
-colorLegend("FIN")
+colorLegend("KOR")
 ))
+}});
+
+define({id: "c01ae098", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("CHN")
+))
+}});
+
+define({id: "c01ae098-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("CHN")
+))
+}});
+
+define({id: "bd90c0ad", inputs: ["display","plot_rank_bump","df_ranking","html"], body: (display,plot_rank_bump,df_ranking,html) => {
+display(
+  plot_rank_bump(
+    df_ranking,
+    ["EIS", "GII"],
+    true,
+    html`Sources: WIPO (2024), European Commission (2025)`
+  )
+);
+// display(plot_rank(df_ranking, domain_rank_gii, ["EIS", "GII", "EIQ"],"Sources: WIPO (2024), European Commission (2024) & Economist Impact (2023)", true))
 }});
 
 define({id: "4e058e15-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
@@ -212,8 +194,30 @@ colorLegend("CHE")
 ))
 }});
 
-define({id: "0e5acd9c", inputs: ["display","arrow_eis","df_eis_pivoted","df_eis_filtered","df_eis_sorted","color_scale"], body: (display,arrow_eis,df_eis_pivoted,df_eis_filtered,df_eis_sorted,color_scale) => {
-display(arrow_eis(df_eis_pivoted, df_eis_filtered, df_eis_sorted, color_scale));
+define({id: "e662b923-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("SWE")
+))
+}});
+
+define({id: "9a4da08b-1", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("KOR")
+))
+}});
+
+define({id: "1a7588f8", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend("DNK")
+))
+}});
+
+define({id: "e98c580e", inputs: ["display","arrow_eis","df_eis_filtered"], body: (display,arrow_eis,df_eis_filtered) => {
+display(arrow_eis(df_eis_filtered, "2021", "2025", false));
+}});
+
+define({id: "3b16a506", inputs: ["display","arrow_eis","df_gii_filtered"], body: (display,arrow_eis,df_gii_filtered) => {
+display(arrow_eis(df_gii_filtered, "2021", "2025", true));
 }});
 
 define({id: "4e058e15-2", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
@@ -222,8 +226,15 @@ colorLegend("CHE")
 ))
 }});
 
-define({id: "6482a121", inputs: ["display","plot_rank_bump","df_ranking"], body: (display,plot_rank_bump,df_ranking) => {
-display(plot_rank_bump(df_ranking, ["WCR", "WDCR"], false,"Source: IMD World Competitiveness Center"))
+define({id: "d6894269", inputs: ["display","plot_rank_bump","df_ranking"], body: (display,plot_rank_bump,df_ranking) => {
+display(
+  plot_rank_bump(
+    df_ranking,
+    ["WCR", "WDCR"],
+    false,
+    "Source: IMD World Competitiveness Center"
+  )
+);
 }});
 
 define({id: "e7147e10", body: () => {
@@ -277,7 +288,7 @@ define({id: "e7147e10", body: () => {
     <li class="observablehq-link"><a href="./b_ens">Entrepreneurship and Start-ups</a></li>
     <li class="observablehq-link"><a href="./c_inno">Innovation Activities</a></li>
     <li class="observablehq-link"><a href="./d_ktt">Knowledge and Technology Transfer</a></li>
-    <li class="observablehq-link"><a href="./e_snd">Sustainability and High-tech Exports</a></li>
+    <li class="observablehq-link"><a href="./e_snd">Sustainability and High-value Exports</a></li>
   </ol>
 </nav>
 <script>{const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
@@ -289,6 +300,7 @@ define({id: "e7147e10", body: () => {
 <nav>
 <div>Contents</div>
 <ol>
+<li class="observablehq-secondary-link"><a href="#mapping-switzerlands-innovation-strengths-weaknesses-and-their-evolution-over-time">Mapping Switzerland&#x27;s Innovation Strengths, Weaknesses and Their Evolution Over Time</a></li>
 <li class="observablehq-secondary-link"><a href="#switzerland-maintains-its-position-on-top">Switzerland maintains its position on top</a></li>
 <li class="observablehq-secondary-link"><a href="#however-followers-may-be-catching-up">However, followers may be catching up</a></li>
 <li class="observablehq-secondary-link"><a href="#switzerland-is-one-of-the-most-competitive-countries">Switzerland is one of the most competitive countries</a></li>
@@ -296,137 +308,149 @@ define({id: "e7147e10", body: () => {
 </nav>
 </aside>
 <main id="observablehq-main" class="observablehq">
-<div class="observablehq observablehq--block"><!--:30f71b4b:--></div>
-<h1 id="innovation-ecosystem-monitor-2024" tabindex="-1"><a class="observablehq-header-anchor" href="#innovation-ecosystem-monitor-2024">Innovation Ecosystem Monitor 2024</a></h1>
+<div class="observablehq observablehq--block"><!--:e7d92949:--></div>
+<div style="background: transparent linear-gradient(284deg, #AFBDFA 0%, #FE8776 100%) no-repeat padding-box; height: 60px; width: 650px; padding-left: 48px; padding-top: 1px; padding-bottom: 60px;  margin-left: -48px; margin-top: -31px;">
+<h1 id="innovation-ecosystem-monitor" tabindex="-1"><a class="observablehq-header-anchor" href="#innovation-ecosystem-monitor">Innovation Ecosystem Monitor</a></h1>
+<p><small><small style="display: block; text-align: right;">Last changes: 10. November 2025</small></small></p>
+</div>
 <h2 id="mapping-switzerlands-innovation-strengths-weaknesses-and-their-evolution-over-time" tabindex="-1"><a class="observablehq-header-anchor" href="#mapping-switzerlands-innovation-strengths-weaknesses-and-their-evolution-over-time">Mapping Switzerland's Innovation Strengths, Weaknesses and Their Evolution Over Time</a></h2>
 <h3 id="what-is-the-monitors-purpose" tabindex="-1"><a class="observablehq-header-anchor" href="#what-is-the-monitors-purpose">What is the monitors purpose?</a></h3>
-<p>The goal of this monitor is to provide an overview of the competitiveness of Switzerland's innovation ecosystem in an international context and go into more detail where it is relevant to Innosuisse. The monitor aims to provide a better understanding of the strengths and weaknesses of the Swiss innovation ecosystem and its development over time. Wherever possible the monitor links to reports that describe the findings in more detail. The report will be updated at least once a year after the publication of most indices in autumn.</p>
+<p>The goal of this monitor is to provide an overview of the competitiveness of Switzerland's innovation ecosystem in an international context and go into more detail where it is relevant to Innosuisse. The monitor aims to provide a better understanding of the strengths and weaknesses of the Swiss innovation ecosystem and its development over time. Wherever possible the monitor links to reports that describe the findings in more detail. The report is updated at least once a year after the publication of most indices in autumn.</p>
 <h3 id="from-the-abstract-to-the-concrete" tabindex="-1"><a class="observablehq-header-anchor" href="#from-the-abstract-to-the-concrete">From the abstract to the concrete</a></h3>
-<p>Switzerland regularly appears on top of international innovation rankings. These indices are constructed out of a multitude of indicators (and their selection influences the final ranking). The different indicators present different perspectives on the innovation ecosystem.</p>
-<p>In the following the report will first take a bird's eye view and look at different innovation indices (see below ↓) and then will dive into detail and shed light on selected environment and framework conditions (menu on the left hand side&nbsp;←).</p>
-<div class="note" label="Note">
-This is a new version of a previously internal Innovation Ecosystem Monitor published in Q3/2024. Differences in the findings or more recent sources compared to this version are highlighted in light blue like this: &nbsp;&nbsp;<mark>New</mark>&nbsp;&nbsp;. There have been major updates to the R&amp;D, the innovation activities and the start-up chapter and only minor updates to this introductory and the knowledge transfer chapter.
-</div>
+<p>Switzerland regularly appears on top of international innovation rankings. These indices are constructed out of a multitude of indicators, they present different perspectives on the innovation ecosystem and their selection influences the final ranking.</p>
+<p>In the following, the report will first take a bird's eye view and look at different innovation indices (see below ↓) and then will dive into detail and shed light on selected input and output indicators (menu on the left hand side&nbsp;←). The starting point for the in-depth analyses are selected indicators from the European Innovation Scoreboard (EIS).</p>
 <h2 id="switzerland-maintains-its-position-on-top" tabindex="-1"><a class="observablehq-header-anchor" href="#switzerland-maintains-its-position-on-top">Switzerland maintains its position on top</a></h2>
-<p><observablehq-loading></observablehq-loading><!--:4e058e15:-->'s top position in the two most prominent international innovation rankings is stable. Generally, there is not a lot of movement among the top 10 countries in both the GII and the EIS index. Only <observablehq-loading></observablehq-loading><!--:9a4da08b:--> and <observablehq-loading></observablehq-loading><!--:263d7e7c:--> have made significant progress in the rankings.</p>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:30b2d9bc:--></div>
-<p><a href="./_file/images/innovation-rankings-live.2bb70b72.png" download="innovation-rankings.png">⤓ Download image</a></p>
-<p>The Economist's Impact Unit's Innovation Quotient (EIQ) shows that not all innovation indices put Switzerland on top (and that ranking positions can be influenced by the selection of indicators: Compare e.g. the <observablehq-loading></observablehq-loading><!--:3e3682b0:-->, the <observablehq-loading></observablehq-loading><!--:c55312a5:--> or <observablehq-loading></observablehq-loading><!--:1a7588f8:--> across the three rankings).</p>
-<div class="note" label="Note"><details>
-  <summary>Why is Switzerland not on top in the EIQ?</summary>
-  <p>While GII and EIS rely on a combination of quantitative statistical indicators, the EIQ additionally includes the judgement of business leaders. Furthermore, the EIQ's scope is broader than the others'. In the three main categories, Switzerland ranks 4<sup>th</sup> (socioeconomic environment), 17<sup>th</sup> (policy and compliance) and 10<sup>th</sup> (business considerations).
-  </p><p>We haven't made a detailed comparison, but some choices are questionable from a Swiss perspective. A subcategory of "policy and compliance" where Switzerland fares worse than its competitors is "Education priorities". Here Switzerland's very high spending on education is set off against the lack of a national strategy on future skills (a sub-national competence in Switzerland), each accounting for 20% of the final score.
-  </p></details>
+<p><observablehq-loading></observablehq-loading><!--:4e058e15:--> remains at the top of the two most prominent innovation rankings. The leading countries in both the Global Innovation Index (GII) and the European Innovation Scoreboard (EIS) have changed little. Only <observablehq-loading></observablehq-loading><!--:e662b923:-->, <observablehq-loading></observablehq-loading><!--:9a4da08b:--> and <observablehq-loading></observablehq-loading><!--:c01ae098:--> have made significant gains. <observablehq-loading></observablehq-loading><!--:c01ae098-1:--> has entered the GII's top ten for the first time and sits just outside it in the EIS.</p>
+<div class="observablehq observablehq--block"><!--:bd90c0ad:--></div>
+<p><a href="./_file/images/innovation-rankings-live.dec6cef5.png" download="innovation-rankings.png">⤓ Download image</a></p>
+<div class="note" label="FAQ">
   <details>
-  <summary>The Swiss S&amp;T clusters are not top-ranked either.</summary>
-  <p>Here, only Zurich region (rank 50, -1 compared to 2023) and Basel region (rank 96, +1 compared to 2023) rank among the <a href="https://www.wipo.int/web/global-innovation-index/2024/science-technology-clusters" target="_blank" rel="noopener noreferrer">top 100 Science &amp; Technology-Clusters</a>, behind among others Paris (12), London (21), Munich (22), Stuttgart (29). 
+  <summary>Why are the Swiss S&amp;T clusters not top-ranked?</summary>
+  <p>Here, only Zurich region (rank 40, +10 compared to 2024) ranks among the <a href="https://www.wipo.int/en/web/global-innovation-index/2025/innovation-clusters" target="_blank" rel="noopener noreferrer">top 100 Science &amp; Technology-Clusters</a>, behind among others London (8), Paris (12), Munich (27) and Berlin (30). Basel region has dropped out of the top 100 (compared to its rank 96 in 2024). 
 </p><p>The reason why Switzerland appears nonetheless at the top of the rankings as a country is twofold:</p>
 <ol>
-<li>The S&amp;T-Clusters are - unlike the countries - not compared relative to their size, but in absolute terms. Consequently bigger clusters have an advantage.</li>
-<li>The concentration of S&amp;T-Clusters in Switzerland is very high in relation to the rest of the country (and in contr-ast to other countries).<p></p></li></ol></details></div>
+<li>The S&amp;T-Clusters are – unlike the countries – not compared relative to their size, but in absolute terms. Consequently, bigger clusters have an advantage.</li>
+<li>The concentration of S&amp;T-Clusters in Switzerland is dense in relation to the rest of the country (and in contrast to other countries).<p></p></li></ol></details></div>
 
 <p></p>
 <h2 id="however-followers-may-be-catching-up" tabindex="-1"><a class="observablehq-header-anchor" href="#however-followers-may-be-catching-up">However, followers may be catching up</a></h2>
-<h3 id="european-innovation-scoreboard-index-score-2017-2023" tabindex="-1"><a class="observablehq-header-anchor" href="#european-innovation-scoreboard-index-score-2017-2023">European Innovation Scoreboard Index Score 2017–2023</a></h3>
-<p>Its closest competitors in the European Innovation Scoreboard – <observablehq-loading></observablehq-loading><!--:1a7588f8-1:-->, <observablehq-loading></observablehq-loading><!--:e662b923:--> and <observablehq-loading></observablehq-loading><!--:fc642e84:--> – have made up substantial ground and are closing the gap. <observablehq-loading></observablehq-loading><!--:4e058e15-1:--> on the other hand has made only modest gains.</p>
-<div class="observablehq observablehq--block"><!--:0e5acd9c:--></div>
-<p><a href="./_file/images/eis-progress-arrow-live.522acc45.png" download="eis-progress-arrow.png">⤓ Download image</a></p>
+<h3 id="comparison-of-the-score-evolution-for-gii-and-eis-2021-2025" tabindex="-1"><a class="observablehq-header-anchor" href="#comparison-of-the-score-evolution-for-gii-and-eis-2021-2025">Comparison of the score evolution for GII and EIS 2021–2025</a></h3>
+<p><observablehq-loading></observablehq-loading><!--:4e058e15-1:--> has slipped slightly in the latest European Innovation Scoreboard (EIS). <observablehq-loading></observablehq-loading><!--:e662b923-1:-->, <observablehq-loading></observablehq-loading><!--:9a4da08b-1:--> and <observablehq-loading></observablehq-loading><!--:1a7588f8:--> have gained ground and narrowed the gap. This is partly due to changes in the index's methodology. The EIS now includes, for example, measures of supply-chain vulnerability, which penalises Switzerland: its complex products depend on high-tech imports from outside the EU.</p>
+<div class="observablehq observablehq--block"><!--:e98c580e:--></div>
+<p><a href="./_file/images/eis-progress-arrow-live.df3d7e39.png" download="eis-progress-arrow.png">⤓ Download image</a></p>
+<p>The Global Innovation Index, which uses a broader set of indicators, shows no such convergence and no decline in Swiss innovative power.</p>
+<div class="observablehq observablehq--block"><!--:3b16a506:--></div>
+<p><a href="./_file/images/gii-progress-arrow-live.eda65963.png" download="gii-progress-arrow.png">⤓ Download image</a></p>
 <h3 id="switzerlands-strengths-and-weaknesses" tabindex="-1"><a class="observablehq-header-anchor" href="#switzerlands-strengths-and-weaknesses">Switzerland's strengths and weaknesses</a></h3>
-<p>The European Innovation Scoreboard (EIS) highlights Switzerland's greatest strengths in innovation as its universities' research output and the international composition of their student bodies / academic staff. Switzerland has recently shown significant progress in two crucial areas: venture capital availability and product innovation by SMEs. Notably, the long-declining trend in SME product innovation has reversed, showing positive momentum.</p>
+<p>Both indices highlight similar strengths: exceptional scientific output and exceptionally close links between industry and academia, evident in public-private co-publications and university-industry R&amp;D collaboration.</p>
+<p>The weaknesses are more varied, from limited government support to low foreign direct investment and trade impacts. One very notable difference: high-tech imports. The EIS treats them as a vulnerability, signalling dependence on critical supplies. The GII sees them positively, as a sign of economic complexity and ability to absorb foreign knowledge. Both views have their raison d'être. Which matters more depends on how open the global economy remains.</p>
 <table>
 <thead>
 <tr>
-<th><strong>🦾 Relative strengths</strong></th>
+<th></th>
+<th>European Innovation Scoreboard (2025)</th>
+<th>Global Innovation Index (2025)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="./d_ktt#public-private-co-publications">Public-private co-publications</a></td>
+<td><strong>Strengths</strong></td>
+<td><a href="./d_ktt#public-private-co-publications">Public-private co-publications</a><br><em>Innovation linkages</em></td>
+<td>University–industry R&amp;D collaboration<br><em>Innovation linkages</em></td>
 </tr>
 <tr>
-<td>International scientific co-publications</td>
+<td></td>
+<td>International scientific co-publications<br><em>Attractive research systems</em></td>
+<td>Patents by origin/bn PPP$ GDP<br><em>Knowledge creation</em></td>
 </tr>
 <tr>
-<td>Foreign doctorate students as a % of all doctorate students</td>
+<td></td>
+<td>Foreign doctorate students as a share of all doct. stud.<br><em>Attractive research systems</em></td>
+<td>Production and export complexity<br><em>Knowledge diffusion</em></td>
+</tr>
+<tr>
+<td><strong>Weaknesses</strong></td>
+<td><a href="./a_rnd#business-expenditure-on-r-and-d-berd-financed-by-government">Direct &amp; indirect government support of business R&amp;D</a><br><em>Finance and support</em></td>
+<td>FDI net inflows, % GDP<br><em>Knowledge absorption</em></td>
+</tr>
+<tr>
+<td></td>
+<td>High-tech imports from outside the EU<br><em>Trade impacts</em></td>
+<td>ICT use<br><em>ICT</em></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="./e_snd#exports-of-medium-and-high-technology-products-as-a-share-of-total-products-exports">Exports of medium and high-tech products</a><br><em>Trade impacts</em></td>
+<td>Domestic industry diversification<br><em>Trade, diversification and market scale</em></td>
 </tr>
 </tbody>
 </table>
+<details>
+<summary><small>Additional info: Strong increases an decreases</small></summary>
 <table>
 <thead>
 <tr>
-<th><strong>⚠️ Relative weaknesses</strong></th>
+<th></th>
+<th>European Innovation Scoreboard (2018–25)</th>
+<th>Global Innovation Index (2021–25)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="./a_rnd#business-expenditure-on-r-and-d-berd-financed-by-government">Direct and indirect government support of business R&amp;D</a></td>
+<td><strong>↗ Strong<br>increases</strong></td>
+<td><a href="./b_ens#venture-capital-investments-in-of-gdp-2017-2024">Venture capital expenditures</a><br><em>Finance and support</em></td>
+<td>Applied tariff rate, weighted avg., %<br><em>Trade, diversification and market scale</em></td>
 </tr>
 <tr>
-<td><a href="./e_snd#development-of-environment-related-technologies-percentage-of-all-technologies">Environment-related technologies</a></td>
+<td></td>
+<td><a href="./c_inno#sales-of-new-to-market-and-new-to-enterprise-innovations-as-a-percentage-of-turnover">Sales of new-to-market and new-to-firm innovations</a> <br><em>Sales and employment impacts</em></td>
+<td>High-tech imports, % total trade<br><em>Knowledge absorption</em></td>
 </tr>
 <tr>
-<td>SMEs introducing business process innovations</td>
+<td></td>
+<td>Population involved in lifelong learning<br><em>Human resources</em></td>
+<td>Industrial designs by origin/bn $ GDP<br><em>Intangible assets</em></td>
+</tr>
+<tr>
+<td><strong>↘ Strong<br>decreases</strong></td>
+<td>SMEs introducing business process innovations<br><em>Innovators</em></td>
+<td>FDI net inflows, % GDP<br><em>Knowledge absorption</em></td>
+</tr>
+<tr>
+<td></td>
+<td>Design applications<br><em>Intellectual assets</em></td>
+<td>ICT services imports, % total trade<br><em>Knowledge absorption</em></td>
+</tr>
+<tr>
+<td></td>
+<td>Employment in innovative enterprises<br><em>Sales and employment impacts</em></td>
+<td>Labor productivity growth, %<br><em>Knowledge impact</em></td>
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr>
-<th><strong>↗ Strong increases since 2017</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="./b_ens#venture-capital-investments-in-of-gdp-2017-2024">Venture capital expenditures</a></td>
-</tr>
-<tr>
-<td>Population involved in lifelong learning</td>
-</tr>
-<tr>
-<td><a href="./c_inno#share-of-firms-with-product-innovations">SMEs introducing product innovations</a></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><strong>↘ Strong decreases since 2017</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SMEs introducing business process innovations</td>
-</tr>
-<tr>
-<td>Employment in innovative enterprises</td>
-</tr>
-<tr>
-<td><a href="./e_snd#development-of-environment-related-technologies-percentage-of-all-technologies">Environment-related technologies</a></td>
-</tr>
-</tbody>
-</table>
+</details>
 <h2 id="switzerland-is-one-of-the-most-competitive-countries" tabindex="-1"><a class="observablehq-header-anchor" href="#switzerland-is-one-of-the-most-competitive-countries">Switzerland is one of the most competitive countries</a></h2>
-<p><mark>New:</mark>&nbsp;&nbsp;&nbsp;<observablehq-loading></observablehq-loading><!--:4e058e15-2:--> is also well positioned in other, less innovation focused rankings, such as IMD's competitiveness rankings, where it has recently made significant progress in both the competitiveness and the digital competitiveness ranking.</p>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:6482a121:--></div>
-<p><a href="./_file/images/competitiveness-rankings-live.16a777b6.png" download="competitiveness-rankings.png">⤓ Download image</a></p>
+<p><observablehq-loading></observablehq-loading><!--:4e058e15-2:--> also ranks highly in broader measures of competitiveness. It has climbed on top of IMD's rankings for both overall and digital competitiveness.</p>
+<div class="observablehq observablehq--block"><!--:d6894269:--></div>
+<p><a href="./_file/images/competitiveness-rankings-live.fb516ef5.png" download="competitiveness-rankings.png">⤓ Download image</a></p>
 <h4 id="sources" tabindex="-1"><a class="observablehq-header-anchor" href="#sources">Sources</a></h4>
 <ul>
-<li>Wipo (<a href="https://www.wipo.int/web-publications/global-innovation-index-2024/en/" target="_blank" rel="noopener noreferrer">2024</a>) Global Innovation Index</li>
-<li>European Commission (<a href="https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en" target="_blank" rel="noopener noreferrer">2024</a>) European Innovation Scoreboard</li>
-<li>Economist (<a href="https://impact.economist.com/new-globalisation/innovation-quotient" target="_blank" rel="noopener noreferrer">2024</a>) The Innovation Quotient</li>
-<li>IMD (<a href="https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-competitiveness-ranking/" target="_blank" rel="noopener noreferrer">2025</a>) World Competitiveness Ranking&nbsp;&nbsp;&nbsp;<mark>New</mark></li>
-<li>IMD (<a href="https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/" target="_blank" rel="noopener noreferrer">2024</a>) World Digital Competitiveness Ranking&nbsp;&nbsp;&nbsp;<mark>New</mark></li>
+<li>Wipo (<a href="https://www.wipo.int/en/web/global-innovation-index" target="_blank" rel="noopener noreferrer">2025</a>) Global Innovation Index</li>
+<li>European Commission (<a href="https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en" target="_blank" rel="noopener noreferrer">2025</a>) European Innovation Scoreboard</li>
+<li>IMD (<a href="https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-competitiveness-ranking/" target="_blank" rel="noopener noreferrer">2025</a>) World Competitiveness Ranking</li>
+<li>IMD (<a href="https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/" target="_blank" rel="noopener noreferrer">2025</a>) World Digital Competitiveness Ranking</li>
 </ul>
 <h4 id="other-indices" tabindex="-1"><a class="observablehq-header-anchor" href="#other-indices">Other indices</a></h4>
 <ul>
-<li>GEM (<a href="https://gemconsortium.org/reports/latest-global-report" target="_blank" rel="noopener noreferrer">2025</a>) Global Entrepreneurship Monitor&nbsp;&nbsp;&nbsp;<mark>New</mark></li>
-<li>The EU made a <a href="https://op.europa.eu/en/publication-detail/-/publication/70fe2318-fb72-11ed-a05c-01aa75ed71a1/language-en" target="_blank" rel="noopener noreferrer">study</a> on the development of an European startup scoreboard (comparable to the EIS)</li>
+<li>Economist (<a href="https://web.archive.org/web/20240922204922/https://impact.economist.com/new-globalisation/innovation-quotient" target="_blank" rel="noopener noreferrer">2024</a>) The Innovation Quotient has been discontinued and is no longer included.</li>
+<li>GEM (<a href="https://gemconsortium.org/reports/latest-global-report" target="_blank" rel="noopener noreferrer">2025</a>) Global Entrepreneurship Monitor</li>
+<li>The EU made a <a href="https://op.europa.eu/en/publication-detail/-/publication/70fe2318-fb72-11ed-a05c-01aa75ed71a1/language-en" target="_blank" rel="noopener noreferrer">study</a> on the development of an European startup scoreboard. The scoreboard is <a href="https://4front.fi/proving-valuable-insights-on-europes-startup-and-scaleup-landscape/" target="_blank" rel="noopener noreferrer">in development</a>.</li>
 </ul>
 <div class="observablehq observablehq--block"><!--:e7147e10:--></div>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="next" href="./a_rnd"><span>Research and Development</span></a></nav>
-<div>Authors: <a href="mailto:adrianriser@innosuisse.ch" target="_blank" rel="noopener noreferrer">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 25.06.2025 • <a href="https://observablehq.com/framework/" target="_blank" rel="noopener noreferrer">Built with Observable.</a></div>
+<div>Authors: <a href="mailto:adrianriser@innosuisse.ch" target="_blank" rel="noopener noreferrer">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 05.11.2025 • <a href="https://observablehq.com/framework/" target="_blank" rel="noopener noreferrer">Built with Observable.</a></div>
 </footer>
 </div>
 </body>

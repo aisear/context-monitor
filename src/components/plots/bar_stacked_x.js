@@ -1,13 +1,18 @@
 import * as Plot from "@observablehq/plot";
 import { html } from "npm:htl";
-import { color_range } from "../utils/colors.js"
+import { color_range } from "../utils/colors.js";
 
-export function bar_stacked_x(data) {  
-
-  const domain_y = data.filter(d => d.type === "Experimental development").sort((a, b) => a.share - b.share).map(item => item.country);
+export function bar_stacked_x(data) {
+  const domain_y = data
+    .filter((d) => d.type === "Experimental development")
+    .sort((a, b) => a.share - b.share)
+    .map((item) => item.country);
 
   return Plot.plot({
-    caption: html`Source: <a href="https://oe.cd/msti" target="_blank">OECD Main Science and Technology Indicators (MSTI)</a>`,
+    caption: html`Source:
+      <a href="https://oe.cd/msti" target="_blank"
+        >OECD Main Science and Technology Indicators (MSTI)</a
+      >`,
     marginTop: 0,
     marginLeft: 100,
     color: {
@@ -15,16 +20,16 @@ export function bar_stacked_x(data) {
       domain: [
         "Basic research",
         "Applied research",
-        "Experimental development"
+        "Experimental development",
       ],
-      range: color_range
+      range: color_range,
     },
     style: { fontSize: "11px" },
-    x: { label: "in % of GERD", percent: true},
+    x: { label: "in % of GERD", percent: true },
     y: {
       label: "",
       domain: domain_y,
-      tickSize: 0
+      tickSize: 0,
     },
     marks: [
       Plot.barX(data, {
@@ -36,27 +41,26 @@ export function bar_stacked_x(data) {
         order: [
           "Basic research",
           "Applied research",
-          "Experimental development"
+          "Experimental development",
         ],
-        sort: "x"
+        sort: "x",
       }),
       Plot.text(
         data,
-        Plot.stackX(
-          {
-            x: "share",
-            y: "country", 
-            z: "type",
-            text: d => `${d.share.toFixed(0)} %`,
-            offset: "normalize",
-            order: [
-              "Basic research",
-              "Applied research", 
-              "Experimental development"
-            ],
-            sort: "x"
+        Plot.stackX({
+          x: "share",
+          y: "country",
+          z: "type",
+          text: (d) => `${d.share.toFixed(0)} %`,
+          offset: "normalize",
+          order: [
+            "Basic research",
+            "Applied research",
+            "Experimental development",
+          ],
+          sort: "x",
         })
-      )
-    ]
-});
+      ),
+    ],
+  });
 }

@@ -15,8 +15,10 @@ df <- df |>  select(
   obs_value = OBS_VALUE
 ) |> 
   mutate(
-        country = case_when(iso3 == "CHN" ~ "China",
-                        .default = country),
+    country = case_when(
+      iso3 == "CHN" ~ "China",
+      iso3 == "KOR" ~ "South Korea",
+      TRUE ~ country),
     year_date = paste0(year,"-01-01")
   )
 

@@ -16,6 +16,7 @@ async function captureScreenshots() {
   const figureIds = [
     'innovation-rankings-figure',
     'eis-progress-arrow-figure',
+    'gii-progress-arrow-figure',
     'competitiveness-rankings-figure',
     'swiss-rnd-sankey-figure',
     'gerd-gdp-comparison-figure',
@@ -39,6 +40,7 @@ async function captureScreenshots() {
     'co2-productivity-figure',
     'hightech-exports-figure',
     'medium-hightech-exports-figure',
+    'medium-hightech-manufacturing-figure',
     'knowledge-intensive-services-figure'
   ];
   

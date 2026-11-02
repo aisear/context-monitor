@@ -11,7 +11,7 @@ export default {
     { name: "Entrepreneurship and Start-ups", path: "/b_ens" },
     { name: "Innovation Activities", path: "/c_inno" },
     { name: "Knowledge and Technology Transfer", path: "/d_ktt" },
-    { name: "Sustainability and High-tech Exports", path: "/e_snd" }
+    { name: "Sustainability and High-value Exports", path: "/e_snd" },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
@@ -26,7 +26,8 @@ export default {
   // Some additional configuration options and their defaults:
   theme: "light", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
-  footer: ({path}) => `Authors: <a href="mailto:adrianriser@innosuisse.ch">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 30.07.2025 • <a href="https://observablehq.com/framework/" target="_blank">Built with Observable.</a>`,
+  footer: ({ path }) =>
+    `Authors: <a href="mailto:adrianriser@innosuisse.ch">Adrian Riser</a> and Adrian Berwert, Impact Analysis, Innosuisse • Last changes: 05.11.2025 • <a href="https://observablehq.com/framework/" target="_blank">Built with Observable.</a>`,
 
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
