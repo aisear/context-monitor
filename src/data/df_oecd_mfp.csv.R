@@ -1,7 +1,7 @@
 library(readr)
 library(tidyverse)
 
-df <- read.csv("https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB,2.0/.A.MFPH._T......?startPeriod=2015&format=csvfilewithlabels") # nolint: line_length_linter.
+df <- read.csv("https://sdmx.oecd.org/archive/rest/data/OECD.SDD.TPS,DSD_PDB@DF_PDB_GR,1.0/.A.MFPH..IX.V...?startPeriod=2015&format=csvfilewithlabels") # nolint: line_length_linter.
 
 df <-  df |>
   select(

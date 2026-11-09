@@ -13,35 +13,35 @@ export function line_oecd(
   decimals = 1,
   percent = true,
   zero = true,
-  download_link = undefined
+  download_link = undefined,
 ) {
   const pct = percent ? " %" : "";
   const label =
-    data[0].var_axis === undefined
-      ? data[0].unit_name === undefined
-        ? data[0].measure_name
-        : data[0].measure_name + ", " + data[0].unit_name
-      : data[0].var_axis;
+    data[0].var_axis === undefined ?
+      data[0].unit_name === undefined ?
+        data[0].measure_name
+      : data[0].measure_name + ", " + data[0].unit_name
+    : data[0].var_axis;
+
+  const endYear = Math.max(...data.map((d) => d.year_date.getFullYear()));
+  const startYear = endYear - 7;
 
   return Plot.plot({
     caption:
-      download_link === undefined
-        ? html`Source: <a href="${source_link}" target="_blank">${source}</a>`
-        : html`Source: <a href="${source_link}" target="_blank">${source}</a> •
-            <a href="${download_link}" download>⤓ Download image</a>`,
+      download_link === undefined ?
+        html`Source: <a href="${source_link}" target="_blank">${source}</a>`
+      : html`Source: <a href="${source_link}" target="_blank">${source}</a> •
+          <a href="${download_link}" download>⤓ Download image</a>`,
     marginTop: 30,
     marginRight: 145,
-    insetLeft: 7.5,
+    insetLeft: 4,
+    insetRight: 4,
     color: color_scale,
     style: { fontSize: "11px" },
     x: {
       label: null,
       padding: 0.2,
-      domain:
-        data[0].var_axis ==
-        "Multifactor productivity (hours based), Index = 2015, Current prices"
-          ? [new Date("2015"), new Date("2024")]
-          : [new Date("2017"), new Date("2024")],
+      domain: [new Date(String(startYear)), new Date(String(endYear))],
     },
     y: {
       label: label,
@@ -59,6 +59,7 @@ export function line_oecd(
         strokeOpacity: (d) => (d.iso3 === "CHE" ? 1 : 0.6),
         curve: "catmull-rom",
         marker: true,
+        clip: true,
       }),
       Plot.tip(
         data,
@@ -70,10 +71,10 @@ export function line_oecd(
             `${
               d.country
             } (${d.year_date.getFullYear()}):\n${d.obs_value.toFixed(
-              decimals
+              decimals,
             )}${pct}`,
           strokeWidth: 0,
-        })
+        }),
       ),
       Plot.text(
         data,
@@ -82,13 +83,14 @@ export function line_oecd(
             x: "year_date",
             y: "obs_value",
             z: "country",
-            text: wrap
-              ? (d) =>
-                  d.year_date < new Date("2024")
-                    ? `${d.country}\n(${d.obs_value.toFixed(decimals)}${pct})`
-                    : `${d.country} (${d.obs_value.toFixed(1)} %)`
+            text:
+              wrap ?
+                (d) =>
+                  d.year_date.getFullYear() < endYear ?
+                    `${d.country}\n(${d.obs_value.toFixed(decimals)}${pct})`
+                  : `${d.country} (${d.obs_value.toFixed(1)} %)`
               : (d) => `${d.country} (${d.obs_value.toFixed(decimals)}${pct})`,
-            dx: 10, // Offset to the right
+            dx: 15, // Offset to the right
             dy: 0, // Vertical adjustment,
             textAnchor: "start",
             lineWidth: 14,
@@ -96,8 +98,8 @@ export function line_oecd(
             stroke: "var(--plot-background)",
             fill: (d) => (d.country === "Switzerland" ? "black" : "grey"),
             //opacity: (d) => (d.country === "Switzerland" ? 1 : 0.6),
-          })
-        )
+          }),
+        ),
       ),
       ...(zero ? [Plot.ruleY([0])] : []),
     ],
@@ -148,7 +150,7 @@ export function line_cis(data, measure = "pct_inno", domain_x, color_scale) {
           title: (d) =>
             `${d.country} (${d.years}):\n${d.obs_value.toFixed(0)} %`,
           strokeWidth: 0,
-        })
+        }),
       ),
       Plot.text(
         df_plot,
@@ -158,15 +160,15 @@ export function line_cis(data, measure = "pct_inno", domain_x, color_scale) {
             y: "obs_value",
             z: "country",
             text: (d) =>
-              d.years === "2020–2022"
-                ? `${d.country} (${d.obs_value} %)`
-                : `${d.country}\n(${d.obs_value} %)`,
+              d.years === "2020–2022" ?
+                `${d.country} (${d.obs_value} %)`
+              : `${d.country}\n(${d.obs_value} %)`,
             dx: 10,
             textAnchor: "start",
             stroke: "var(--plot-background)",
             fill: (d) => (d.country === "Switzerland" ? "black" : "grey"),
-          })
-        )
+          }),
+        ),
       ),
       [Plot.ruleY([0])],
     ],
@@ -178,7 +180,7 @@ export function line_rank(
   indicator = "Innovationshemmnisse",
   percent = false,
   zero = true,
-  domain = [0, 20]
+  domain = [0, 20],
 ) {
   const df_ie = data.filter((d) => d.indicator === indicator);
 
@@ -250,13 +252,13 @@ export function line_rank(
           y: "obs_value",
           z: "indicator_value_en",
           title: (d) =>
-            d.obs_value === null
-              ? ""
-              : `${
-                  d.indicator_value_en
-                } (${d.date_end.getFullYear()}):\n${d.obs_value.toFixed(1)} %`,
+            d.obs_value === null ?
+              ""
+            : `${
+                d.indicator_value_en
+              } (${d.date_end.getFullYear()}):\n${d.obs_value.toFixed(1)} %`,
           strokeWidth: 0,
-        })
+        }),
       ),
       Plot.text(
         df_ie,
@@ -268,9 +270,9 @@ export function line_rank(
             z: "indicator_value_en",
             textAnchor: "start",
             dx: 6,
-            fill: "indicator_value_en",
-          })
-        )
+            fill: "black",
+          }),
+        ),
       ),
       Plot.gridY([0]),
     ],

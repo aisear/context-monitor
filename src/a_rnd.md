@@ -251,7 +251,7 @@ display(bar_stacked_y_normalized(df_gerd_type2, normalize, domain2, order2));
 
 ### GERD financed by government in % of GDP 2018–2023
 
-${colorLegend("CHE")}'s government-financed R&D remained stable in the last 5 years, with a slight decrease 0.1 percentage points in 2023. Meanwhile, ${colorLegend("KOR")} has increased its financing ratio to GDP. Interestingly, ${colorLegend("ISR")} has a comparatively low share of government-financed GERD. Its R&D is mainly driven by private funding, especially from abroad (cf. also [venture capital investments](b_ens#venture-capital-investments-in-of-gdp-2017-2024)). Innosuisse funding is part of the GERD financed by government.
+${colorLegend("CHE")}'s government-financed R&D remained stable in the last 5 years, with a slight decrease 0.1 percentage points in 2023. Meanwhile, ${colorLegend("KOR")} has increased its financing ratio to GDP. Interestingly, ${colorLegend("ISR")} has a comparatively low share of government-financed GERD. Its R&D is mainly driven by private funding, especially from abroad (cf. also [venture capital investments](b_ens#venture-capital-investments-in-of-gdp-2017-2025)). Innosuisse funding is part of the GERD financed by government.
 
 ```js
 display(

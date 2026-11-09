@@ -1,6 +1,7 @@
 import * as Plot from "@observablehq/plot";
 import * as aq from "arquero";
 import { color_scale } from "../utils/colors.js";
+import { iso3_country } from "../utils/countries.js";
 import { html } from "htl";
 
 export function arrow_eis(
@@ -11,8 +12,12 @@ export function arrow_eis(
 ) {
   const yearStartNum = Number(year_start);
   const yearEndNum = Number(year_end);
+  const df_harmonized = df_filtered.map((d) => ({
+    ...d,
+    country: iso3_country.get(d.iso3) ?? d.country,
+  }));
   const df_pivoted = aq
-    .from(df_filtered)
+    .from(df_harmonized)
     .filter(aq.escape((d) => d.year === yearEndNum || d.year === yearStartNum))
     .groupby("country", "iso3")
     .pivot("year", "obs_value")
@@ -64,7 +69,7 @@ export function arrow_eis(
         r: 2,
       }),
       Plot.text(
-        df_pivoted.filter((d) => d.country === "Switzerland"),
+        df_pivoted.filter((d) => d.iso3 === "CHE"),
         {
           x: year_start,
           y: "country",
@@ -74,7 +79,7 @@ export function arrow_eis(
         }
       ),
       Plot.text(
-        df_pivoted.filter((d) => d.country === "Switzerland"),
+        df_pivoted.filter((d) => d.iso3 === "CHE"),
         {
           x: year_end,
           y: "country",

@@ -1,4 +1,52 @@
 iso3,economy,year,obs_value,var_axis
+AGO,Angola,2025,52.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ARG,Argentina,2025,21.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+BHR,Bahrain,2025,17.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+BRA,Brazil,2025,19.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+CAN,Canada,2025,27.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+CHL,Chile,2025,29.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+CRI,Costa Rica,2025,13.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+HRV,Croatia,2025,11.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+CYP,Cyprus,2025,9.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ECU,Ecuador,2025,29.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+EGY,Egypt,2025,2.8,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+SLV,El Salvador,2025,23.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+EST,Estonia,2025,11.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+FIN,Finland,2025,6.1,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+FRA,France,2025,11.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+DEU,Germany,2025,13.0,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+GTM,Guatemala,2025,25.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+HUN,Hungary,2025,7.2,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+IND,India,2025,12.3,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ISR,Israel,2025,8.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ITA,Italy,2025,11.0,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+JOR,Jordan,2025,10.7,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+LVA,Latvia,2025,13.2,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+LTU,Lithuania,2025,17.0,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+LUX,Luxembourg,2025,9.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+MEX,Mexico,2025,19.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+NLD,Netherlands,2025,12.2,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+NOR,Norway,2025,8.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+OMN,Oman,2025,6.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+PER,Peru,2025,12.8,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+POL,Poland,2025,2.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+PRI,Puerto Rico,2025,15.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+QAT,Qatar,2025,2.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+KOR,South Korea,2025,9.1,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ROU,Romania,2025,3.7,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+SAU,Saudi Arabia,2025,28.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+SVK,Slovak Republic,2025,11.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+SVN,Slovenia,2025,7.1,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ZAF,South Africa,2025,14.7,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ESP,Spain,2025,7.8,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+SWE,Sweden,2025,9.6,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+CHE,Switzerland,2025,10.2,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+TWN,Taiwan,2025,10.1,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+THA,Thailand,2025,19.0,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+ARE,United Arab Emirates,2025,20.4,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+GBR,United Kingdom,2025,21.9,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+USA,United States,2025,17.7,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
+VEN,Venezuela,2025,7.7,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
 ARG,Argentina,2024,23.36,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
 AUT,Austria,2024,6.58,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %
 BRA,Brazil,2024,20.31,Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %

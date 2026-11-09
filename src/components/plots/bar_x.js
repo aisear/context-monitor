@@ -50,6 +50,43 @@ export function bar_x(
   });
 }
 
+export function bar_x_country(
+  data,
+  decimals = 1,
+  source = undefined,
+  source_link = undefined
+) {
+  return Plot.plot({
+    caption: html`Source:
+      <a href="${source_link}" target="_blank">${source}</a>`,
+    marginTop: 40,
+    marginLeft: 100,
+    marginRight: 85,
+    y: { label: null, tickSize: 0 },
+    x: { label: data[0].var_axis, axis: "top" },
+    color: color_scale,
+    style: { fontSize: "11px" },
+    marks: [
+      Plot.barX(data, {
+        x: "obs_value",
+        y: "country",
+        fill: "iso3",
+        fillOpacity: (d) => (d.iso3 === "CHE" ? 1 : 0.6),
+        sort: { y: "x", reverse: true },
+      }),
+      Plot.gridX({ stroke: "white", opacity: 1 }),
+      Plot.textX(data, {
+        x: "obs_value",
+        y: "country",
+        text: (d) => d.obs_value.toFixed(decimals),
+        textAnchor: "start",
+        dx: 5,
+        sort: { y: "x", reverse: true },
+      }),
+    ],
+  });
+}
+
 export function bar_x_unicorn(data, color_scale) {
   return Plot.plot({
     //title: "Number of unicorns per 133 billion GDP",

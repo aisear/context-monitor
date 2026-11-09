@@ -48,7 +48,7 @@ const df_ranking = df_rank
   .filter(
     (d) =>
       countries.includes(d.iso3) &&
-      (d.year_date > new Date("2021-12-31") || d.year_date === "NA")
+      (d.year_date > new Date("2021-12-31") || d.year_date === "NA"),
     //&& ["2022", "2023", "2024", "Change"].includes(d.year)
   );
 const df_eis_raw = await FileAttachment("data/eis_raw_data_2026.csv").csv({
@@ -58,7 +58,7 @@ const df_eis_raw = await FileAttachment("data/eis_raw_data_2026.csv").csv({
 const df_eis = df_eis_raw.filter((d) => d.year_date >= new Date("2017-01-01"));
 
 const df_eis_filtered = df_eis.filter(
-  (d) => countries.includes(d.iso3) && d.var === "SII"
+  (d) => countries.includes(d.iso3) && d.var === "SII",
 );
 
 const df_gii = await FileAttachment("data/gii_2021_2026_score.csv").csv({
@@ -85,25 +85,25 @@ const df_gerd = filter_oecd_data(
   df_oecd_msti,
   "PT_B1GQ",
   "G",
-  countries
+  countries,
 ).filter((d) => d.iso3 !== "GBR");
 const df_gerd_gov = filter_oecd_data(
   df_oecd_msti,
   "PT_B1GQ",
   "G_FG",
-  countries
+  countries,
 );
 const df_berd_gov = filter_oecd_data(
   df_oecd_msti,
   "PT_BERD",
   "B_FG",
-  countries
+  countries,
 );
 const df_rnd_personnel = filter_oecd_data(
   df_oecd_msti,
   "10P3EMP",
   "T_TT",
-  countries
+  countries,
 );
 const df_gbard_tax = df_gtard
   .filter((d) => countries.includes(d.iso3))
@@ -115,8 +115,8 @@ const df_gerd_type = aq
         ["B", "GV", "H"].includes(d.measure) &&
         d.unit === "PT_B1GQ" &&
         countries.includes(d.iso3) &&
-        [2023].includes(d.year)
-    )
+        [2023].includes(d.year),
+    ),
   )
   .groupby("country")
   .derive({
@@ -145,20 +145,17 @@ const df_gerd_type3 = aq
         ["G_FA", "G_FON", "G_FG", "G_FB"].includes(d.measure) &&
         d.unit === "PT_B1GQ" &&
         ((countries.includes(d.iso3) && [2023].includes(d.year)) ||
-          (["ISR"].includes(d.iso3) && [2021].includes(d.year)))
-    )
+          (["ISR"].includes(d.iso3) && [2021].includes(d.year))),
+    ),
   )
   .groupby("country")
   .derive({
     country_total: (d) => aq.op.sum(d.obs_value),
     measure_name: (d) =>
-      d.measure === "G_FA"
-        ? "Rest of the world"
-        : d.measure === "G_FB"
-        ? "Business sector"
-        : d.measure === "G_FG"
-        ? "Government"
-        : "Higher Education and PNP sectors",
+      d.measure === "G_FA" ? "Rest of the world"
+      : d.measure === "G_FB" ? "Business sector"
+      : d.measure === "G_FG" ? "Government"
+      : "Higher Education and PNP sectors",
   })
   .ungroup()
   .derive({
@@ -180,20 +177,17 @@ const rnd_type = df_rnd_type.filter((d) => countries.includes(d.iso3));
 const rnd_type2023 = rnd_type.map((d) => ({
   ...d,
   share:
-    d.iso3 === "CHE" && d.type === "Applied research"
-      ? 37.9
-      : d.iso3 === "CHE" && d.type === "Basic research"
-      ? 27.2
-      : d.iso3 === "CHE" && d.type === "Experimental development"
-      ? 34.9
-      : d.share,
+    d.iso3 === "CHE" && d.type === "Applied research" ? 37.9
+    : d.iso3 === "CHE" && d.type === "Basic research" ? 27.2
+    : d.iso3 === "CHE" && d.type === "Experimental development" ? 34.9
+    : d.share,
 }));
 const df_ch_gerd = df_oecd_msti.filter(
   (d) =>
     ["B", "GV", "H"].includes(d.measure) &&
     d.unit === "PT_B1GQ" &&
     ["CHE"].includes(d.iso3) &&
-    [2023, 2021, 2019].includes(d.year)
+    [2023, 2021, 2019].includes(d.year),
 );
 
 // Entrepreneurship and Start-ups data
@@ -213,9 +207,8 @@ const df_tea = df_gem_tea
     zIndex: d.iso3 === "CHE" ? 1 : 0,
   }))
   .sort((a, b) => a.zIndex - b.zIndex);
-const df_epo = await FileAttachment("./data/df_epo.csv").csv({ typed: true });
 const df_unicorns_country = await FileAttachment(
-  "./data/df_unicorns_country.csv"
+  "./data/df_unicorns_country.csv",
 ).csv({ typed: true });
 const df_unicorns_ch = await FileAttachment("./data/df_unicorns_ch.csv").csv({
   typed: true,
@@ -229,7 +222,7 @@ const df_vc = df_oecd_vc
       d.measure === "VC_INV_MKT" && // R&D Personnel
       d.bds === "_T" &&
       d.unit === "PT_B1GQ" && // per 1'000 employment
-      countries_filtered.includes(d.iso3)
+      countries_filtered.includes(d.iso3),
   )
   .sort((a, b) => a.year - b.year);
 const gdp = df_oecd_msti
@@ -239,7 +232,7 @@ const gdp = df_oecd_msti
       d.year_date > new Date("2022-01-01") &&
       countries.includes(d.iso3) &&
       d.unit === "USD_PPP" &&
-      d.measure === "GDP"
+      d.measure === "GDP",
   )
   .map((d) => ({
     iso3: d.iso3,
@@ -301,7 +294,7 @@ const df_oecd_gg = await FileAttachment("./data/df_oecd_gg.csv").csv({
 
 const df_htex = df_ht
   .filter(
-    (d) => countries.includes(d.iso3) & (d.year_date > new Date("2016-01-01"))
+    (d) => countries.includes(d.iso3) & (d.year_date > new Date("2016-01-01")),
   )
   .map((d) => ({
     ...d,
@@ -323,7 +316,7 @@ const df_co2_prod = filter_oecd_data(
   df_oecd_gg,
   "USD_CO2",
   "CO2_PBPROD",
-  countries
+  countries,
 );
 const df_r_prod = filter_oecd_data(df_oecd_gg, "USD_KG", "DMC_PROD", countries);
 const df_serv = df_eis
@@ -428,19 +421,6 @@ ${display(line_oecd(df_vc,"VC investments in % of GDP",false,"OECD Venture Capit
 ${display(line_oecd(df_tea,"Share of 18-64 population who are either a nascent entrepreneur or owner-manager of a new business in %", true,"Global Entrepreneurship Monitor","https://gemconsortium.org/reports/latest-global-report", 1, false, true))}
 </figure>
 <a href="./images/entrepreneurial-activity-tea-live.png" download="entrepreneurial-activity-tea.png">⤓ Download image</a>
-
-<figure id="technology-investor-score-country-figure">
-<h2>Technology Investor Score: Patent Portfolio Intensity of Investment Firms</h2>
-${display(bar_x(df_epo, "country", "EPO", "https://epo.org/mapping-investors"))}
-</figure>
-
-<a href="./images/technology-investor-score-country-live.png" download="technology-investor-score-country.png">⤓ Download image</a>
-
-<figure id="swiss-investor-scores-figure">
-<h2>Technology Investor Scores of Leading Swiss Investment Firms</h2>
-${display(bar_x(df_epo, "investor", "EPO", "https://epo.org/mapping-investors"))}
-</figure>
-<a href="./images/swiss-investor-scores-live.png" download="swiss-investor-scores.png">⤓ Download image</a>
 
 <figure id="unicorn-density-figure">
 <h2>Unicorn Company Density, 2025</h2>

@@ -48,7 +48,7 @@ const df_gii_filtered = df_gii.filter((d) => countries.includes(d.iso3));
 
 # Innovation Ecosystem Monitor
 
-<small><small style="display: block; text-align: right;">Last changes: 10. November 2025</small></small>
+<small><small style="display: block; text-align: right;">Last changes: 10. November 2026</small></small>
 
 </div>
 
@@ -99,7 +99,7 @@ display(
 ${colorLegend("CHE")} has slipped slightly in the latest European Innovation Scoreboard (EIS). ${colorLegend("SWE")}, ${colorLegend("KOR")} and ${colorLegend("DNK")} have gained ground and narrowed the gap. This is partly due to changes in the index's methodology. The EIS now includes, for example, measures of supply-chain vulnerability, which penalises Switzerland: its complex products depend on high-tech imports from outside the EU.
 
 ```js
-display(arrow_eis(df_eis_filtered, "2021", "2025", false));
+display(arrow_eis(df_eis_filtered, "2021", "2026", false));
 ```
 
 <a href="./images/eis-progress-arrow-live.png" download="eis-progress-arrow.png">⤓ Download image</a>
@@ -132,7 +132,7 @@ The weaknesses are more varied, from limited government support to low foreign d
 
 |                           | European Innovation Scoreboard (2018–25)                                                                                                                                             | Global Innovation Index (2021–25)                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| **↗ Strong<br>increases** | [Venture capital expenditures](b_ens#venture-capital-investments-in-of-gdp-2017-2024)<br>_Finance and support_                                                                       | Applied tariff rate, weighted avg., %<br>_Trade, diversification and market scale_ |
+| **↗ Strong<br>increases** | [Venture capital expenditures](b_ens#venture-capital-investments-in-of-gdp-2017-2025)<br>_Finance and support_                                                                       | Applied tariff rate, weighted avg., %<br>_Trade, diversification and market scale_ |
 |                           | [Sales of new-to-market and new-to-firm innovations](c_inno#sales-of-new-to-market-and-new-to-enterprise-innovations-as-a-percentage-of-turnover) <br>_Sales and employment impacts_ | High-tech imports, % total trade<br>_Knowledge absorption_                         |
 |                           | Population involved in lifelong learning<br>_Human resources_                                                                                                                        | Industrial designs by origin/bn $ GDP<br>_Intangible assets_                       |
 | **↘ Strong<br>decreases** | SMEs introducing business process innovations<br>_Innovators_                                                                                                                        | FDI net inflows, % GDP<br>_Knowledge absorption_                                   |
@@ -160,16 +160,15 @@ display(
 
 #### Sources
 
-- Wipo ([2025](https://www.wipo.int/en/web/global-innovation-index)) Global Innovation Index
-- European Commission ([2025](https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en)) European Innovation Scoreboard
-- IMD ([2025](https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-competitiveness-ranking/)) World Competitiveness Ranking
+- Wipo ([2026](https://www.wipo.int/en/web/global-innovation-index)) Global Innovation Index
+- European Commission ([2026](https://research-and-innovation.ec.europa.eu/statistics/performance-indicators/european-innovation-scoreboard_en)) European Innovation Scoreboard
+- IMD ([2026](https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-competitiveness-ranking/)) World Competitiveness Ranking
 - IMD ([2025](https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/)) World Digital Competitiveness Ranking
 
 #### Other indices
 
-- Economist ([2024](https://web.archive.org/web/20240922204922/https://impact.economist.com/new-globalisation/innovation-quotient)) The Innovation Quotient has been discontinued and is no longer included.
-- GEM ([2025](https://gemconsortium.org/reports/latest-global-report)) Global Entrepreneurship Monitor
-- The EU made a [study](https://op.europa.eu/en/publication-detail/-/publication/70fe2318-fb72-11ed-a05c-01aa75ed71a1/language-en) on the development of an European startup scoreboard. The scoreboard is [in development](https://4front.fi/proving-valuable-insights-on-europes-startup-and-scaleup-landscape/).
+- GEM ([2026](https://gemconsortium.org/reports/latest-global-report)) Global Entrepreneurship Monitor
+- European Commission ([2026](https://projects.research-and-innovation.ec.europa.eu/en/statistics/performance-indicators/european-startup-scaleup-scoreboard#/)) European startup and scaleup scoreborad.<br>The Commission developed a startup scoreboard. However, data is missing for non-european competitors and Switzerland is not included in the full ranking. For selected indicators, see chapter "[Entrepreneurship and Start-ups](b_ens)"
 
 ```js
 // ### Customize selection of countries for comparison
