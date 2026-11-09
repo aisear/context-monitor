@@ -34,8 +34,11 @@ jobs:
           r-version: '4.3.0'
 
       - name: Install R dependencies
-        run: |
-          R -e 'install.packages(c("readr", "tidyverse"), repos="https://cloud.r-project.org")'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::readr
+            any::tidyverse
 
       - name: Install dependencies
         run: npm ci
